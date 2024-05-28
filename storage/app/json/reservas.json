@@ -1,156 +1,156 @@
 [
     {
-        "fechaReserva": "18/10/2017",
+        "fechaReserva": "2017-10-18",
         "copia_id": 23,
         "estudiante_id": 1
     },
     {
-        "fechaReserva": "30/07/2016",
+        "fechaReserva": "2016-07-30",
         "copia_id": 22,
         "estudiante_id": 5
     },
     {
-        "fechaReserva": "09/11/2018",
+        "fechaReserva": "2018-11-09",
         "copia_id": 4,
         "estudiante_id": 2
     },
     {
-        "fechaReserva": "16/03/2019",
+        "fechaReserva": "2019-03-16",
         "copia_id": 25,
         "estudiante_id": 1
     },
     {
-        "fechaReserva": "15/02/2019",
+        "fechaReserva": "2019-02-15",
         "copia_id": 5,
         "estudiante_id": 1
     },
     {
-        "fechaReserva": "07/01/2018",
+        "fechaReserva": "2018-01-07",
         "copia_id": 24,
         "estudiante_id": 2
     },
     {
-        "fechaReserva": "21/05/2016",
+        "fechaReserva": "2016-05-21",
         "copia_id": 2,
         "estudiante_id": 1
     },
     {
-        "fechaReserva": "03/08/2021",
+        "fechaReserva": "2021-08-03",
         "copia_id": 27,
         "estudiante_id": 2
     },
     {
-        "fechaReserva": "25/05/2020",
+        "fechaReserva": "2020-05-25",
         "copia_id": 26,
         "estudiante_id": 5
     },
     {
-        "fechaReserva": "23/04/2020",
+        "fechaReserva": "2020-04-23",
         "copia_id": 21,
         "estudiante_id": 2
     },
     {
-        "fechaReserva": "26/04/2019",
+        "fechaReserva": "2019-04-26",
         "copia_id": 15,
         "estudiante_id": 2
     },
     {
-        "fechaReserva": "18/02/2023",
+        "fechaReserva": "2023-02-18",
         "copia_id": 29,
         "estudiante_id": 5
     },
     {
-        "fechaReserva": "13/04/2015",
+        "fechaReserva": "2015-04-13",
         "copia_id": 1,
         "estudiante_id": 2
     },
     {
-        "fechaReserva": "07/01/2023",
+        "fechaReserva": "2023-01-07",
         "copia_id": 9,
         "estudiante_id": 2
     },
     {
-        "fechaReserva": "25/05/2015",
+        "fechaReserva": "2015-05-25",
         "copia_id": 11,
         "estudiante_id": 5
     },
     {
-        "fechaReserva": "16/03/2024",
+        "fechaReserva": "2024-03-16",
         "copia_id": 10,
         "estudiante_id": 1
     },
     {
-        "fechaReserva": "18/10/2022",
+        "fechaReserva": "2022-10-18",
         "copia_id": 8,
         "estudiante_id": 1
     },
     {
-        "fechaReserva": "10/11/2027",
+        "fechaReserva": "2027-11-10",
         "copia_id": 28,
         "estudiante_id": 1
     },
     {
-        "fechaReserva": "21/05/2021",
+        "fechaReserva": "2021-05-21",
         "copia_id": 17,
         "estudiante_id": 1
     },
     {
-        "fechaReserva": "09/11/2023",
+        "fechaReserva": "2023-11-09",
         "copia_id": 19,
         "estudiante_id": 2
     },
     {
-        "fechaReserva": "04/08/2022",
+        "fechaReserva": "2022-08-04",
         "copia_id": 18,
         "estudiante_id": 5
     },
     {
-        "fechaReserva": "26/04/2024",
+        "fechaReserva": "2024-04-26",
         "copia_id": 30,
         "estudiante_id": 2
     },
     {
-        "fechaReserva": "15/02/2014",
+        "fechaReserva": "2014-02-15",
         "copia_id": 20,
         "estudiante_id": 1
     },
     {
-        "fechaReserva": "16/03/2024",
+        "fechaReserva": "2024-03-16",
         "copia_id": 25,
         "estudiante_id": 1
     },
     {
-        "fechaReserva": "13/04/2020",
+        "fechaReserva": "2020-04-13",
         "copia_id": 16,
         "estudiante_id": 2
     },
     {
-        "fechaReserva": "03/08/2016",
+        "fechaReserva": "2016-08-03",
         "copia_id": 12,
         "estudiante_id": 2
     },
     {
-        "fechaReserva": "30/07/2016",
+        "fechaReserva": "2016-07-30",
         "copia_id": 22,
         "estudiante_id": 5
     },
     {
-        "fechaReserva": "23/04/2020",
+        "fechaReserva": "2020-04-23",
         "copia_id": 21,
         "estudiante_id": 2
     },
     {
-        "fechaReserva": "13/04/2015",
+        "fechaReserva": "2015-04-13",
         "copia_id": 1,
         "estudiante_id": 2
     },
     {
-        "fechaReserva": "10/11/2017",
+        "fechaReserva": "2017-11-10",
         "copia_id": 13,
         "estudiante_id": 1
     },
     {
-        "fechaReserva": "07/01/2018",
+        "fechaReserva": "2018-01-07",
         "copia_id": 24,
         "estudiante_id": 2
     }

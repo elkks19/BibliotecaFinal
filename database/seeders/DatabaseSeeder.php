@@ -22,8 +22,8 @@ class DatabaseSeeder extends Seeder
             AutorSeeder::class,
             DocumentoSeeder::class,
             CopiaSeeder::class,
-            PrestamoSeeder::class,
             ReservaSeeder::class,
+            PrestamoSeeder::class,
         ]);
 
     }

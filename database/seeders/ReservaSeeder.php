@@ -6,6 +6,8 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Database\Seeder;
 
+use App\Models\Reserva;
+
 class ReservaSeeder extends Seeder
 {
     /**
