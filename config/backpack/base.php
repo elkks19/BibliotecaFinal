@@ -148,7 +148,7 @@ return [
 
     // Gravatar fallback options are 'identicon', 'monsterid', 'wavatar', 'retro', 'robohash', 'blank'
     // 'blank' will keep the generic image with the user first letter
-    'gravatar_fallback' => 'blank',
+    'gravatar_fallback' => 'wavatar',
 
     /*
     |--------------------------------------------------------------------------

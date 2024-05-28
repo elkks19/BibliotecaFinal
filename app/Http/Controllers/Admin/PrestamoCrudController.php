@@ -26,7 +26,7 @@ class PrestamoCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\App\Models\Prestamo::class);
+        CRUD::setModel(\App\Models\Reserva::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/prestamo');
         CRUD::setEntityNameStrings('prestamo', 'prestamos');
     }
@@ -39,11 +39,13 @@ class PrestamoCrudController extends CrudController
      */
     protected function setupListOperation()
     {
-        CRUD::column('fechaPrestamo')->label('Fecha del prestamo')->type('date');
-        CRUD::column('fechaDevolucion')->label('Fecha de devolucion')->type('date');
-        CRUD::column('fechaLimite')->label('Fecha limite')->type('date');
+        CRUD::removeAllButtons();
 
-        CRUD::column('encargado')->type('text')->attribute('name');
+        CRUD::column('fechaReserva')->label('Fecha de la reserva')->type('date');
+        CRUD::column('isCancelado')->label('Estado')->type('boolean');
+
+        CRUD::column('estudiante')->type('select')->attribute('name')->label('Estudiante');
+        CRUD::column('copia')->type('select')->attribute('documento')->label('Documento');
     }
 
     /**
@@ -54,25 +56,9 @@ class PrestamoCrudController extends CrudController
      */
     protected function setupCreateOperation()
     {
-        CRUD::field([
-            'label' => 'Fecha de la reserva',
-            'type' => 'select',
-            'name' => 'reserva_id',
-            'model' => \App\Models\Reserva::class,
-            'attribute' => 'fechaReserva',
-        ]);
+        CRUD::field('fechaReserva')->label('Fecha de la reserva')->type('date');
+        CRUD::field('isCancelado')->label('Estado')->type('boolean');
 
-        CRUD::field('fechaPrestamo')->label('Fecha del prestamo')->type('date');
-        CRUD::field('fechaDevolucion')->label('Fecha de devolucion')->type('date');
-        CRUD::field('fechaLimite')->label('Fecha limite')->type('date');
-
-        CRUD::field([
-            'label' => 'Encargado',
-            'type' => 'select',
-            'name' => 'encargado_id',
-            'model' => \App\Models\User::class,
-            'attribute' => 'name',
-        ]);
     }
 
     /**
