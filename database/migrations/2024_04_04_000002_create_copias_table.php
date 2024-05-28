@@ -15,8 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('editorial');
             $table->date('fechaDePublicacion');
-            $table->foreignId('documento_id')->constraineD('documentos', 'id');
-            $table->foreignId('tipo_id')->constraineD('tipos_de_copia', 'id');
+            $table->string('nombreArchivo')->nullable();
+            $table->foreignId('documento_id')->constrained('documentos', 'id');
+            $table->foreignId('tipo_id')->constrained('tipos_de_copia', 'id');
             $table->timestamps();
         });
     }

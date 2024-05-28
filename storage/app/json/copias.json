@@ -1,0 +1,194 @@
+[
+
+    {
+        "editorial": "Santillana",
+        "fechaDePublicacion": "2019-04-14",
+        "nombreArchivo": "juanSalvador.pdf",
+        "documento_id": 1,
+        "tipo_id": 1
+    },
+    {
+        "editorial": "Santillana",
+        "fechaDePublicacion": "2019-04-14",
+        "nombreArchivo": "Libro3.pdf",
+        "documento_id": 3,
+        "tipo_id": 1
+    },
+    {
+        "editorial": "Oxford University Press",
+        "fechaDePublicacion": "2020-07-21",
+        "documento_id": 2,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "HarperCollins",
+        "fechaDePublicacion": "2018-12-03",
+        "documento_id": 3,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Penguin Random House",
+        "fechaDePublicacion": "2021-06-05",
+        "documento_id": 4,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Cambridge University Press",
+        "fechaDePublicacion": "2017-09-19",
+        "documento_id": 5,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Macmillan Publishers",
+        "fechaDePublicacion": "2022-02-28",
+        "documento_id": 6,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Penguin Books",
+        "fechaDePublicacion": "2016-10-10",
+        "documento_id": 7,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Hachette Livre",
+        "fechaDePublicacion": "2023-05-07",
+        "nombreArchivo": "Libro7.pdf",
+        "documento_id": 8,
+        "tipo_id": 1
+    },
+    {
+        "editorial": "Pearson Education",
+        "fechaDePublicacion": "2015-11-15",
+        "documento_id": 9,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Simon & Schuster",
+        "fechaDePublicacion": "2014-08-09",
+        "nombreArchivo": "juanSalvador.pdf",
+        "documento_id": 1,
+        "tipo_id": 1
+    },
+    {
+        "editorial": "Bloomsbury Publishing",
+        "fechaDePublicacion": "2016-03-26",
+        "documento_id": 11,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Wiley",
+        "fechaDePublicacion": "2019-01-30",
+        "documento_id": 12,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Houghton Mifflin Harcourt",
+        "fechaDePublicacion": "2020-06-17",
+        "documento_id": 13,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Scholastic Corporation",
+        "fechaDePublicacion": "2018-04-22",
+        "documento_id": 14,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Cengage Learning",
+        "fechaDePublicacion": "2017-11-11",
+        "documento_id": 15,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Hachette Book Group",
+        "fechaDePublicacion": "2021-03-02",
+        "documento_id": 16,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "HarperCollins",
+        "fechaDePublicacion": "2016-09-09",
+        "documento_id": 17,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Random House",
+        "fechaDePublicacion": "2015-05-14",
+        "documento_id": 18,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Penguin Books",
+        "fechaDePublicacion": "2019-07-23",
+        "documento_id": 19,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Penguin Random House",
+        "fechaDePublicacion": "2014-12-18",
+        "documento_id": 20,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Macmillan Publishers",
+        "fechaDePublicacion": "2018-08-01",
+        "documento_id": 21,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Wiley",
+        "fechaDePublicacion": "2017-06-06",
+        "documento_id": 22,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Simon & Schuster",
+        "fechaDePublicacion": "2016-10-29",
+        "documento_id": 23,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Oxford University Press",
+        "fechaDePublicacion": "2019-04-04",
+        "documento_id": 24,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Houghton Mifflin Harcourt",
+        "fechaDePublicacion": "2020-01-08",
+        "documento_id": 25,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Scholastic Corporation",
+        "fechaDePublicacion": "2016-03-16",
+        "documento_id": 26,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Cambridge University Press",
+        "fechaDePublicacion": "2017-09-25",
+        "nombreArchivo": "Libro26.pdf",
+        "documento_id": 27,
+        "tipo_id": 1
+    },
+    {
+        "editorial": "Hachette Livre",
+        "fechaDePublicacion": "2021-02-12",
+        "documento_id": 28,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "HarperCollins",
+        "fechaDePublicacion": "2018-10-20",
+        "documento_id": 29,
+        "tipo_id": 2
+    },
+    {
+        "editorial": "Penguin Random House",
+        "fechaDePublicacion": "2015-07-07",
+        "documento_id": 30,
+        "tipo_id": 2
+    }
+]

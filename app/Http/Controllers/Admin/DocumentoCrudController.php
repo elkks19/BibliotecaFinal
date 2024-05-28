@@ -55,8 +55,8 @@ class DocumentoCrudController extends CrudController
      */
     protected function setupCreateOperation()
     {
-        CRUD::field('nombre')->type('text');
-        CRUD::field('descripcion')->type('text');
+        CRUD::field('nombre')->type('text')->label('Nombre');
+        CRUD::field('descripcion')->type('text')->label('Descripción');
 
         CRUD::field([
             'label' => 'Tipo de documento',
@@ -80,6 +80,11 @@ class DocumentoCrudController extends CrudController
             'name' => 'encargado_id',
             'model' => \App\Models\User::class,
             'attribute' => 'name',
+            'options' => (function($query) {
+                return $query->whereHas('roles', function($roles){
+                    $roles->where('name', 'encargado');
+                })->get();
+            })
         ]);
     }
 

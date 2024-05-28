@@ -28,7 +28,7 @@ class UserCrudController extends CrudController
     {
         CRUD::setModel(\App\Models\User::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/user');
-        CRUD::setEntityNameStrings('user', 'users');
+        CRUD::setEntityNameStrings('user', 'usuarios');
     }
 
     /**
@@ -40,11 +40,13 @@ class UserCrudController extends CrudController
     protected function setupListOperation()
     {
         CRUD::setFromDb(); // set columns from db columns.
-
-        /**
-         * Columns can be defined using the fluent syntax:
-         * - CRUD::column('price')->type('number');
-         */
+        CRUD::column([
+           'label'     => 'Roles', // Table column heading
+           'type'      => 'select_multiple',
+           'name'      => 'roles', // the method that defines the relationship in your Model
+           'attribute' => 'name', // foreign key attribute that is shown to user
+           'model'     => Spatie\Permission\Models\Role::class, // foreign key model
+        ]);
     }
 
     /**
@@ -56,6 +58,19 @@ class UserCrudController extends CrudController
     protected function setupCreateOperation()
     {
         CRUD::setFromDb(); // set fields from db columns.
+        CRUD::field([   // SelectMultiple = n-n relationship (with pivot table)
+            'label'     => "Roles",
+            'type'      => 'select_multiple',
+            'name'      => 'roles', // the method that defines the relationship in your Model
+
+            'attribute' => 'name', // foreign key attribute that is shown to user
+            'model' => "Spatie\Permission\Models\Role", // foreign key model
+
+            // // also optional
+            // 'options'   => (function ($query) {
+            //     return $query->orderBy('name', 'ASC')->where('depth', 1)->get();
+            // }), // force the related options to be a custom query, instead of all(); you can use this to filter the results show in the select
+        ]);
     }
 
     /**

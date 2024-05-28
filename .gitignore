@@ -5,7 +5,8 @@
 /public/storage
 /storage/*.key
 /vendor
-.env
+!/vendor/spatie/laravel-permission/src/Models/Role.php
+# .env
 .env.backup
 .env.production
 .phpactor.json

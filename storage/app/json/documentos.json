@@ -1,0 +1,413 @@
+[
+    {
+        
+        "nombre": "Juan Salvador Gaviota",
+        "descripcion": "El mejor libro de la vida 10 de 10 y god",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [2]
+    },
+    {
+        "nombre": "Libro1",
+        "descripcion": "El mejor libro de la vida 10 de 10 y god",
+        "tipo_id": 1,
+        "autor_id": 2,
+        "encargado_id": 1,
+        "categorias": [2]
+    },
+    {
+        "nombre": "Libro2",
+        "descripcion": "El mejor libro de la vida 10 de 10 y god",
+        "tipo_id": 1,
+        "autor_id": 5,
+        "encargado_id": 1,
+        "categorias": [2,5,9]
+    },
+    {
+        "nombre": "Libro3",
+        "descripcion": "El mejor libro de la vida 10 de 10 y god",
+        "tipo_id": 1,
+        "autor_id": 3,
+        "encargado_id": 1,
+        "categorias": [1,7,8]
+    },
+    {
+        "nombre": "Libro4",
+        "descripcion": "El mejor libro de la vida 10 de 10 y god",
+        "tipo_id": 1,
+        "autor_id": 2,
+        "encargado_id": 1,
+        "categorias": [9,5,8]
+    },
+    {
+        "nombre": "Libro5",
+        "descripcion": "El mejor libro de la vida 10 de 10 y god",
+        "tipo_id": 1,
+        "autor_id": 6,
+        "encargado_id": 1,
+        "categorias": [1,4,9]
+    },
+    {
+        "nombre": "Libro6",
+        "descripcion": "El mejor libro de la vida 10 de 10 y god",
+        "tipo_id": 1,
+        "autor_id": 8,
+        "encargado_id": 1,
+        "categorias": [1,5,8]
+    },
+    {
+        "nombre": "Libro7",
+        "descripcion": "El mejor libro de la vida 10 de 10 y god",
+        "tipo_id": 1,
+        "autor_id": 7,
+        "encargado_id": 1,
+        "categorias": [1,5,9]
+    },
+    {
+        "nombre": "Libro8",
+        "descripcion": "Una aventura épica en un mundo de fantasía.",
+        "tipo_id": 1,
+        "autor_id": 3,
+        "encargado_id": 1,
+        "categorias": [2, 6, 10]
+    },
+    {
+        "nombre": "Libro9",
+        "descripcion": "Una historia de amor que trasciende el tiempo.",
+        "tipo_id": 1,
+        "autor_id": 4,
+        "encargado_id": 1,
+        "categorias": [3, 7, 11]
+    },
+    {
+        "nombre": "Libro10",
+        "descripcion": "Un relato conmovedor de superación personal.",
+        "tipo_id": 1,
+        "autor_id": 5,
+        "encargado_id": 1,
+        "categorias": [4, 8, 12]
+    },
+    {
+        "nombre": "Libro11",
+        "descripcion": "Suspenso y misterio en cada página.",
+        "tipo_id": 1,
+        "autor_id": 6,
+        "encargado_id": 1,
+        "categorias": [5, 9, 13]
+    },
+    {
+        "nombre": "Libro12",
+        "descripcion": "Una guía completa para la meditación.",
+        "tipo_id": 1,
+        "autor_id": 7,
+        "encargado_id": 1,
+        "categorias": [6, 10, 14]
+    },
+    {
+        "nombre": "Libro13",
+        "descripcion": "Un viaje inolvidable a través de las estrellas.",
+        "tipo_id": 1,
+        "autor_id": 8,
+        "encargado_id": 1,
+        "categorias": [7, 11, 15]
+    },
+    {
+        "nombre": "Libro14",
+        "descripcion": "Recetas deliciosas para cada ocasión.",
+        "tipo_id": 1,
+        "autor_id": 9,
+        "encargado_id": 1,
+        "categorias": [8, 12, 1]
+    },
+    {
+        "nombre": "Libro15",
+        "descripcion": "Historias cortas que inspiran y motivan.",
+        "tipo_id": 1,
+        "autor_id": 10,
+        "encargado_id": 1,
+        "categorias": [9, 13, 2]
+    },
+    {
+        "nombre": "Libro16",
+        "descripcion": "Un análisis profundo de la filosofía moderna.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [10, 14, 3]
+    },
+    {
+        "nombre": "Libro17",
+        "descripcion": "El arte de la jardinería para principiantes.",
+        "tipo_id": 1,
+        "autor_id": 2,
+        "encargado_id": 1,
+        "categorias": [11, 15, 4]
+    },
+    {
+        "nombre": "Libro18",
+        "descripcion": "Un thriller que te mantendrá al borde de tu asiento.",
+        "tipo_id": 1,
+        "autor_id": 3,
+        "encargado_id": 1,
+        "categorias": [12, 1, 5]
+    },
+    {
+        "nombre": "Libro19",
+        "descripcion": "Una novela histórica fascinante.",
+        "tipo_id": 1,
+        "autor_id": 4,
+        "encargado_id": 1,
+        "categorias": [13, 2, 6]
+    },
+    {
+        "nombre": "Libro20",
+        "descripcion": "Descubre los secretos de la mente humana.",
+        "tipo_id": 1,
+        "autor_id": 5,
+        "encargado_id": 1,
+        "categorias": [14, 3, 7]
+    },
+    {
+        "nombre": "Libro21",
+        "descripcion": "Un viaje a través de la historia del arte.",
+        "tipo_id": 1,
+        "autor_id": 6,
+        "encargado_id": 1,
+        "categorias": [15, 4, 8]
+    },
+    {
+        "nombre": "Libro22",
+        "descripcion": "Cómo alcanzar tus metas personales.",
+        "tipo_id": 1,
+        "autor_id": 7,
+        "encargado_id": 1,
+        "categorias": [1, 5, 9]
+    },
+    {
+        "nombre": "Libro23",
+        "descripcion": "Una guía completa de la cocina vegana.",
+        "tipo_id": 1,
+        "autor_id": 8,
+        "encargado_id": 1,
+        "categorias": [2, 6, 10]
+    },
+    {
+        "nombre": "Libro24",
+        "descripcion": "Relatos de viajes y aventuras exóticas.",
+        "tipo_id": 1,
+        "autor_id": 9,
+        "encargado_id": 1,
+        "categorias": [3, 7, 11]
+    },
+    {
+        "nombre": "Libro25",
+        "descripcion": "Una colección de poesías conmovedoras.",
+        "tipo_id": 1,
+        "autor_id": 10,
+        "encargado_id": 1,
+        "categorias": [4, 8, 12]
+    },
+    {
+        "nombre": "Libro26",
+        "descripcion": "Cómo mejorar tu productividad diaria.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [5, 9, 13]
+    },
+    {
+        "nombre": "Libro27",
+        "descripcion": "Un misterio que desafía la lógica.",
+        "tipo_id": 1,
+        "autor_id": 2,
+        "encargado_id": 1,
+        "categorias": [6, 10, 14]
+    },
+    {
+        "nombre": "Libro28",
+        "descripcion": "Una novela de ciencia ficción impactante.",
+        "tipo_id": 1,
+        "autor_id": 3,
+        "encargado_id": 1,
+        "categorias": [7, 11, 15]
+    },
+    {
+        "nombre": "Libro29",
+        "descripcion": "Historias de superhéroes y villanos.",
+        "tipo_id": 1,
+        "autor_id": 4,
+        "encargado_id": 1,
+        "categorias": [8, 12, 1]
+    },
+    {
+        "nombre": "Libro30",
+        "descripcion": "Un recorrido por las maravillas del mundo.",
+        "tipo_id": 1,
+        "autor_id": 5,
+        "encargado_id": 1,
+        "categorias": [9, 13, 2]
+    },
+    {
+        "nombre": "Libro31",
+        "descripcion": "Cuentos infantiles para todas las edades.",
+        "tipo_id": 1,
+        "autor_id": 6,
+        "encargado_id": 1,
+        "categorias": [10, 14, 3]
+    },
+    {
+        "nombre": "Libro32",
+        "descripcion": "La guía definitiva del fitness y bienestar.",
+        "tipo_id": 1,
+        "autor_id": 7,
+        "encargado_id": 1,
+        "categorias": [11, 15, 4]
+    },
+    {
+        "nombre": "Libro33",
+        "descripcion": "Cómo crear un negocio exitoso desde cero.",
+        "tipo_id": 1,
+        "autor_id": 8,
+        "encargado_id": 1,
+        "categorias": [12, 1, 5]
+    },
+    {
+        "nombre": "Libro34",
+        "descripcion": "Secretos del universo y más allá.",
+        "tipo_id": 1,
+        "autor_id": 9,
+        "encargado_id": 1,
+        "categorias": [13, 2, 6]
+    },
+    {
+        "nombre": "Libro35",
+        "descripcion": "La historia jamás contada de los héroes olvidados.",
+        "tipo_id": 1,
+        "autor_id": 10,
+        "encargado_id": 1,
+        "categorias": [14, 3, 7]
+    },
+    {
+        "nombre": "Libro36",
+        "descripcion": "Un vistazo al futuro de la tecnología.",
+        "tipo_id": 1,
+
+
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [15, 4, 8]
+    },
+    {
+        "nombre": "Libro37",
+        "descripcion": "Las claves para una vida feliz y plena.",
+        "tipo_id": 1,
+        "autor_id": 2,
+        "encargado_id": 1,
+        "categorias": [1, 5, 9]
+    },
+    {
+        "nombre": "Libro38",
+        "descripcion": "Explorando los rincones más oscuros de la mente.",
+        "tipo_id": 1,
+        "autor_id": 3,
+        "encargado_id": 1,
+        "categorias": [2, 6, 10]
+    },
+    {
+        "nombre": "Libro39",
+        "descripcion": "Una novela romántica que te robará el corazón.",
+        "tipo_id": 1,
+        "autor_id": 4,
+        "encargado_id": 1,
+        "categorias": [3, 7, 11]
+    },
+    {
+        "nombre": "Libro40",
+        "descripcion": "Descubre los secretos del éxito empresarial.",
+        "tipo_id": 1,
+        "autor_id": 5,
+        "encargado_id": 1,
+        "categorias": [4, 8, 12]
+    },
+    {
+        "nombre": "Libro41",
+        "descripcion": "Una crónica de los eventos más importantes del siglo XX.",
+        "tipo_id": 1,
+        "autor_id": 6,
+        "encargado_id": 1,
+        "categorias": [5, 9, 13]
+    },
+    {
+        "nombre": "Libro42",
+        "descripcion": "Un viaje espiritual a través de la meditación.",
+        "tipo_id": 1,
+        "autor_id": 7,
+        "encargado_id": 1,
+        "categorias": [6, 10, 14]
+    },
+    {
+        "nombre": "Libro43",
+        "descripcion": "Cuentos de terror que te quitarán el sueño.",
+        "tipo_id": 1,
+        "autor_id": 8,
+        "encargado_id": 1,
+        "categorias": [7, 11, 15]
+    },
+    {
+        "nombre": "Libro44",
+        "descripcion": "Una guía práctica para el minimalismo.",
+        "tipo_id": 1,
+        "autor_id": 9,
+        "encargado_id": 1,
+        "categorias": [8, 12, 1]
+    },
+    {
+        "nombre": "Libro45",
+        "descripcion": "La vida y obra de los grandes compositores.",
+        "tipo_id": 1,
+        "autor_id": 10,
+        "encargado_id": 1,
+        "categorias": [9, 13, 2]
+    },
+    {
+        "nombre": "Libro46",
+        "descripcion": "Un ensayo sobre la ética contemporánea.",
+        "tipo_id": 1,
+        "autor_id": 10,
+        "encargado_id": 1,
+        "categorias": [9, 13, 2]
+    },
+    {
+        "nombre": "Libro47",
+        "descripcion": "Las maravillas del mundo animal en un solo volumen.",
+        "tipo_id": 1,
+        "autor_id": 2,
+        "encargado_id": 1,
+        "categorias": [11, 15, 4]
+    },
+    {
+        "nombre": "Libro48",
+        "descripcion": "Una exploración del cosmos y sus misterios.",
+        "tipo_id": 1,
+        "autor_id": 3,
+        "encargado_id": 1,
+        "categorias": [12, 1, 5]
+    },
+    {
+        "nombre": "Libro49",
+        "descripcion": "Poemas que despiertan emociones profundas.",
+        "tipo_id": 1,
+        "autor_id": 4,
+        "encargado_id": 1,
+        "categorias": [13, 2, 6]
+    },
+    {
+        "nombre": "Libro50",
+        "descripcion": "Una obra maestra que desafía las convenciones literarias.",
+        "tipo_id": 1,
+        "autor_id": 5,
+        "encargado_id": 1,
+        "categorias": [14, 3, 7]
+    }
+]

@@ -52,12 +52,23 @@ class CopiaCrudController extends CrudController
         CRUD::field('fechaDePublicacion')->type('date');
 
         CRUD::field([
+            'label' => 'Archivo',
+            'type' => 'upload',
+            'name' => 'nombreArchivo',
+            'withFiles' => [
+                'disk' => 'local',
+                'path' => 'documentos'
+            ]
+        ]);
+
+        CRUD::field([
             'label' => 'Tipo',
             'type' => 'select',
             'name' => 'tipo_id',
             'model' => \App\Models\TipoDeCopia::class,
             'attribute' => 'nombre',
         ]);
+
         CRUD::field([
             'label' => 'Documento',
             'type' => 'select',

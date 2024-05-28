@@ -2,11 +2,9 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
-
-use Spatie\Permission\Models\Role;
+use Illuminate\Support\Facades\Storage;
 
 class DatabaseSeeder extends Seeder
 {
@@ -15,14 +13,18 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        Role::create(['name' => 'admin']);
-        Role::create(['name' => 'user']);
-
-        User::create([
-            'name' => 'Rafael Fabiani',
-            'email' => 'rafafabiani1909@gmail.com',
-            'password' => Hash::make('asdf1234'),
-        ])->assignRole('admin');
+        $this->call([
+            RoleSeeder::class,
+            UserSeeder::class,
+            TipoDeDocumentoSeeder::class,
+            TipoDeCopiaSeeder::class,
+            CategoriaSeeder::class,
+            AutorSeeder::class,
+            DocumentoSeeder::class,
+            CopiaSeeder::class,
+            PrestamoSeeder::class,
+            ReservaSeeder::class,
+        ]);
 
     }
 }
