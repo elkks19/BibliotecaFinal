@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 Use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 
 class Copia extends Model
 {
@@ -15,6 +16,7 @@ class Copia extends Model
 
     protected $table = 'copias';
 
+    protected $appends = ['nombreDocumento'];
     protected $fillable = [
         'documento_id',
         'tipo_id',
@@ -40,5 +42,12 @@ class Copia extends Model
     public function reservas(): HasMany
     {
         return $this->hasMany(Reserva::class);
+    }
+
+    protected function nombreDocumento(): Attribute
+    {
+        return new Attribute(
+            get: fn () => $this->documento->nombre,
+        );
     }
 }

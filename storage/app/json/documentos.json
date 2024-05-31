@@ -1,6 +1,5 @@
 [
     {
-        
         "nombre": "Juan Salvador Gaviota",
         "descripcion": "El mejor libro de la vida 10 de 10 y god",
         "tipo_id": 1,
@@ -9,405 +8,405 @@
         "categorias": [2]
     },
     {
-        "nombre": "Libro1",
-        "descripcion": "El mejor libro de la vida 10 de 10 y god",
+        "nombre": "Orgullo y Prejuicio",
+        "descripcion": "Una historia de amor y prejuicios sociales en la Inglaterra del siglo XIX.",
         "tipo_id": 1,
-        "autor_id": 2,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [1]
+    },
+    {
+        "nombre": "La Divina Comedia",
+        "descripcion": "Un viaje épico a través del infierno, el purgatorio y el paraíso.",
+        "tipo_id": 1,
+        "autor_id": 1,
         "encargado_id": 1,
         "categorias": [2]
     },
     {
-        "nombre": "Libro2",
-        "descripcion": "El mejor libro de la vida 10 de 10 y god",
-        "tipo_id": 1,
-        "autor_id": 5,
-        "encargado_id": 1,
-        "categorias": [2,5,9]
-    },
-    {
-        "nombre": "Libro3",
-        "descripcion": "El mejor libro de la vida 10 de 10 y god",
-        "tipo_id": 1,
-        "autor_id": 3,
-        "encargado_id": 1,
-        "categorias": [1,7,8]
-    },
-    {
-        "nombre": "Libro4",
-        "descripcion": "El mejor libro de la vida 10 de 10 y god",
-        "tipo_id": 1,
-        "autor_id": 2,
-        "encargado_id": 1,
-        "categorias": [9,5,8]
-    },
-    {
-        "nombre": "Libro5",
-        "descripcion": "El mejor libro de la vida 10 de 10 y god",
-        "tipo_id": 1,
-        "autor_id": 6,
-        "encargado_id": 1,
-        "categorias": [1,4,9]
-    },
-    {
-        "nombre": "Libro6",
-        "descripcion": "El mejor libro de la vida 10 de 10 y god",
-        "tipo_id": 1,
-        "autor_id": 8,
-        "encargado_id": 1,
-        "categorias": [1,5,8]
-    },
-    {
-        "nombre": "Libro7",
-        "descripcion": "El mejor libro de la vida 10 de 10 y god",
-        "tipo_id": 1,
-        "autor_id": 7,
-        "encargado_id": 1,
-        "categorias": [1,5,9]
-    },
-    {
-        "nombre": "Libro8",
-        "descripcion": "Una aventura épica en un mundo de fantasía.",
-        "tipo_id": 1,
-        "autor_id": 3,
-        "encargado_id": 1,
-        "categorias": [2, 6, 10]
-    },
-    {
-        "nombre": "Libro9",
-        "descripcion": "Una historia de amor que trasciende el tiempo.",
-        "tipo_id": 1,
-        "autor_id": 4,
-        "encargado_id": 1,
-        "categorias": [3, 7, 11]
-    },
-    {
-        "nombre": "Libro10",
-        "descripcion": "Un relato conmovedor de superación personal.",
-        "tipo_id": 1,
-        "autor_id": 5,
-        "encargado_id": 1,
-        "categorias": [4, 8, 12]
-    },
-    {
-        "nombre": "Libro11",
-        "descripcion": "Suspenso y misterio en cada página.",
-        "tipo_id": 1,
-        "autor_id": 6,
-        "encargado_id": 1,
-        "categorias": [5, 9, 13]
-    },
-    {
-        "nombre": "Libro12",
-        "descripcion": "Una guía completa para la meditación.",
-        "tipo_id": 1,
-        "autor_id": 7,
-        "encargado_id": 1,
-        "categorias": [6, 10, 14]
-    },
-    {
-        "nombre": "Libro13",
-        "descripcion": "Un viaje inolvidable a través de las estrellas.",
-        "tipo_id": 1,
-        "autor_id": 8,
-        "encargado_id": 1,
-        "categorias": [7, 11, 15]
-    },
-    {
-        "nombre": "Libro14",
-        "descripcion": "Recetas deliciosas para cada ocasión.",
-        "tipo_id": 1,
-        "autor_id": 9,
-        "encargado_id": 1,
-        "categorias": [8, 12, 1]
-    },
-    {
-        "nombre": "Libro15",
-        "descripcion": "Historias cortas que inspiran y motivan.",
-        "tipo_id": 1,
-        "autor_id": 10,
-        "encargado_id": 1,
-        "categorias": [9, 13, 2]
-    },
-    {
-        "nombre": "Libro16",
-        "descripcion": "Un análisis profundo de la filosofía moderna.",
+        "nombre": "Jane Eyre",
+        "descripcion": "La vida y luchas de una huérfana en busca de amor y independencia.",
         "tipo_id": 1,
         "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [10, 14, 3]
+        "categorias": [3]
     },
     {
-        "nombre": "Libro17",
-        "descripcion": "El arte de la jardinería para principiantes.",
-        "tipo_id": 1,
-        "autor_id": 2,
-        "encargado_id": 1,
-        "categorias": [11, 15, 4]
-    },
-    {
-        "nombre": "Libro18",
-        "descripcion": "Un thriller que te mantendrá al borde de tu asiento.",
-        "tipo_id": 1,
-        "autor_id": 3,
-        "encargado_id": 1,
-        "categorias": [12, 1, 5]
-    },
-    {
-        "nombre": "Libro19",
-        "descripcion": "Una novela histórica fascinante.",
-        "tipo_id": 1,
-        "autor_id": 4,
-        "encargado_id": 1,
-        "categorias": [13, 2, 6]
-    },
-    {
-        "nombre": "Libro20",
-        "descripcion": "Descubre los secretos de la mente humana.",
-        "tipo_id": 1,
-        "autor_id": 5,
-        "encargado_id": 1,
-        "categorias": [14, 3, 7]
-    },
-    {
-        "nombre": "Libro21",
-        "descripcion": "Un viaje a través de la historia del arte.",
-        "tipo_id": 1,
-        "autor_id": 6,
-        "encargado_id": 1,
-        "categorias": [15, 4, 8]
-    },
-    {
-        "nombre": "Libro22",
-        "descripcion": "Cómo alcanzar tus metas personales.",
-        "tipo_id": 1,
-        "autor_id": 7,
-        "encargado_id": 1,
-        "categorias": [1, 5, 9]
-    },
-    {
-        "nombre": "Libro23",
-        "descripcion": "Una guía completa de la cocina vegana.",
-        "tipo_id": 1,
-        "autor_id": 8,
-        "encargado_id": 1,
-        "categorias": [2, 6, 10]
-    },
-    {
-        "nombre": "Libro24",
-        "descripcion": "Relatos de viajes y aventuras exóticas.",
-        "tipo_id": 1,
-        "autor_id": 9,
-        "encargado_id": 1,
-        "categorias": [3, 7, 11]
-    },
-    {
-        "nombre": "Libro25",
-        "descripcion": "Una colección de poesías conmovedoras.",
-        "tipo_id": 1,
-        "autor_id": 10,
-        "encargado_id": 1,
-        "categorias": [4, 8, 12]
-    },
-    {
-        "nombre": "Libro26",
-        "descripcion": "Cómo mejorar tu productividad diaria.",
+        "nombre": "Piense y Hágase Rico",
+        "descripcion": "Un clásico sobre la autosuperación y el éxito financiero.",
         "tipo_id": 1,
         "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [5, 9, 13]
+        "categorias": [4]
     },
     {
-        "nombre": "Libro27",
-        "descripcion": "Un misterio que desafía la lógica.",
+        "nombre": "1984",
+        "descripcion": "Una distopía sobre un futuro opresivo y el control gubernamental.",
         "tipo_id": 1,
-        "autor_id": 2,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [6, 10, 14]
+        "categorias": [5]
     },
     {
-        "nombre": "Libro28",
-        "descripcion": "Una novela de ciencia ficción impactante.",
+        "nombre": "El Principito",
+        "descripcion": "Un cuento filosófico sobre la vida y la inocencia infantil.",
         "tipo_id": 1,
-        "autor_id": 3,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [7, 11, 15]
+        "categorias": [6]
     },
     {
-        "nombre": "Libro29",
-        "descripcion": "Historias de superhéroes y villanos.",
+        "nombre": "El Alquimista",
+        "descripcion": "Una novela sobre la búsqueda de los sueños y la realización personal.",
         "tipo_id": 1,
-        "autor_id": 4,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [8, 12, 1]
+        "categorias": [7]
     },
     {
-        "nombre": "Libro30",
-        "descripcion": "Un recorrido por las maravillas del mundo.",
+        "nombre": "Alicia en el País de las Maravillas",
+        "descripcion": "Las aventuras de Alicia en un mundo mágico y surrealista.",
         "tipo_id": 1,
-        "autor_id": 5,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [9, 13, 2]
+        "categorias": [8]
     },
     {
-        "nombre": "Libro31",
-        "descripcion": "Cuentos infantiles para todas las edades.",
+        "nombre": "La República",
+        "descripcion": "Una obra fundamental sobre la filosofía política y la justicia.",
         "tipo_id": 1,
-        "autor_id": 6,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [10, 14, 3]
+        "categorias": [9]
     },
     {
-        "nombre": "Libro32",
-        "descripcion": "La guía definitiva del fitness y bienestar.",
+        "nombre": "El Príncipe",
+        "descripcion": "Una guía pragmática sobre el poder político y el liderazgo.",
         "tipo_id": 1,
-        "autor_id": 7,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [11, 15, 4]
+        "categorias": [10]
     },
     {
-        "nombre": "Libro33",
-        "descripcion": "Cómo crear un negocio exitoso desde cero.",
+        "nombre": "Cien Años de Soledad",
+        "descripcion": "Una saga familiar mágica y realista en el pueblo de Macondo.",
         "tipo_id": 1,
-        "autor_id": 8,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [12, 1, 5]
+        "categorias": [11]
     },
     {
-        "nombre": "Libro34",
-        "descripcion": "Secretos del universo y más allá.",
+        "nombre": "Leviatán",
+        "descripcion": "Un tratado sobre la naturaleza del poder y la organización social.",
         "tipo_id": 1,
-        "autor_id": 9,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [13, 2, 6]
+        "categorias": [12]
     },
     {
-        "nombre": "Libro35",
-        "descripcion": "La historia jamás contada de los héroes olvidados.",
+        "nombre": "El asesinato de Roger Ackroyd",
+        "descripcion": "Un intrigante misterio de asesinato con el detective Hércules Poirot.",
         "tipo_id": 1,
-        "autor_id": 10,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [14, 3, 7]
+        "categorias": [13]
     },
     {
-        "nombre": "Libro36",
-        "descripcion": "Un vistazo al futuro de la tecnología.",
+        "nombre": "La Guerra de los Mundos",
+        "descripcion": "Un relato sobre la invasión marciana y la lucha por la supervivencia.",
         "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [14]
+    },
+    {
+        "nombre": "La Vuelta al Mundo en 80 Días",
+        "descripcion": "Las aventuras de Phileas Fogg en su intento por circunnavegar el globo.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [15]
+    },
+    {
+        "nombre": "Autobiografía",
+        "descripcion": "La historia personal y reflexiones de una vida extraordinaria.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [16]
+    },
+    {
+        "nombre": "La Interpretación de los Sueños",
+        "descripcion": "El análisis de los sueños y su significado según Freud.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [17]
+    },
+    {
+        "nombre": "El Origen de las Especies",
+        "descripcion": "La teoría de la evolución y la selección natural de Darwin.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [18]
+    },
+    {
+        "nombre": "Meditaciones",
+        "descripcion": "Reflexiones filosóficas sobre la vida y la ética de Marco Aurelio.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [19]
+    },
+    {
+        "nombre": "El Arte de la Guerra",
+        "descripcion": "Un tratado sobre estrategia militar y liderazgo.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [20]
+    },
+    {
+        "nombre": "El Diario de Ana Frank",
+        "descripcion": "El conmovedor diario de una niña judía durante el Holocausto.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [1]
+    },
+    {
+        "nombre": "El Tao Te Ching",
+        "descripcion": "Las enseñanzas filosóficas y espirituales del taoísmo.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [2]
+    },
+    {
+        "nombre": "Ética a Nicómaco",
+        "descripcion": "La obra ética más importante de Aristóteles sobre la vida virtuosa.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [3]
+    },
+    {
+        "nombre": "Crítica de la Razón Pura",
+        "descripcion": "El análisis de Kant sobre los límites y el alcance del conocimiento humano.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [4]
+    },
+    {
+        "nombre": "Así Habló Zaratustra",
+        "descripcion": "Las reflexiones filosóficas de Nietzsche sobre la vida y el superhombre.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [5]
+    },
+    {
+        "nombre": "Bhagavad Gita",
+        "descripcion": "Un texto sagrado hindú sobre el deber y la espiritualidad.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [6]
+    },
+    {
+        "nombre": "El Kybalion",
+        "descripcion": "Las enseñanzas herméticas y principios universales.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [7]
+    },
+    {
+        "nombre": "La Ley de la Atracción",
+        "descripcion": "Los principios del pensamiento positivo y la atracción de la realidad deseada.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [8]
+    },
+    {
+        "nombre": "Drácula",
+        "descripcion": "La historia clásica del conde Drácula y su lucha contra Van Helsing.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
 
 
+        "categorias": [9]
+    },
+    {
+        "nombre": "El Arte de Ser Feliz",
+        "descripcion": "Consejos prácticos para una vida plena y feliz.",
+        "tipo_id": 1,
         "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [15, 4, 8]
+        "categorias": [10]
     },
     {
-        "nombre": "Libro37",
-        "descripcion": "Las claves para una vida feliz y plena.",
+        "nombre": "Discurso del Método",
+        "descripcion": "El enfoque de Descartes sobre la duda metódica y el conocimiento.",
         "tipo_id": 1,
-        "autor_id": 2,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [1, 5, 9]
+        "categorias": [11]
     },
     {
-        "nombre": "Libro38",
-        "descripcion": "Explorando los rincones más oscuros de la mente.",
+        "nombre": "De la Brevedad de la Vida",
+        "descripcion": "Reflexiones de Séneca sobre la temporalidad y el sentido de la vida.",
         "tipo_id": 1,
-        "autor_id": 3,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [2, 6, 10]
+        "categorias": [12]
     },
     {
-        "nombre": "Libro39",
-        "descripcion": "Una novela romántica que te robará el corazón.",
+        "nombre": "Dhammapada",
+        "descripcion": "Las enseñanzas budistas sobre la conducta y la sabiduría.",
         "tipo_id": 1,
-        "autor_id": 4,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [3, 7, 11]
+        "categorias": [13]
     },
     {
-        "nombre": "Libro40",
-        "descripcion": "Descubre los secretos del éxito empresarial.",
+        "nombre": "Confianza en uno Mismo",
+        "descripcion": "El ensayo de Emerson sobre la autosuficiencia y la individualidad.",
         "tipo_id": 1,
-        "autor_id": 5,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [4, 8, 12]
+        "categorias": [14]
     },
     {
-        "nombre": "Libro41",
-        "descripcion": "Una crónica de los eventos más importantes del siglo XX.",
+        "nombre": "La Riqueza de las Naciones",
+        "descripcion": "El análisis de Adam Smith sobre la economía y el mercado libre.",
         "tipo_id": 1,
-        "autor_id": 6,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [5, 9, 13]
+        "categorias": [15]
     },
     {
-        "nombre": "Libro42",
-        "descripcion": "Un viaje espiritual a través de la meditación.",
+        "nombre": "El Amor en Tiempo de Cólera",
+        "descripcion": "Una historia de amor que perdura a lo largo de los años.",
         "tipo_id": 1,
-        "autor_id": 7,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [6, 10, 14]
+        "categorias": [16]
     },
     {
-        "nombre": "Libro43",
-        "descripcion": "Cuentos de terror que te quitarán el sueño.",
+        "nombre": "El Viejo y El Mar",
+        "descripcion": "El relato de un viejo pescador y su lucha contra un gran pez.",
         "tipo_id": 1,
-        "autor_id": 8,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [7, 11, 15]
+        "categorias": [17]
     },
     {
-        "nombre": "Libro44",
-        "descripcion": "Una guía práctica para el minimalismo.",
+        "nombre": "Al Faro",
+        "descripcion": "Una novela introspectiva sobre una familia y sus esperanzas.",
         "tipo_id": 1,
-        "autor_id": 9,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [8, 12, 1]
+        "categorias": [18]
     },
     {
-        "nombre": "Libro45",
-        "descripcion": "La vida y obra de los grandes compositores.",
+        "nombre": "La Llamada de Cthulhu",
+        "descripcion": "Un cuento de terror cósmico sobre seres ancestrales y su influencia.",
         "tipo_id": 1,
-        "autor_id": 10,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [9, 13, 2]
+        "categorias": [19]
     },
     {
-        "nombre": "Libro46",
-        "descripcion": "Un ensayo sobre la ética contemporánea.",
+        "nombre": "Los Cuatro Acuerdos",
+        "descripcion": "Una guía tolteca para la libertad personal y la superación.",
         "tipo_id": 1,
-        "autor_id": 10,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [9, 13, 2]
+        "categorias": [20]
     },
     {
-        "nombre": "Libro47",
-        "descripcion": "Las maravillas del mundo animal en un solo volumen.",
+        "nombre": "La Ciencia de Hacerse Rico",
+        "descripcion": "Principios prácticos para alcanzar la riqueza y el éxito financiero.",
         "tipo_id": 1,
-        "autor_id": 2,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [11, 15, 4]
+        "categorias": [1]
     },
     {
-        "nombre": "Libro48",
-        "descripcion": "Una exploración del cosmos y sus misterios.",
+        "nombre": "El Juego de la Vida y Cómo Jugarlo",
+        "descripcion": "Lecciones sobre cómo aplicar la ley espiritual para tener éxito.",
         "tipo_id": 1,
-        "autor_id": 3,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [12, 1, 5]
+        "categorias": [2]
     },
     {
-        "nombre": "Libro49",
-        "descripcion": "Poemas que despiertan emociones profundas.",
+        "nombre": "El hombre más rico de Babilonia",
+        "descripcion": "Sabiduría antigua sobre la gestión financiera y la riqueza.",
         "tipo_id": 1,
-        "autor_id": 4,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [13, 2, 6]
+        "categorias": [3]
     },
     {
-        "nombre": "Libro50",
-        "descripcion": "Una obra maestra que desafía las convenciones literarias.",
+        "nombre": "Rayuela",
+        "descripcion": "Una novela innovadora sobre la vida, el amor y la búsqueda de sentido.",
         "tipo_id": 1,
-        "autor_id": 5,
+        "autor_id": 1,
         "encargado_id": 1,
-        "categorias": [14, 3, 7]
+        "categorias": [4]
+    },
+    {
+        "nombre": "Los Tres Mosqueteros",
+        "descripcion": "Las aventuras de D'Artagnan y sus amigos en la Francia del siglo XVII.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [5]
+    },
+    {
+        "nombre": "El Gato Negro",
+        "descripcion": "Un relato de terror y culpa de Edgar Allan Poe.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [6]
+    },
+    {
+        "nombre": "Un Mundo Feliz",
+        "descripcion": "Una distopía sobre una sociedad futurista y controlada.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [7]
+    },
+    {
+        "nombre": "El Retrato de Dorian Gray",
+        "descripcion": "La historia de un joven cuya apariencia permanece inmutable mientras su retrato envejece.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [8]
+    },
+    {
+        "nombre": "Mujercitas",
+        "descripcion": "La vida y experiencias de las hermanas March durante la Guerra Civil Americana.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [9]
+    },
+    {
+        "nombre": "El Gran Gatsby",
+        "descripcion": "La vida de Jay Gatsby y la decadencia del sueño americano en los años 20.",
+        "tipo_id": 1,
+        "autor_id": 1,
+        "encargado_id": 1,
+        "categorias": [10]
     }
 ]

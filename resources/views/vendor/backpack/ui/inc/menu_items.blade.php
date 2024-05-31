@@ -9,5 +9,10 @@
 <x-backpack::menu-item title="Documentos" icon="la la-question" :link="backpack_url('documento')" />
 <x-backpack::menu-item title="Copias" icon="la la-question" :link="backpack_url('copia')" />
 <x-backpack::menu-item title="Reservas" icon="la la-question" :link="backpack_url('reserva')" />
-<x-backpack::menu-item title="Prestamos" icon="la la-question" :link="backpack_url('prestamo')" />
+
+<x-backpack::menu-dropdown title="Prestamos" icon="la la-group">
+    <x-backpack::menu-dropdown-item title="Cancelar prestamos" icon="la la-user" :link="backpack_url('cancelarPrestamo')" />
+    <x-backpack::menu-dropdown-item title="Aprobar prestamos" icon="la la-group" :link="backpack_url('aprobarPrestamos')" />
+</x-backpack::menu-dropdown>
+
 <x-backpack::menu-item title="Roles" icon="la la-question" :link="backpack_url('role')" />

@@ -1,8 +1,8 @@
 [
     {
-        "name": "El Cuno",
-        "email": "cuno@cuatroka.com",
-        "password": "4k4k4k4k",
+        "name": "John Doe",
+        "email": "prueba@prueba.com",
+        "password": "asdf1234",
         "roles": [
             "estudiante",
             "encargado"

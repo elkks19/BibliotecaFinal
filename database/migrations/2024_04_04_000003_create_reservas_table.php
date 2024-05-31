@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->date('fechaReserva');
             $table->boolean('isCancelado')->default(false);
+            $table->boolean('isAprobado')->default(false);
             $table->foreignId('copia_id')->constrained('copias', 'id');
             $table->foreignId('estudiante_id')->constrained('users', 'id');
             $table->timestamps();

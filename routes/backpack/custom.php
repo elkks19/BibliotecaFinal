@@ -23,7 +23,8 @@ Route::group([
     Route::crud('documento', 'DocumentoCrudController');
     Route::crud('copia', 'CopiaCrudController');
     Route::crud('reserva', 'ReservaCrudController');
-    Route::crud('prestamo', 'PrestamoCrudController');
     Route::crud('autor', 'AutorCrudController');
     Route::crud('role', 'RoleCrudController');
+    Route::crud('cancelarPrestamo', 'CancelarPrestamosCrudController');
+    Route::crud('aprobarPrestamos', 'AprobarPrestamosCrudController');
 }); // this should be the absolute last line of this file
