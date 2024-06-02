@@ -1,12 +1,14 @@
-<a onClick="cancelar()">
+<a onClick="cancelar(<?php echo e($reserva->id); ?>)">
     Cancelar
 </a>
 
 <script>
-function cancelar(){
+function cancelar(id) {
     let cancelacion = confirm('Desea cancelar la reserva?');
-    console.log(cancelacion);
-    console.log(this.id);
+
+    if(cancelacion){
+        window.location.href = '/cancelarReserva/' + id;
+    }
 }
 </script>
 

@@ -27,7 +27,7 @@ class AprobarPrestamosCrudController extends CrudController
     {
         CRUD::setModel(\App\Models\Reserva::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/aprobarPrestamos');
-        CRUD::setEntityNameStrings('prestamo', 'prestamos');
+        CRUD::setEntityNameStrings('aprobar prestamo', 'aprobar prestamos');
     }
 
     /**
@@ -50,7 +50,6 @@ class AprobarPrestamosCrudController extends CrudController
         CRUD::column('estudiante')->type('select')->attribute('name')->label('Estudiante');
         CRUD::column('copia')->type('select')->attribute('nombreDocumento')->label('Documento');
 
-        CRUD::addButtonFromView('line', 'Cancelar', 'cancelarReserva');
     }
 
     /**

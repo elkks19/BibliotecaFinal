@@ -27,7 +27,7 @@ class CancelarPrestamosCrudController extends CrudController
     {
         CRUD::setModel(\App\Models\Reserva::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/cancelarPrestamo');
-        CRUD::setEntityNameStrings('prestamo', 'prestamos');
+        CRUD::setEntityNameStrings('cancelar prestamo', 'cancelar prestamos');
     }
 
     /**
@@ -51,7 +51,7 @@ class CancelarPrestamosCrudController extends CrudController
         CRUD::column('estudiante')->type('select')->attribute('name')->label('Estudiante');
         CRUD::column('copia')->type('select')->attribute('nombreDocumento')->label('Documento');
 
-        CRUD::addButtonFromView('line', 'Cancelar', 'cancelarReserva');
+        // CRUD::addButtonFromView('line', 'Cancelar', 'cancelarReserva');
     }
 
     /**

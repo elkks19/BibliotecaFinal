@@ -50,6 +50,7 @@ class Reserva extends Model
         $this->isAprobado = true;
         $this->save();
     }
+
     public function cancelar(){
         $this->isCancelado = true;
         $this->save();
