@@ -19,6 +19,7 @@ return new class extends Migration
             $table->foreignId('reserva_id')->constrained('reservas', 'id');
             $table->foreignId('encargado_id')->constrained('users', 'id');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

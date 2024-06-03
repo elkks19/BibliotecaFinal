@@ -2,15 +2,12 @@
     {
         "fechaReserva": "2017-10-18",
         "copia_id": 23,
-        "estudiante_id": 1,
-        "isCancelado": 1
+        "estudiante_id": 1
     },
     {
         "fechaReserva": "2016-07-30",
         "copia_id": 22,
-        "estudiante_id": 5,
-        "isCancelado": 1,
-        "isAprobado": 1
+        "estudiante_id": 5
     },
     {
         "fechaReserva": "2018-11-09",

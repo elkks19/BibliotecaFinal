@@ -24,8 +24,8 @@ class Reserva extends Model
     ];
 
     protected $attributes = [
-        'isCancelado' => false,
-        'isAprobado' => false,
+        'isCancelado' => 0,
+        'isAprobado' => 0,
     ];
 
     protected function casts(){
@@ -44,15 +44,5 @@ class Reserva extends Model
 
     public function prestamo(){
         return $this->hasOne(Prestamo::class);
-    }
-
-    public function aprobar(){
-        $this->isAprobado = true;
-        $this->save();
-    }
-
-    public function cancelar(){
-        $this->isCancelado = true;
-        $this->save();
     }
 }

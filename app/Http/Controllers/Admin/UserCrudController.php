@@ -57,7 +57,9 @@ class UserCrudController extends CrudController
      */
     protected function setupCreateOperation()
     {
-        CRUD::setFromDb(); // set fields from db columns.
+        CRUD::field('name')->label('Nombre')->type('text');
+        CRUD::field('email')->label('Email')->type('email');
+        CRUD::field('password')->label('Contraseña')->type('password');
         CRUD::field([   // SelectMultiple = n-n relationship (with pivot table)
             'label'     => "Roles",
             'type'      => 'select_multiple',
@@ -65,11 +67,6 @@ class UserCrudController extends CrudController
 
             'attribute' => 'name', // foreign key attribute that is shown to user
             'model' => "Spatie\Permission\Models\Role", // foreign key model
-
-            // // also optional
-            // 'options'   => (function ($query) {
-            //     return $query->orderBy('name', 'ASC')->where('depth', 1)->get();
-            // }), // force the related options to be a custom query, instead of all(); you can use this to filter the results show in the select
         ]);
     }
 
@@ -81,6 +78,15 @@ class UserCrudController extends CrudController
      */
     protected function setupUpdateOperation()
     {
-        $this->setupCreateOperation();
+        CRUD::field('name')->label('Nombre')->type('text');
+        CRUD::field('email')->label('Email')->type('email');
+        CRUD::field([   // SelectMultiple = n-n relationship (with pivot table)
+            'label'     => "Roles",
+            'type'      => 'select_multiple',
+            'name'      => 'roles', // the method that defines the relationship in your Model
+
+            'attribute' => 'name', // foreign key attribute that is shown to user
+            'model' => "Spatie\Permission\Models\Role", // foreign key model
+        ]);
     }
 }

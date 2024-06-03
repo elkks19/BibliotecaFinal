@@ -54,12 +54,11 @@ class RoleCrudController extends CrudController
      */
     protected function setupCreateOperation()
     {
-        CRUD::setFromDb(); // set fields from db columns.
-
-        /**
-         * Fields can be defined using the fluent syntax:
-         * - CRUD::field('price')->type('number');
-         */
+        CRUD::field([
+            'name' => 'name',
+            'type' => 'text',
+            'label' => 'Nombre',
+        ]);
     }
 
     /**

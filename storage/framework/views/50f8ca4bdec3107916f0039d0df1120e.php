@@ -1,0 +1,1 @@
+</<?php echo e($widget['wrapper']['element'] ?? 'div'); ?>><?php /**PATH /media/data/Unifranz/Semestre 5/PROYECTO FINAL/PROYECTO/vendor/backpack/crud/src/resources/views/ui/widgets/inc/wrapper_end.blade.php ENDPATH**/ ?>

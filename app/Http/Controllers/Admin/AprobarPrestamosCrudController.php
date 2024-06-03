@@ -40,16 +40,17 @@ class AprobarPrestamosCrudController extends CrudController
     {
         CRUD::removeAllButtons();
 
+        CRUD::addClause('where', 'isCancelado', '=', '0');
+        CRUD::addClause('where', 'isAprobado', '=', '0');
+
         CRUD::column('fechaReserva')->label('Fecha de la reserva')->type('date');
         CRUD::column('isCancelado')->label('Estado')->type('boolean')
                 ->options([0 => 'activo', 1 => 'cancelado']);
 
-        CRUD::column('isAprobado')->label('Aprobado')->type('boolean')
-                ->options([0 => 'no', 1 => 'si']);
-
         CRUD::column('estudiante')->type('select')->attribute('name')->label('Estudiante');
         CRUD::column('copia')->type('select')->attribute('nombreDocumento')->label('Documento');
 
+        CRUD::button('aprobar')->stack('line')->view('crud::buttons.aprobarReserva');
     }
 
     /**
@@ -61,19 +62,6 @@ class AprobarPrestamosCrudController extends CrudController
     protected function setupCreateOperation()
     {
         CRUD::setFromDb(); // set fields from db columns.
-        // CRUD::field([   // SelectMultiple = n-n relationship (with pivot table)
-        //     'label'     => "Roles",
-        //     'type'      => 'select_multiple',
-        //     'name'      => 'roles', // the method that defines the relationship in your Model
-        //
-        //     'attribute' => 'name', // foreign key attribute that is shown to user
-        //     'model' => "Spatie\Permission\Models\Role", // foreign key model
-        //
-        //     // // also optional
-        //     // 'options'   => (function ($query) {
-        //     //     return $query->orderBy('name', 'ASC')->where('depth', 1)->get();
-        //     // }), // force the related options to be a custom query, instead of all(); you can use this to filter the results show in the select
-        // ]);
     }
 
     /**

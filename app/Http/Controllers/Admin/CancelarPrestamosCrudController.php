@@ -39,19 +39,18 @@ class CancelarPrestamosCrudController extends CrudController
     protected function setupListOperation()
     {
         CRUD::removeAllButtons();
+
         CRUD::addClause('where', 'isCancelado', '=', '0');
 
         CRUD::column('fechaReserva')->label('Fecha de la reserva')->type('date');
-        CRUD::column('isCancelado')->label('Estado')->type('boolean')
-                ->options([0 => 'activo', 1 => 'cancelado']);
 
-        CRUD::column('isAprobado')->label('Aprobado')->type('boolean')
-                ->options([0 => 'no', 1 => 'si']);
+        CRUD::column('isAprobado')->label('Estado')->type('boolean')
+                ->options([0 => 'Pendiente', 1 => 'Aprobado']);
 
         CRUD::column('estudiante')->type('select')->attribute('name')->label('Estudiante');
         CRUD::column('copia')->type('select')->attribute('nombreDocumento')->label('Documento');
 
-        // CRUD::addButtonFromView('line', 'Cancelar', 'cancelarReserva');
+        CRUD::button('cancelar')->stack('line')->view('crud::buttons.cancelarReserva');
     }
 
     /**

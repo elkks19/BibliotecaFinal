@@ -19,6 +19,7 @@ return new class extends Migration
             $table->foreignId('documento_id')->constrained('documentos', 'id');
             $table->foreignId('tipo_id')->constrained('tipos_de_copia', 'id');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

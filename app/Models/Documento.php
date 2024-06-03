@@ -10,10 +10,12 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 
+use Illuminate\Database\Eloquent\SoftDeletes;
+
 class Documento extends Model
 {
     use CrudTrait;
-    use HasFactory;
+    use HasFactory, SoftDeletes;
 
     protected $table = 'documentos';
 
