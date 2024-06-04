@@ -1,5 +1,5 @@
 <a class="text-capitalize" data-bs-toggle="modal" data-bs-target="#modal" onClick="setId(<?php echo e($entry->getKey()); ?>)">
-    Aprobar
+    Registrar devolución
 </a>
 
 <style>
@@ -8,4 +8,4 @@ a:hover {
 }
 </style>
 
-<?php /**PATH /media/data/Unifranz/Semestre 5/PROYECTO FINAL/PROYECTO/resources/views/vendor/backpack/crud/buttons/aprobarReserva.blade.php ENDPATH**/ ?>
+<?php /**PATH /media/data/Unifranz/Semestre 5/PROYECTO FINAL/PROYECTO/resources/views/vendor/backpack/crud/buttons/registrarDevolucion.blade.php ENDPATH**/ ?>

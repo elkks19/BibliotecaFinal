@@ -18,37 +18,40 @@
             <div class="col">
                 <div class="card bg-dark text-white">
                     <div class="card-body">
-                        <h1 class="card-title">Reporte de prueba</h1>
-                        <p class="card-text">Reporte de prueba</p>
-                        <a class="btn btn-primary" href="<?php echo e(route('backpack.auth.logout')); ?>">
+                        <h1 class="card-title">Reporte de prestamos vencidos</h1>
+                        <p class="card-text">Reporte de todos los prestamos cuya fecha de devolución haya pasado sin que hayan sido devueltos</p>
+                        <a class="btn btn-primary" href="<?php echo e(route('reportes.prestamosVencidos.preview')); ?>">
                             Descargar reporte
                         </a>
                     </div>
                 </div>
             </div>
+
             <div class="col">
                 <div class="card bg-dark text-white">
                     <div class="card-body">
-                        <h1 class="card-title">Reporte de prueba</h1>
-                        <p class="card-text">Reporte de prueba</p>
-                        <a class="btn btn-primary" href="<?php echo e(route('backpack.auth.logout')); ?>">
+                        <h1 class="card-title">Reporte de prestamos sin devolver</h1>
+                        <p class="card-text">Reporte de todos los prestamos que aún no han sido devueltos</p>
+                        <a class="btn btn-primary" href="<?php echo e(route('reportes.prestamosSinDevolver.preview')); ?>">
                             Descargar reporte
                         </a>
                     </div>
                 </div>
             </div>
+
             <div class="col">
                 <div class="card bg-dark text-white">
                     <div class="card-body">
-                        <h1 class="card-title">Reporte de prueba</h1>
-                        <p class="card-text">Reporte de prueba</p>
-                        <a class="btn btn-primary" href="<?php echo e(route('backpack.auth.logout')); ?>">
+                        <h1 class="card-title">Reporte por fecha</h1>
+                        <p class="card-text">Reporte de los prestamos, listados por fecha</p>
+                        <a class="btn btn-primary" href="<?php echo e(route('reportes.prestamosPorFecha.preview')); ?>">
                             Descargar reporte
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 <?php $__env->stopSection(); ?>
 

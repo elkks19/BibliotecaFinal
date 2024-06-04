@@ -1,14 +1,5 @@
 [
     {
-        "name": "Ale papayas",
-        "email": "ale@papaya.com",
-        "password": "asdfasdf",
-        "roles": [
-            "estudiante",
-            "encargado"
-        ]
-    },
-    {
         "name": "John Doe",
         "email": "prueba@prueba.com",
         "password": "asdf1234",

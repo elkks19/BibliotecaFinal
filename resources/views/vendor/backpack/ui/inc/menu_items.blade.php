@@ -13,6 +13,7 @@
 <x-backpack::menu-dropdown title="Prestamos" icon="la la-clipboard">
     <x-backpack::menu-dropdown-item title="Cancelar prestamos" icon="la la-times" :link="backpack_url('cancelarPrestamo')" />
     <x-backpack::menu-dropdown-item title="Aprobar prestamos" icon="la la-check" :link="backpack_url('aprobarPrestamos')" />
+    <!-- <x-backpack::menu-dropdown-item title="Registrar devolución" icon="la la-clipboard-check" :link="backpack_url('registrarDevolucion')" /> -->
 </x-backpack::menu-dropdown>
 
 <x-backpack::menu-item title="Roles" icon="la la-user-check" :link="backpack_url('role')" />

@@ -2,16 +2,18 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Requests\ReservaRequest;
+use App\Http\Requests\RegistrarDevolucionRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
 
+use Backpack\CRUD\app\Library\Widget;
+
 /**
- * Class ReservaCrudController
+ * Class RegistrarDevolucionCrudController
  * @package App\Http\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
-class ReservaCrudController extends CrudController
+class RegistrarDevolucionCrudController extends CrudController
 {
     use \Backpack\CRUD\app\Http\Controllers\Operations\ListOperation;
     use \Backpack\CRUD\app\Http\Controllers\Operations\CreateOperation;
@@ -26,9 +28,9 @@ class ReservaCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\App\Models\Reserva::class);
-        CRUD::setRoute(config('backpack.base.route_prefix') . '/reserva');
-        CRUD::setEntityNameStrings('reserva', 'reservas');
+        CRUD::setModel(\App\Models\Prestamo::class);
+        CRUD::setRoute(config('backpack.base.route_prefix') . '/registrarDevolucion');
+        CRUD::setEntityNameStrings('registrar devolucion', 'registrar devoluciones');
     }
 
     /**
@@ -39,12 +41,23 @@ class ReservaCrudController extends CrudController
      */
     protected function setupListOperation()
     {
-        CRUD::column('estudiante')->type('select')->attribute('name');
-        CRUD::column('isCancelado')->type('boolean')->options([0 => 'Activa', 1 => 'Cancelada']);
-        CRUD::column('fechaReserva')->type('date');
+        Widget::add([
+            'type' => 'script',
+            'content' => 'js/registrarDevolucion.js'
+        ]);
 
-        CRUD::column('nombreDocumento')->type('text')->label('Documento');
-        CRUD::column('copia')->type('select')->attribute('editorial');
+        CRUD::removeAllButtons();
+
+        CRUD::addClause('where', 'fechaDevolucion', 'is', 'null');
+
+        CRUD::column('fechaPrestamo')->label('Fecha del prestamo')->type('date');
+        CRUD::column('fechaLimite')->label('Fecha limite')->type('date');
+
+        CRUD::column('encargado')->type('select')->attribute('name')->label('Encargado');
+
+        CRUD::column('reserva')->type('select')->attribute('nombreEstudiante')->label('Estudiante');
+
+        CRUD::button('devolver')->stack('line')->view('crud::buttons.registrarDevolucion');
     }
 
     /**
@@ -55,31 +68,13 @@ class ReservaCrudController extends CrudController
      */
     protected function setupCreateOperation()
     {
-        CRUD::field('fechaReserva')->type('date')->label('Fecha de la reserva');
+        CRUD::setValidation(RegistrarDevolucionRequest::class);
+        CRUD::setFromDb(); // set fields from db columns.
 
-        CRUD::field([
-            'label' => 'Estudiante',
-            'type' => 'select',
-            'name' => 'estudiante_id',
-            'model' => \App\Models\User::class,
-            'attribute' => 'name',
-        ]);
-
-        CRUD::field([
-            'label' => 'Estudiante',
-            'type' => 'select',
-            'name' => 'estudiante_id',
-            'model' => \App\Models\User::class,
-            'attribute' => 'name',
-        ]);
-
-        CRUD::field([
-            'label' => 'Copia',
-            'type' => 'select',
-            'name' => 'copia_id',
-            'model' => \App\Models\Copia::class,
-            'attribute' => 'editorial',
-        ]);
+        /**
+         * Fields can be defined using the fluent syntax:
+         * - CRUD::field('price')->type('number');
+         */
     }
 
     /**

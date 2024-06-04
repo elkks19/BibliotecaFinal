@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Admin;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
 
+use Backpack\CRUD\app\Library\Widget;
+
 /**
  * Class UserCrudController
  * @package App\Http\Controllers\Admin
@@ -38,6 +40,11 @@ class CancelarPrestamosCrudController extends CrudController
      */
     protected function setupListOperation()
     {
+        Widget::add([
+            'type' => 'script',
+            'content' => 'js/cancelarPrestamos.js'
+        ]);
+
         CRUD::removeAllButtons();
 
         CRUD::addClause('where', 'isCancelado', '=', '0');

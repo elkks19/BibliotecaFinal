@@ -5,6 +5,7 @@ namespace App\Models;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -15,12 +16,15 @@ class Reserva extends Model
 
     protected $table = 'reservas';
 
+    protected $appends = ['nombreDocumento'];
+
     protected $fillable = [
         'copia_id',
         'estudiante_id',
         'fechaReserva',
         'isCancelado',
         'isAprobado',
+        'nombreArchivo',
     ];
 
     protected $attributes = [
@@ -44,5 +48,19 @@ class Reserva extends Model
 
     public function prestamo(){
         return $this->hasOne(Prestamo::class);
+    }
+
+    public function nombreDocumento(): Attribute
+    {
+        return new Attribute(
+            get: fn() => $this->copia->documento->nombre
+        );
+    }
+
+    public function nombreEstudiante(): Attribute
+    {
+        return new Attribute(
+            get: fn() => $this->estudiante->name
+        );
     }
 }

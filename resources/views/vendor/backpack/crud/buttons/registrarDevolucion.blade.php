@@ -1,5 +1,5 @@
 <a class="text-capitalize" data-bs-toggle="modal" data-bs-target="#modal" onClick="setId({{ $entry->getKey() }})">
-    Aprobar
+    Registrar devolución
 </a>
 
 <style>

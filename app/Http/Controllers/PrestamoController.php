@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 use App\Models\Reserva;
+use App\Models\Prestamo;
 
 class PrestamoController extends Controller
 {
@@ -18,6 +20,13 @@ class PrestamoController extends Controller
     {
         $reserva->isCancelado = true;
         $reserva->save();
+        return redirect()->back();
+    }
+
+    public function devolver(Prestamo $prestamo)
+    {
+        $prestamo->fechaDevolucion = Carbon::now();
+        $prestamo->save();
         return redirect()->back();
     }
 }

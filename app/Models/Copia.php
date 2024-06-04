@@ -9,14 +9,14 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 Use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 
-use Illuminate\Database\Eloquent\SoftDeletes;
-
 class Copia extends Model
 {
     use CrudTrait;
-    use HasFactory, SoftDeletes;
+    use HasFactory;
 
     protected $table = 'copias';
+
+    protected $appends = ['nombreDocumento'];
 
     protected $fillable = [
         'documento_id',
@@ -43,5 +43,12 @@ class Copia extends Model
     public function reservas(): HasMany
     {
         return $this->hasMany(Reserva::class);
+    }
+
+    protected function nombreDocumento(): Attribute
+    {
+        return new Attribute(
+            get: fn () => $this->documento->nombre,
+        );
     }
 }

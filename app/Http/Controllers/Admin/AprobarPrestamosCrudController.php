@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Admin;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
 
+use Backpack\CRUD\app\Library\Widget;
+
 /**
  * Class UserCrudController
  * @package App\Http\Controllers\Admin
@@ -38,6 +40,11 @@ class AprobarPrestamosCrudController extends CrudController
      */
     protected function setupListOperation()
     {
+        Widget::add([
+            'type' => 'script',
+            'content' => 'js/aprobarPrestamos.js'
+        ]);
+
         CRUD::removeAllButtons();
 
         CRUD::addClause('where', 'isCancelado', '=', '0');
@@ -48,6 +55,7 @@ class AprobarPrestamosCrudController extends CrudController
                 ->options([0 => 'activo', 1 => 'cancelado']);
 
         CRUD::column('estudiante')->type('select')->attribute('name')->label('Estudiante');
+
         CRUD::column('copia')->type('select')->attribute('nombreDocumento')->label('Documento');
 
         CRUD::button('aprobar')->stack('line')->view('crud::buttons.aprobarReserva');

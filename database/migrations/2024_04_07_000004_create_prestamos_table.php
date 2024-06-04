@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('prestamos', function (Blueprint $table) {
             $table->id();
             $table->date('fechaPrestamo');
-            $table->date('fechaDevolucion');
+            $table->date('fechaDevolucion')->nullable();
             $table->date('fechaLimite');
             $table->foreignId('reserva_id')->constrained('reservas', 'id');
             $table->foreignId('encargado_id')->constrained('users', 'id');
