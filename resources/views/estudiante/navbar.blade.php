@@ -5,7 +5,7 @@
   <nav>
       <ul class="links">
           <li><a href="{{ route('estudiante.libros') }}">Libros</a></li>
-          <li><a href="#">Tus prestamos</a></li>
+          <li><a href="{{ route('estudiante.tusprestamos') }}">Tus préstamos</a></li>
       </ul>
   </nav>
   <form id="logout-form" action="{{ backpack_url('logout') }}" method="POST" style="display: none;">
@@ -15,6 +15,7 @@
       <button>Cerrar Sesión</button>
   </a>
 </header>
+
 
 <style>
 * {

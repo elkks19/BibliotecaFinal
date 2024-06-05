@@ -9,7 +9,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/cancelarReserva/{reserva}', [PrestamoController::class, 'cancelar'])->name('reserva.cancelar');
+// RUTAS PARA LOS PRESTAMOS
 Route::get('/cancelarReserva/{reserva}', [PrestamoController::class, 'cancelar'])->name('reserva.cancelar');
 Route::get('/aprobarReserva/{reserva}', [PrestamoController::class, 'aprobar'])->name('reserva.aprobar');
 Route::get('/registrarDevolucion/{prestamo}', [PrestamoController::class, 'devolver'])->name('prestamo.devolver');
@@ -37,6 +37,9 @@ Route::get('/reportes/seguimientoLibro/pdf', [ReportesController::class, 'seguim
 
 // RUTAS PARA LOS ESTUDIANTES
 Route::get('estudiante', [EstudianteController::class, 'index'])->name('estudiante.index');
-Route::get('/estudiante/libros', [EstudianteController::class, 'mostrarLibros'])->name('estudiante.libros');
-Route::get('/estudiante/libros/filtrar', [EstudianteController::class, 'mostrarLibros'])->name('estudiante.libros.filtrar');
-Route::get('estudiante/libros/{id}', [EstudianteController::class, 'mostrarDetalle'])->name('estudiante.libros.detalle'); // Nueva ruta para la vista de detalle del libro
+Route::get('estudiante/libros', [EstudianteController::class, 'mostrarLibros'])->name('estudiante.libros');
+Route::get('estudiante/libros/filtrar', [EstudianteController::class, 'mostrarLibros'])->name('estudiante.libros.filtrar');
+Route::get('estudiante/libros/{id}', [EstudianteController::class, 'mostrarDetalle'])->name('estudiante.detalle');
+Route::post('/estudiante/solicitar-prestamo', [EstudianteController::class, 'solicitarPrestamo'])->name('estudiante.solicitarPrestamo');
+Route::get('/estudiante/descargar/{id}', [EstudianteController::class, 'descargarArchivo'])->name('estudiante.descargarArchivo');
+Route::get('/tusprestamos', [EstudianteController::class, 'tusPrestamos'])->name('estudiante.tusprestamos');

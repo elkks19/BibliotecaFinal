@@ -22,7 +22,7 @@
                     <p class="cookieHeading">{{ $documento->nombre }}</p>
                     <p class="cookiecategoria">{{ $documento->tipo->nombre }}</p>
                     <p class="cookieDescription">{{ $documento->descripcion }}</p>
-                    <a class="acceptButton" href="{{ route('estudiante.libros.detalle', $documento->id) }}">Ver</a>
+                    <a class="acceptButton" href="{{ route('estudiante.detalle', $documento->id) }}">Ver</a>
                 </div>
             </div>
             @endforeach

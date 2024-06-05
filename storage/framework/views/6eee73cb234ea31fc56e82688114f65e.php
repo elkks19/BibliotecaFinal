@@ -5,7 +5,7 @@
   <nav>
       <ul class="links">
           <li><a href="<?php echo e(route('estudiante.libros')); ?>">Libros</a></li>
-          <li><a href="#">Tus prestamos</a></li>
+          <li><a href="<?php echo e(route('estudiante.tusprestamos')); ?>">Tus préstamos</a></li>
       </ul>
   </nav>
   <form id="logout-form" action="<?php echo e(backpack_url('logout')); ?>" method="POST" style="display: none;">
@@ -15,6 +15,7 @@
       <button>Cerrar Sesión</button>
   </a>
 </header>
+
 
 <style>
 * {

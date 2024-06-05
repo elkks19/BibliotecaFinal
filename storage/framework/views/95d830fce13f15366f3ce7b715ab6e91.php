@@ -26,7 +26,7 @@
                     <p class="cookieHeading"><?php echo e($documento->nombre); ?></p>
                     <p class="cookiecategoria"><?php echo e($documento->tipo->nombre); ?></p>
                     <p class="cookieDescription"><?php echo e($documento->descripcion); ?></p>
-                    <a class="acceptButton" href="<?php echo e(route('estudiante.libros.detalle', $documento->id)); ?>">Ver</a>
+                    <a class="acceptButton" href="<?php echo e(route('estudiante.detalle', $documento->id)); ?>">Ver</a>
                 </div>
             </div>
             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
