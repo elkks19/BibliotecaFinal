@@ -28,6 +28,9 @@ Route::get('/reportes/prestamosPorFecha/pdf', [ReportesController::class, 'prest
 Route::get('/reportes/prestamosEnCurso', [ReportesController::class, 'prestamosEnCurso'])->name('reportes.prestamosEnCurso.preview');
 Route::get('/reportes/prestamosEnCurso/pdf', [ReportesController::class, 'prestamosEnCursoPDF'])->name('reportes.prestamosEnCurso.pdf');
 
+Route::get('/reportes/seguimientoLibro', [ReportesController::class, 'seguiminetoLibro'])->name('reportes.seguiminetoLibro');
+Route::get('/reportes/seguimientoLibro/pdf', [ReportesController::class, 'seguiminetoLibropdf'])->name('reportes.seguiminetoLibropdf');
+
 
 // RUTAS PARA LOS ESTUDIANTES
 Route::get('estudiante', [EstudianteController::class, 'index'])->name('estudiante.index');

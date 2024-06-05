@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Prestamo;
+use App\Models\Documento;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Dompdf\Dompdf;
 use Dompdf\Options;
 
@@ -199,6 +201,29 @@ class ReportesController extends Controller
         // Devuelve el PDF como una respuesta
         return $dompdf->stream('reporte_prestamos_en_curso.pdf');
     }
+
+    public function seguiminetoLibro(){
+        $documentos = Documento::whereHas('copias.reservas.prestamo')->distinct()->get(['id', 'nombre']);
+
+        return view('reportes.seguimientoLibro', compact('documentos'));
+    }
+    public function seguiminetoLibropdf(Request $request)
+    {
+        $busqueda = $request->busqueda;
+        $prestamos = Prestamo::whereHas('reserva.copia', function($query) use ($busqueda) {
+                        $query->where('documento_id', $busqueda);
+                    })
+                    ->with(['reserva.copia.documento', 'encargado', 'reserva.estudiante'])
+                    ->orderBy('fechaDevolucion')
+                    ->get()
+                    ->groupBy(function($date) {
+                        return \Carbon\Carbon::parse($date->fechaDevolucion)->format('Y-m'); // Agrupa por mes y año
+                    });
+
+        $pdf = Pdf::loadView('reportes.seguimientoLibropdf', compact('prestamos'));
+        return $pdf->stream();
+    }
+
 }
 
 
