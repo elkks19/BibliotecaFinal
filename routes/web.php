@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PrestamoController;
 use App\Http\Controllers\ReportesController;
+use App\Http\Controllers\EstudianteController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -24,4 +25,12 @@ Route::get('/reportes/prestamosSinDevolucion/pdf', [ReportesController::class, '
 Route::get('/reportes/prestamosPorFecha', [ReportesController::class, 'prestamosPorFecha'])->name('reportes.prestamosPorFecha.preview');
 Route::get('/reportes/prestamosPorFecha/pdf', [ReportesController::class, 'prestamosPorFechaPDF'])->name('reportes.prestamosPorFecha.pdf');
 
+Route::get('/reportes/prestamosEnCurso', [ReportesController::class, 'prestamosEnCurso'])->name('reportes.prestamosEnCurso.preview');
+Route::get('/reportes/prestamosEnCurso/pdf', [ReportesController::class, 'prestamosEnCursoPDF'])->name('reportes.prestamosEnCurso.pdf');
 
+
+// RUTAS PARA LOS ESTUDIANTES
+Route::get('estudiante', [EstudianteController::class, 'index'])->name('estudiante.index');
+Route::get('/estudiante/libros', [EstudianteController::class, 'mostrarLibros'])->name('estudiante.libros');
+Route::get('/estudiante/libros/filtrar', [EstudianteController::class, 'mostrarLibros'])->name('estudiante.libros.filtrar');
+Route::get('estudiante/libros/{id}', [EstudianteController::class, 'mostrarDetalle'])->name('estudiante.libros.detalle'); // Nueva ruta para la vista de detalle del libro

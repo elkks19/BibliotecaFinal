@@ -54,5 +54,20 @@
             </div>
         </div>
 
+        <br>
+        <div class="row">
+            <div class="col">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h1 class="card-title">Reporte de prestamos en curso</h1>
+                        <p class="card-text">Reporte de todos los prestamos que aun no han sido devueltos, y tampoco estan vencidos</p>
+                        <a class="btn btn-primary" href="{{ route('reportes.prestamosEnCurso.preview') }}">
+                            Descargar reporte
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 @endsection

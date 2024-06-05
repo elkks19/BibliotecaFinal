@@ -42,6 +42,24 @@ class ReportesController extends Controller
         return view('reportes.prestamosSinDevolver', compact(['prestamosSinDevolucion', 'preview']));
     }
 
+    public function prestamosEnCurso(Request $request)
+    {
+        $prestamosEnCurso = Prestamo::whereNull('fechaDevolucion')
+            ->where('fechaLimite', '>', now()) // Solo préstamos cuya fecha límite aún no ha pasado
+            ->with(['reserva.copia.documento', 'encargado', 'reserva.estudiante'])
+            ->orderBy('fechaLimite')
+            ->get();
+
+        foreach ($prestamosEnCurso as $prestamo) {
+            $fechaLimite = \Carbon\Carbon::parse($prestamo->fechaLimite);
+            $diasRestantes = max(0, $fechaLimite->diffInDays(now())); // Asegurarse de que los días restantes sean positivos
+            $prestamo->diasRestantes = $diasRestantes;
+        }
+        $preview = true;
+
+        return view('reportes.prestamosEnCurso', compact(['prestamosEnCurso', 'preview']));
+    }
+
     public function prestamosVencidosPDF()
     {
         $prestamosVencidos = Prestamo::whereColumn('fechaDevolucion', '>', 'fechaLimite')
@@ -148,5 +166,39 @@ class ReportesController extends Controller
         // Devuelve el PDF como una respuesta
         return $dompdf->stream('reporte_prestamos.pdf');
     }
+
+    public function prestamosEnCursoPDF(Request $request)
+    {
+        $prestamosEnCurso = Prestamo::whereNull('fechaDevolucion')
+            ->where('fechaLimite', '>', now()) // Solo préstamos cuya fecha límite aún no ha pasado
+            ->with(['reserva.copia.documento', 'encargado', 'reserva.estudiante'])
+            ->orderBy('fechaLimite')
+            ->get();
+
+        foreach ($prestamosEnCurso as $prestamo) {
+            $fechaLimite = \Carbon\Carbon::parse($prestamo->fechaLimite);
+            $diasRestantes = max(0, $fechaLimite->diffInDays(now())); // Asegurarse de que los días restantes sean positivos
+            $prestamo->diasRestantes = $diasRestantes;
+        }
+
+        // Configuración de Dompdf
+        $options = new Options();
+        $options->set('isHtml5ParserEnabled', true);
+        $options->set('isRemoteEnabled', true);
+
+        $dompdf = new Dompdf($options);
+        $preview = false;
+        $dompdf->loadHtml(view('reportes.prestamosEnCurso', compact(['prestamosEnCurso', 'preview'])));
+
+        // (Opcional) Personaliza las opciones del PDF, como el tamaño de papel, orientación, etc.
+        $dompdf->setPaper('A4', 'landscape');
+
+        // Renderiza el PDF
+        $dompdf->render();
+
+        // Devuelve el PDF como una respuesta
+        return $dompdf->stream('reporte_prestamos_en_curso.pdf');
+    }
 }
+
 

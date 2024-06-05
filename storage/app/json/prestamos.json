@@ -140,23 +140,20 @@
         "encargado_id": 3
     },
     {
-        "fechaPrestamo": "2019-04-26",
-        "fechaDevolucion": "2019-04-28",
-        "fechaLimite": "2019-04-29",
+        "fechaPrestamo": "2024-06-03",
+        "fechaLimite": "2024-06-06",
         "reserva_id": 30,
         "encargado_id": 5
     },
     {
-        "fechaPrestamo": "2018-02-18",
-        "fechaDevolucion": "2018-02-20",
-        "fechaLimite": "2018-02-19",
+        "fechaPrestamo": "2024-06-03",
+        "fechaLimite": "2024-06-06",
         "reserva_id": 14,
         "encargado_id": 4
     },
     {
-        "fechaPrestamo": "2018-11-09",
-        "fechaDevolucion": "2018-11-11",
-        "fechaLimite": "2018-11-12",
+        "fechaPrestamo": "2024-06-03",
+        "fechaLimite": "2024-06-06",
         "reserva_id": 19,
         "encargado_id": 4
     },
