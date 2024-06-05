@@ -48,7 +48,7 @@ class RegistrarDevolucionCrudController extends CrudController
 
         CRUD::removeAllButtons();
 
-        CRUD::addClause('where', 'fechaDevolucion', 'is', 'null');
+        CRUD::addClause('whereNull', 'fechaDevolucion');
 
         CRUD::column('fechaPrestamo')->label('Fecha del prestamo')->type('date');
         CRUD::column('fechaLimite')->label('Fecha limite')->type('date');
