@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Reporte de Préstamos</title>
+@if($preview)
+    @extends(backpack_view('blank'))
+@endif
+@section('content')
     <style>
         table {
             width: 100%;
@@ -29,8 +29,7 @@
             text-decoration: none;
         }
     </style>
-</head>
-<body>
+
     @if($preview)
     <div class="d-flex justify-content-between w-full">
         <a class="btn btn-primary" href="{{ route('backpack.dashboard') }}">
@@ -71,5 +70,5 @@
         </tbody>
     </table>
 @endforeach
-</body>
-</html>
+
+@endsection

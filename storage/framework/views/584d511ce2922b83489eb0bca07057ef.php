@@ -65,6 +65,18 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h1 class="card-title">Reporte seguimiento del libro</h1>
+                        <p class="card-text">Reporte de los libros que se prestaron</p>
+                        <a class="btn btn-primary" href="<?php echo e(route('reportes.seleccionarLibro')); ?>">
+                            Descargar reporte
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>

@@ -1,6 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
+<?php if($preview): ?>
+    
+<?php endif; ?>
+<?php $__env->startSection('content'); ?>
     <title>Préstamos sin devolución</title>
     <style>
         body {
@@ -45,9 +46,7 @@
             text-decoration: none;
         }
     </style>
-</head>
 
-<body>
     <?php if($preview): ?>
     <div class="d-flex justify-content-between w-full">
         <a class="btn btn-primary" href="<?php echo e(route('backpack.dashboard')); ?>">
@@ -88,6 +87,7 @@
             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
         </tbody>
     </table>
-</body>
-</html>
-<?php /**PATH /media/data/Unifranz/Semestre 5/PROYECTO FINAL/PROYECTO/resources/views/reportes/prestamosSinDevolver.blade.php ENDPATH**/ ?>
+
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make(backpack_view('blank'), \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /media/data/Unifranz/Semestre 5/PROYECTO FINAL/PROYECTO/resources/views/reportes/prestamosSinDevolver.blade.php ENDPATH**/ ?>

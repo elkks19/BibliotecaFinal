@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Préstamos en Curso</title>
+@if($preview)
+    @extends(backpack_view('blank'))
+@endif
+@section('content')
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -45,8 +45,7 @@
             text-decoration: none;
         }
     </style>
-</head>
-<body>
+
     @if($preview)
     <div class="d-flex justify-content-between w-full">
         <a class="btn btn-primary" href="{{ route('backpack.dashboard') }}">
@@ -86,5 +85,5 @@
             @endforeach
         </tbody>
     </table>
-</body>
-</html>
+
+@endsection

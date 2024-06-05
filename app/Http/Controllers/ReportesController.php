@@ -202,12 +202,13 @@ class ReportesController extends Controller
         return $dompdf->stream('reporte_prestamos_en_curso.pdf');
     }
 
-    public function seguiminetoLibro(){
+    public function seleccionarLibro(){
         $documentos = Documento::whereHas('copias.reservas.prestamo')->distinct()->get(['id', 'nombre']);
 
-        return view('reportes.seguimientoLibro', compact('documentos'));
+        return view('reportes.seleccionarLibro', compact('documentos'));
     }
-    public function seguiminetoLibropdf(Request $request)
+
+    public function seguimientoLibro(Request $request)
     {
         $busqueda = $request->busqueda;
         $prestamos = Prestamo::whereHas('reserva.copia', function($query) use ($busqueda) {
@@ -220,10 +221,41 @@ class ReportesController extends Controller
                         return \Carbon\Carbon::parse($date->fechaDevolucion)->format('Y-m'); // Agrupa por mes y año
                     });
 
-        $pdf = Pdf::loadView('reportes.seguimientoLibropdf', compact('prestamos'));
-        return $pdf->stream();
+        $preview = true;
+        return view('reportes.seguimientoLibro', compact(['prestamos', 'preview']));
     }
 
+    public function seguimientoLibroPDF(Request $request)
+    {
+        $busqueda = $request->busqueda;
+        $prestamos = Prestamo::whereHas('reserva.copia', function($query) use ($busqueda) {
+                        $query->where('documento_id', $busqueda);
+                    })
+                    ->with(['reserva.copia.documento', 'encargado', 'reserva.estudiante'])
+                    ->orderBy('fechaDevolucion')
+                    ->get()
+                    ->groupBy(function($date) {
+                        return \Carbon\Carbon::parse($date->fechaDevolucion)->format('Y-m'); // Agrupa por mes y año
+                    });
+
+        // Configuración de Dompdf
+        $options = new Options();
+        $options->set('isHtml5ParserEnabled', true);
+        $options->set('isRemoteEnabled', true);
+
+        $dompdf = new Dompdf($options);
+        $preview = false;
+        $dompdf->loadHtml(view('reportes.seguimientoLibro', compact(['prestamos', 'preview'])));
+
+        // (Opcional) Personaliza las opciones del PDF, como el tamaño de papel, orientación, etc.
+        $dompdf->setPaper('A4', 'landscape');
+
+        // Renderiza el PDF
+        $dompdf->render();
+
+        // Devuelve el PDF como una respuesta
+        return $dompdf->stream('reporte_prestamos_en_curso.pdf');
+    }
 }
 
 

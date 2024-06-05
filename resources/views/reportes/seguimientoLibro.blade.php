@@ -1,80 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario en Tarjeta</title>
+@if($preview)
+    @extends(backpack_view('blank'))
+@endif
+
+@section('content')
     <style>
-        /* Estilos para centrar verticalmente */
-        html, body {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        body {
+            font-family: Arial, sans-serif;
         }
-
-        /* Estilos para la tarjeta */
-        .card {
-            width: 300px;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            background-color: #f9f9f9;
-        }
-
-        /* Estilos para el botón de retroceso */
-        .back-btn {
-            background-color: transparent;
+        h1 {
+            text-align: center;
             color: orange;
-            border: 1px solid orange;
-            padding: 8px 16px;
-            border-radius: 4px;
-            margin-bottom: 10px;
-            cursor: pointer;
-            font-size: 14px;
         }
-
-        /* Estilos para el botón de reporte */
-        .report-btn {
+        h2 {
+            color: darkorange;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
             background-color: orange;
             color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 14px;
         }
-
-        /* Estilos para el select */
-        select {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid orange;
-            border-radius: 4px;
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+        .d-flex {
+            display: flex;
+            justify-content: space-between;
+        }
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #e67e22;
+            color: white;
+            text-decoration: none;
         }
     </style>
-</head>
-<body>
-    <!-- Botón de retroceso -->
-    <button onclick="window.history.back();" class="back-btn">Retroceder</button>
 
-    <!-- Tarjeta con el formulario -->
-    <div class="card">
-        <!-- Formulario -->
-        <form action="{{ route('reportes.seguiminetoLibropdf') }}" method="get">
-            <!-- Select -->
-            <select name="busqueda">
-                <!-- Opciones -->
-                @foreach($documentos as $documento)
-                    <option value="{{ $documento->id }}">{{ $documento->nombre }}</option>
-                @endforeach
-            </select>
+    @if($preview)
+    <div class="d-flex justify-content-between w-full">
+        <a class="btn btn-primary" href="{{ route('backpack.dashboard') }}">
+            <i class="la la-arrow-left"></i>
+            Volver
+        </a>
 
-            <!-- Botón de reporte -->
-            <input type="submit" value="Reporte" class="report-btn">
-        </form>
+        <a class="btn btn-primary" href="{{ route('reportes.prestamosVencidos.pdf') }}">
+            Descargar reporte
+        </a>
+
     </div>
-</body>
-</html>
+    @endif
+    <h1>Reporte de Préstamos</h1>
+    @foreach($prestamos as $mes => $prestamosDelMes)
+        <h2>{{ \Carbon\Carbon::parse($mes.'-01')->format('F Y') }}</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre del Libro</th>
+                    <th>Encargado</th>
+                    <th>Estudiante</th> <!-- Nueva columna para el nombre del estudiante -->
+                    <th>Fecha de Préstamo</th>
+                    {{-- <th>Fecha de Devolución</th> --}}
+                    <th>Fecha Límite</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach($prestamosDelMes as $prestamo)
+                    <tr>
+                        <td>{{ $prestamo->reserva->copia->documento->nombre }}</td>
+                        <td>{{ $prestamo->encargado->name }}</td> <!-- Nombre del encargado -->
+                        <td>{{ $prestamo->reserva->estudiante->name }}</td> <!-- Nombre del estudiante -->
+                        <td>{{ $prestamo->fechaPrestamo->format('d-m-Y') }}</td>
+                        {{-- <td>{{ $prestamo->fechaDevolucion->format('d-m-Y') }}</td> --}}
+                        <td>{{ $prestamo->fechaLimite->format('d-m-Y') }}</td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+    @endforeach
+
+@endsection
