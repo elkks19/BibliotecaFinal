@@ -8,7 +8,7 @@
           <li><a href="{{ route('estudiante.tusprestamos') }}">Tus préstamos</a></li>
       </ul>
   </nav>
-  <form id="logout-form" action="{{ backpack_url('logout') }}" method="POST" style="display: none;">
+  <form id="logout-form" action="{{ backpack_url('logout') }}" style="display: none;">
       @csrf
   </form>
   <a class="btn-cerrar" href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">

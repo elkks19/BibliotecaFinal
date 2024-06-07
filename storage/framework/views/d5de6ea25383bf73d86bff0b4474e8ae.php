@@ -1,0 +1,3 @@
+<div class="w-100 justify-content-center d-none d-lg-flex sidebar-shortcuts">
+    <?php echo $__env->renderWhen(backpack_theme_config('options.showColorModeSwitcher'), backpack_view('layouts.partials.switch_theme'), \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path'])); ?>
+</div><?php /**PATH /home/elkks19/Documentos/Unifranz/Semestre 5/PROYECTO_FINAL/PROYECTO/vendor/backpack/theme-tabler/resources/views/layouts/partials/sidebar_shortcuts.blade.php ENDPATH**/ ?>

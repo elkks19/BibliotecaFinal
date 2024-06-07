@@ -16,52 +16,72 @@ class EstudianteController extends Controller
 {
     public function index()
     {
-        $documentos = Documento::inRandomOrder()->take(10)->get();
+        // Obtener los documentos que tienen al menos una copia no prestada
+        $documentos = Documento::whereHas('copias', function($query) {
+            $query->where('isPrestado', false);
+        })->get();
+
         return view('estudiante.index', compact('documentos'));
     }
 
+
     public function mostrarLibros(Request $request)
     {
+        // Construir la consulta base
         $query = Documento::query();
 
+        // Aplicar el filtro de tipo de documento si se proporciona
         if ($request->filled('tipo_id')) {
             $query->where('tipo_id', $request->tipo_id);
         }
 
+        // Aplicar el filtro para documentos que tienen al menos una copia no prestada
+        $query->whereHas('copias', function($query) {
+            $query->where('isPrestado', false);
+        });
+
+        // Aplicar el filtro de nombre si se proporciona
         if ($request->filled('nombre')) {
-            $query->where(function($q) use ($request) {
-                $q->where('nombre', 'like', '%' . $request->nombre . '%')
+            $query->where('nombre', 'like', '%' . $request->nombre . '%')
                   ->orWhere('descripcion', 'like', '%' . $request->nombre . '%');
-            });
+
         }
 
+        // Obtener los documentos que cumplen con los criterios
         $todosLosDocumentos = $query->get();
         $tipos = TipoDeDocumento::all();
 
+        // Retornar la vista con los documentos filtrados
         return view('estudiante.libros', compact('todosLosDocumentos', 'tipos'));
+
     }
 
     public function mostrarDetalle($id)
     {
         $documento = Documento::findOrFail($id);
-        return view('estudiante.detalle', compact('documento'));
+        $copia = Copia::inRandomOrder()->where('documento_id', $documento->id)->first();
+        return view('estudiante.detalle', compact(['documento', 'copia']));
     }
 
     public function solicitarPrestamo(Request $request)
     {
+        // $userId = User::inRandomOrder()->first()->id;
+        $userId = backpack_user()->id;
+
         $request->validate([
-            'copia_id' => 'required|exists:copias,id',
+            'copia_id' => 'required|exists:documentos,id',
         ]);
 
-        try {
+        $copia = Copia::inRandomOrder()->first()->where('documento_id', $request->copia_id)->first();
 
-            $reserva = new Reserva();
-            $reserva->fechaReserva = now();
-            $reserva->isCancelado = false;
-            $reserva->isAprobado = false;
-            $reserva->copia_id = $request->copia_id;
-            $reserva->estudiante_id = Auth::id();
-            $reserva->save();
+        // $copia = $documento->copias->where('disponible', true)->first();
+
+        try {
+            Reserva::create([
+                'fechaReserva' => \Carbon\Carbon::now(),
+                'copia_id' => $copia->id,
+                'estudiante_id' => $userId,
+            ]);
 
             return redirect()->back()->with('success', 'Préstamo solicitado, se le enviará una solicitud cuando sea aceptado.');
         } catch (\Exception $e) {
@@ -71,6 +91,9 @@ class EstudianteController extends Controller
 
     public function tusPrestamos()
     {
+        // $userId = User::inRandomOrder()->first()->id;
+        $userId = backpack_user()->id;
+
         $prestamos = \DB::table('prestamos')
             ->join('reservas', 'prestamos.reserva_id', '=', 'reservas.id')
             ->join('copias', 'reservas.copia_id', '=', 'copias.id')
@@ -86,7 +109,7 @@ class EstudianteController extends Controller
                 'prestamos.fechaLimite',
                 \DB::raw('IFNULL(DATEDIFF(CURDATE(), prestamos.fechaLimite), 0) as dias_retraso')
             )
-            ->where('reservas.estudiante_id', Auth::id()) // Filtrar por ID de estudiante autenticado
+            ->where('reservas.estudiante_id', $userId) // Filtrar por ID de estudiante autenticado
             ->orderBy('prestamos.fechaPrestamo', 'desc') // Ordenar por fechaPrestamo descendente
             ->get();
 

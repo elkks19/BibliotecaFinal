@@ -9,9 +9,13 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
+use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 
+use App\Observers\DocumentoObserver;
+
+#[ObservedBy([DocumentoObserver::class])]
 class Documento extends Model
 {
     use CrudTrait;

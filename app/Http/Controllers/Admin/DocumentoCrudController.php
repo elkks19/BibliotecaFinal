@@ -28,7 +28,7 @@ class DocumentoCrudController extends CrudController
     {
         CRUD::setModel(\App\Models\Documento::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/documento');
-        CRUD::setEntityNameStrings('documento', 'documentos');
+        CRUD::setEntityNameStrings('libro', 'libros');
     }
 
     /**
@@ -74,18 +74,18 @@ class DocumentoCrudController extends CrudController
             'attribute' => 'nombre',
         ]);
 
-        CRUD::field([
-            'label' => 'Encargado',
-            'type' => 'select',
-            'name' => 'encargado_id',
-            'model' => \App\Models\User::class,
-            'attribute' => 'name',
-            'options' => (function($query) {
-                return $query->whereHas('roles', function($roles){
-                    $roles->where('name', 'encargado');
-                })->get();
-            })
-        ]);
+        // CRUD::field([
+        //     'label' => 'Encargado',
+        //     'type' => 'select',
+        //     'name' => 'encargado_id',
+        //     'model' => \App\Models\User::class,
+        //     'attribute' => 'name',
+        //     'options' => (function($query) {
+        //         return $query->whereHas('roles', function($roles){
+        //             $roles->where('name', 'encargado');
+        //         })->get();
+        //     })
+        // ]);
     }
 
     /**

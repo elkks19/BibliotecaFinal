@@ -28,7 +28,7 @@
             cursor: pointer;
         }
         .descargar-btn {
-            background-color: #4CAF50; /* Color diferente para el botón de descargar */
+            background-color: #4CAF50;
         }
         .alert, .alertwa {
             padding: 15px;
@@ -36,17 +36,21 @@
             border: 1px solid transparent;
             border-radius: 4px;
         }
-        .alert-success, {
+        .alert-success {
             color: #3c763d;
             background-color: #dff0d8;
             border-color: #d6e9c6;
         }
-        .alert-error, .alertwa  {
+        .alert-error, .alertwa {
             color: #a94442;
             background-color: #f2dede;
             border-color: #ebccd1;
         }
+        #barcode {
+            margin-top: 20px;
+        }
     </style>
+    <script src="{{ asset('js/JsBarcode.all.min.js') }}"></script>
 </head>
 <body>
     @include('estudiante.navbar')
@@ -62,10 +66,10 @@
             </div>
         @endif
         @if(session('warning'))
-    <div class="alertwa alert-warning">
-        {{ session('warning') }}
-    </div>
-@endif
+            <div class="alertwa alert-warning">
+                {{ session('warning') }}
+            </div>
+        @endif
         <h1>{{ $documento->nombre }}</h1>
         <p>Autor: {{ $documento->autor->nombre }}</p>
         <p>Encargado: {{ $documento->encargado->name }}</p>
@@ -80,6 +84,19 @@
 
         <a href="{{ route('estudiante.descargarArchivo', $documento->id) }}" class="descargar-btn">Descargar</a>
 
+        <!-- Código de barras debajo de todos los botones -->
+        <canvas id="barcode"></canvas>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var bookName = "{{ $copia->codigo }}";
+            JsBarcode("#barcode", bookName, {
+                format: "CODE128",
+                displayValue: true,
+                fontSize: 18
+            });
+        });
+    </script>
 </body>
 </html>

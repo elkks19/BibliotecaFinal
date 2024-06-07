@@ -28,7 +28,7 @@ class CopiaCrudController extends CrudController
     {
         CRUD::setModel(\App\Models\Copia::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/copia');
-        CRUD::setEntityNameStrings('copia', 'copias');
+        CRUD::setEntityNameStrings('copia de libro', 'copias de libros');
     }
 
     /**
@@ -39,6 +39,8 @@ class CopiaCrudController extends CrudController
      */
     protected function setupListOperation()
     {
+        CRUD::column('codigo')->label('Codigo')->type('text');
+
         CRUD::column('editorial')->label('Editorial')->type('text');
         CRUD::column('fechaDePublicacion')->label('Fecha de publicación')->type('date');
 

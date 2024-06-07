@@ -69,6 +69,7 @@
                 <th>Fecha Límite</th>
                 <th>Estado</th>
                 <th>Días Restantes</th>
+                <th>Codigo</th>
             </tr>
         </thead>
         <tbody>
@@ -81,6 +82,8 @@
                 <td>{{ $prestamo->fechaLimite->format('d-m-Y') }}</td>
                 <td>En curso</td>
                 <td>{{ $prestamo->diasRestantes }} días</td>
+
+                <td>{{ $prestamo->reserva->copia->codigo }}</td>
             </tr>
             @endforeach
         </tbody>

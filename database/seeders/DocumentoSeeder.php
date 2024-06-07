@@ -15,17 +15,18 @@ class DocumentoSeeder extends Seeder
      */
     public function run(): void
     {
-        $json = Storage::disk('local')->get('/json/documentos.json');
-        $documentos = json_decode($json, true);
-
-        foreach ($documentos as $documento) {
-            Documento::create([
-                'nombre' => $documento['nombre'],
-                'descripcion' => $documento['descripcion'],
-                'tipo_id' => $documento['tipo_id'],
-                'autor_id' => $documento['autor_id'],
-                'encargado_id' => $documento['encargado_id'],
-            ])->categorias()->sync($documento['categorias']);
-        }
+        Documento::withoutEvents(function () {
+            $json = Storage::disk('local')->get('/json/documentos.json');
+            $documentos = json_decode($json, true);
+            foreach ($documentos as $documento) {
+                Documento::create([
+                    'nombre' => $documento['nombre'],
+                    'descripcion' => $documento['descripcion'],
+                    'tipo_id' => $documento['tipo_id'],
+                    'autor_id' => $documento['autor_id'],
+                    'encargado_id' => $documento['encargado_id'],
+                ])->categorias()->sync($documento['categorias']);
+            }
+        });
     }
 }

@@ -17,7 +17,7 @@ return new class extends Migration
             $table->text('descripcion');
             $table->foreignId('tipo_id')->constrained('tipos_de_documento', 'id');
             $table->foreignId('autor_id')->constrained('autores', 'id');
-            $table->foreignId('encargado_id')->constrained('users', 'id');
+            $table->foreignId('encargado_id')->nullable()->constrained('users', 'id');
             $table->timestamps();
             $table->softDeletes();
         });

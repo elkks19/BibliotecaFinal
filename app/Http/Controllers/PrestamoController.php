@@ -11,8 +11,17 @@ class PrestamoController extends Controller
 {
     public function aprobar(Reserva $reserva)
     {
+        $reserva->copia->prestar();
         $reserva->isAprobado = true;
         $reserva->save();
+
+        Prestamo::create([
+            'fechaPrestamo' => Carbon::now(),
+            'fechaLimite' => Carbon::now()->addDays(5),
+            'reserva_id' => $reserva->id,
+            'encargado_id' => backpack_user()->id,
+        ]);
+
         return redirect()->back();
     }
 
@@ -27,6 +36,7 @@ class PrestamoController extends Controller
     {
         $prestamo->fechaDevolucion = Carbon::now();
         $prestamo->save();
+        $prestamo->reserva->copia->devolver();
         return redirect()->back();
     }
 }

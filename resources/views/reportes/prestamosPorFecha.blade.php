@@ -54,6 +54,7 @@
                     <th>Fecha de Préstamo</th>
                     <th>Fecha de Devolución</th>
                     <th>Fecha Límite</th>
+                    <th>Codigo</th>
                 </tr>
             </thead>
             <tbody>
@@ -65,6 +66,7 @@
                     <td>{{ $prestamo->fechaPrestamo->format('d-m-Y') }}</td>
                     <td>{{ $prestamo->fechaDevolucion->format('d-m-Y') }}</td>
                     <td>{{ $prestamo->fechaLimite->format('d-m-Y') }}</td>
+                    <td>{{ $prestamo->reserva->copia->codigo }}</td>
                 </tr>
             @endforeach
         </tbody>

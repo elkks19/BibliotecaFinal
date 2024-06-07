@@ -72,6 +72,7 @@
                 <th>Fecha Límite</th>
                 <th>Fecha de Devolución</th>
                 <th>Días de Retraso</th>
+                <th>Codigo</th>
             </tr>
         </thead>
         <tbody>
@@ -84,6 +85,7 @@
                 <td>{{ $prestamo->fechaLimite->format('d-m-Y') }}</td>
                 <td>{{ $prestamo->fechaDevolucion?->format('d-m-Y') ?? 'NO DEVUELTO' }}</td>
                 <td>{{ $prestamo->diasRetraso }} días</td>
+                <td>{{ $prestamo->reserva->copia->codigo }}</td>
             </tr>
             @endforeach
         </tbody>

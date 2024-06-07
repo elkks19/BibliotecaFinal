@@ -6,6 +6,7 @@ use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -15,6 +16,8 @@ class Prestamo extends Model
     use HasFactory, SoftDeletes;
 
     protected $table = 'prestamos';
+
+    protected $appends = ['nombreDocumento', 'codigoCopia'];
 
     protected $fillable = [
         'reserva_id',
@@ -40,6 +43,20 @@ class Prestamo extends Model
     public function encargado(): BelongsTo
     {
         return $this->belongsTo(User::class);
+    }
+
+    protected function nombreDocumento(): Attribute
+    {
+        return new Attribute(
+            get: fn () => $this->reserva->copia->documento->nombre,
+        );
+    }
+
+    protected function codigoCopia(): Attribute
+    {
+        return new Attribute(
+            get: fn () => $this->reserva->copia->codigo,
+        );
     }
 
 }

@@ -13,9 +13,11 @@ return new class extends Migration
     {
         Schema::create('copias', function (Blueprint $table) {
             $table->id();
+            $table->string('codigo')->nullable();
             $table->string('editorial');
             $table->date('fechaDePublicacion');
             $table->string('nombreArchivo')->nullable();
+            $table->boolean('isPrestado')->default(0);
             $table->foreignId('documento_id')->constrained('documentos', 'id');
             $table->foreignId('tipo_id')->constrained('tipos_de_copia', 'id');
             $table->timestamps();

@@ -53,6 +53,9 @@ class RegistrarDevolucionCrudController extends CrudController
         CRUD::column('fechaPrestamo')->label('Fecha del prestamo')->type('date');
         CRUD::column('fechaLimite')->label('Fecha limite')->type('date');
 
+        CRUD::column('nombreDocumento')->label('Nombre libro')->type('text');
+        CRUD::column('codigoCopia')->label('Codigo de la copia')->type('text');
+
         CRUD::column('encargado')->type('select')->attribute('name')->label('Encargado');
 
         CRUD::column('reserva')->type('select')->attribute('nombreEstudiante')->label('Estudiante');

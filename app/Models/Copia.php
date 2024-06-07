@@ -3,12 +3,16 @@
 namespace App\Models;
 
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
+use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 Use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 
+use App\Observers\CopiaObserver;
+
+#[ObservedBy([CopiaObserver::class])]
 class Copia extends Model
 {
     use CrudTrait;
@@ -18,12 +22,27 @@ class Copia extends Model
 
     protected $appends = ['nombreDocumento'];
 
+    protected $attributes = ['isPrestado' => false];
+
     protected $fillable = [
+        'isPrestado',
         'documento_id',
+        'codigo',
         'tipo_id',
         'editorial',
         'fechaDePublicacion',
     ];
+
+    public function prestar(): void
+    {
+        $this->isPrestado = true;
+        $this->save();
+    }
+    public function devolver(): void
+    {
+        $this->isPrestado = false;
+        $this->save();
+    }
 
     public function documento(): BelongsTo
     {
@@ -51,4 +70,5 @@ class Copia extends Model
             get: fn () => $this->documento->nombre,
         );
     }
+
 }
