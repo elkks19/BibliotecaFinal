@@ -1,1 +1,0 @@
-components.application-logo<?php /**PATH /home/elkks19/Documentos/Unifranz/Semestre 5/PROYECTO_FINAL/PROYECTO/storage/framework/views/9264ae2a841d2031816d272a3d82dc95.blade.php ENDPATH**/ ?>

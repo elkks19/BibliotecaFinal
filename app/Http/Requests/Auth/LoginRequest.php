@@ -41,9 +41,8 @@ class LoginRequest extends FormRequest
     {
         $this->ensureIsNotRateLimited();
 
-        if (! backpack_auth()->attempt($this->only('email', 'password'), $this->boolean('remember'))) {
+        if (!backpack_auth()->attempt($this->only('email', 'password'), $this->boolean('remember'))) {
             RateLimiter::hit($this->throttleKey());
-
 
             throw ValidationException::withMessages([
                 'email' => trans('auth.failed'),

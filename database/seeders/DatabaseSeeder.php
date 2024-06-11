@@ -22,8 +22,16 @@ class DatabaseSeeder extends Seeder
             AutorSeeder::class,
             DocumentoSeeder::class,
             CopiaSeeder::class,
+            /**
+             *  PARA SEEDEAR USANDO LAS FACTORIES
+             */
+            // ReservaYPrestamoSeeder::class,
+            /**
+             *  PARA SEEDEAR USANDO LOS ARCHIVOS JSON
+             */
             ReservaSeeder::class,
             PrestamoSeeder::class,
+
         ]);
 
     }

@@ -17,7 +17,11 @@ class Prestamo extends Model
 
     protected $table = 'prestamos';
 
-    protected $appends = ['nombreDocumento', 'codigoCopia'];
+    protected $appends = [
+        'nombreDocumento',
+        'codigoCopia',
+        'diasRetraso',
+    ];
 
     protected $fillable = [
         'reserva_id',
@@ -59,4 +63,10 @@ class Prestamo extends Model
         );
     }
 
+    protected function diasRetraso(): Attribute
+    {
+        return new Attribute(
+            get: fn () => round($this->fechaLimite->diffInDays(now())),
+        );
+    }
 }

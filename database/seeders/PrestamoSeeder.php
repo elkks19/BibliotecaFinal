@@ -19,7 +19,7 @@ class PrestamoSeeder extends Seeder
         $prestamos = json_decode($json, true);
 
         foreach ($prestamos as $prestamo) {
-            Prestamo::create($prestamo);
+            $a = Prestamo::create($prestamo);
         }
     }
 }
