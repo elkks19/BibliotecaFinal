@@ -1,6 +1,4 @@
-@extends(backpack_view('blank'))
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <style>
         /* Estilos para asegurar que html y body ocupen toda la pantalla */
         html, body {
@@ -70,13 +68,13 @@
             <button onclick="window.history.back();" class="back-btn">Retroceder</button>
 
             <!-- Formulario -->
-            <form action="{{ route('reportes.seguimientoLibro.preview') }}" method="get">
+            <form action="<?php echo e(route('reportes.seguimientoLibro.preview')); ?>" method="get">
                 <!-- Select -->
                 <select name="busqueda">
                     <!-- Opciones -->
-                    @foreach($documentos as $documento)
-                        <option value="{{ $documento->id }}">{{ $documento->nombre }}</option>
-                    @endforeach
+                    <?php $__currentLoopData = $documentos; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $documento): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <option value="<?php echo e($documento->id); ?>"><?php echo e($documento->nombre); ?></option>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </select>
 
                 <!-- Botón de reporte -->
@@ -84,4 +82,6 @@
             </form>
         </div>
     </div>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make(backpack_view('blank'), \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/elkks19/Documentos/Unifranz/Semestre 5/PROYECTO_FINAL/PROYECTO/resources/views/reportes/seleccionarLibro.blade.php ENDPATH**/ ?>
