@@ -72,7 +72,7 @@ class CopiaCrudController extends CrudController
             'name' => 'nombreArchivo',
             'withFiles' => [
                 'disk' => 'local',
-                'path' => 'documentos'
+                'path' => 'libros'
             ]
         ]);
 

@@ -20,7 +20,7 @@ class Copia extends Model
 
     protected $table = 'copias';
 
-    protected $appends = ['nombreDocumento'];
+    protected $appends = ['nombreDocumento', 'tipoCopia'];
 
     protected $attributes = ['isPrestado' => false];
 
@@ -31,6 +31,7 @@ class Copia extends Model
         'tipo_id',
         'editorial',
         'fechaDePublicacion',
+        'nombreArchivo',
     ];
 
     public function prestar(): void
@@ -68,6 +69,13 @@ class Copia extends Model
     {
         return new Attribute(
             get: fn () => $this->documento->nombre,
+        );
+    }
+
+    protected function tipoCopia(): Attribute
+    {
+        return new Attribute(
+            get: fn () => $this->tipo->nombre,
         );
     }
 

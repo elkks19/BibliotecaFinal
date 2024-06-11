@@ -116,18 +116,16 @@ class EstudianteController extends Controller
         return view('estudiante.tusprestamos', compact('prestamos'));
     }
 
-    public function descargarArchivo($id)
+    public function descargarArchivo(Documento $documento)
     {
-        $copia = Copia::findOrFail($id);
+        $copia = $documento->copias->where('tipoCopia', 'digital')->first();
 
         // Verificar si 'nombreArchivo' está presente y si el archivo existe
-        if (!$copia->nombreArchivo || !Storage::exists('documentos/' . $copia->nombreArchivo)) {
+        if (!$copia->nombreArchivo || !Storage::disk('local')->exists($copia->nombreArchivo)) {
             return redirect()->back()->with('warning', 'No existe PDF subido por el momento.');
         }
 
-        $pathToFile = storage_path('app/documentos/' . $copia->nombreArchivo);
-
-        return response()->download($pathToFile);
+        return response()->download(Storage::disk('local')->path($copia->nombreArchivo));
     }
 
 }

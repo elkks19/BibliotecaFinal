@@ -65,5 +65,4 @@ class Documento extends Model
     {
         return $this->hasManyThrough(Prestamo::class, Copia::class);
     }
-
 }

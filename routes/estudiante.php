@@ -9,6 +9,6 @@ Route::get('estudiante/libros', [EstudianteController::class, 'mostrarLibros'])-
 Route::get('estudiante/libros/filtrar', [EstudianteController::class, 'mostrarLibros'])->name('estudiante.libros.filtrar');
 Route::get('estudiante/libros/{id}', [EstudianteController::class, 'mostrarDetalle'])->name('estudiante.detalle');
 Route::post('/estudiante/solicitar-prestamo', [EstudianteController::class, 'solicitarPrestamo'])->name('estudiante.solicitarPrestamo');
-Route::get('/estudiante/descargar/{id}', [EstudianteController::class, 'descargarArchivo'])->name('estudiante.descargarArchivo');
+Route::get('/estudiante/descargar/{documento}', [EstudianteController::class, 'descargarArchivo'])->name('estudiante.descargarArchivo');
 Route::get('/tusprestamos', [EstudianteController::class, 'tusPrestamos'])->name('estudiante.tusprestamos');
 

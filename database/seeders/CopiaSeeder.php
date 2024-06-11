@@ -19,7 +19,11 @@ class CopiaSeeder extends Seeder
         $copias = json_decode($json, true);
 
         foreach ($copias as $copia) {
-            Copia::create($copia);
+            $nuevo = Copia::create($copia);
+            if ($nuevo->nombreArchivo) {
+                $nuevo->nombreArchivo = 'libros/'.$nuevo->nombreArchivo;
+                $nuevo->save();
+            }
         }
     }
 }
