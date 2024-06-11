@@ -8,4 +8,6 @@ Route::get('/cancelarReserva/{reserva}', [PrestamoController::class, 'cancelar']
 Route::get('/aprobarReserva/{reserva}', [PrestamoController::class, 'aprobar'])->name('reserva.aprobar');
 Route::get('/registrarDevolucion/{prestamo}', [PrestamoController::class, 'devolver'])->name('prestamo.devolver');
 
+Route::get('/getCodigo/{copia}', [PrestamoController::class, 'getCodigo'])->name('copia.getCodigo');
+
 

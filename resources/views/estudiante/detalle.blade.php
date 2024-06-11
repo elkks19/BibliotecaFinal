@@ -46,11 +46,7 @@
             background-color: #f2dede;
             border-color: #ebccd1;
         }
-        #barcode {
-            margin-top: 20px;
-        }
     </style>
-    <script src="{{ asset('js/JsBarcode.all.min.js') }}"></script>
 </head>
 <body>
     @include('estudiante.navbar')
@@ -83,20 +79,6 @@
         </form>
 
         <a href="{{ route('estudiante.descargarArchivo', $documento->id) }}" class="descargar-btn">Descargar</a>
-
-        <!-- Código de barras debajo de todos los botones -->
-        <canvas id="barcode"></canvas>
     </div>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var bookName = "{{ $copia->codigo }}";
-            JsBarcode("#barcode", bookName, {
-                format: "CODE128",
-                displayValue: true,
-                fontSize: 18
-            });
-        });
-    </script>
 </body>
 </html>

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Carbon\Carbon;
 use App\Models\Reserva;
 use App\Models\Prestamo;
+use App\Models\Copia;
 
 class PrestamoController extends Controller
 {
@@ -38,5 +39,10 @@ class PrestamoController extends Controller
         $prestamo->save();
         $prestamo->reserva->copia->devolver();
         return redirect()->back();
+    }
+
+    public function getCodigo(Copia $copia)
+    {
+        return $copia->codigo;
     }
 }

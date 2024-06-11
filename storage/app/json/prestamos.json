@@ -1,204 +1,674 @@
 [
     {
-        "fechaPrestamo": "2020-01-07",
-        "fechaDevolucion": "2020-01-09",
-        "fechaLimite": "2020-01-10",
-        "reserva_id": 9,
-        "encargado_id": 4
+        "fechaPrestamo": "2024-06-13",
+        "fechaDevolucion": "2024-06-14",
+        "fechaLimite": "2024-06-18",
+        "reserva_id": 1,
+        "encargado_id": 2
     },
     {
-        "fechaPrestamo": "2015-05-25",
-        "fechaDevolucion": "2015-05-27",
-        "fechaLimite": "2015-05-28",
-        "reserva_id": 11,
+        "fechaPrestamo": "2024-04-16",
+        "fechaDevolucion": "2024-04-23",
+        "fechaLimite": "2024-04-21",
+        "reserva_id": 2,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-11",
+        "fechaDevolucion": "2024-04-18",
+        "fechaLimite": "2024-04-16",
+        "reserva_id": 3,
         "encargado_id": 1
     },
     {
-        "fechaPrestamo": "2018-02-18",
-        "fechaDevolucion": "2018-02-20",
-        "fechaLimite": "2018-02-21",
-        "reserva_id": 29,
-        "encargado_id": 4
-    },
-    {
-        "fechaPrestamo": "2016-05-21",
-        "fechaDevolucion": "2016-05-23",
-        "fechaLimite": "2016-05-24",
-        "reserva_id": 17,
+        "fechaPrestamo": "2024-05-10",
+        "fechaDevolucion": "2024-05-18",
+        "fechaLimite": "2024-05-15",
+        "reserva_id": 4,
         "encargado_id": 2
     },
     {
-        "fechaPrestamo": "2016-08-03",
-        "fechaDevolucion": "2016-08-05",
-        "fechaLimite": "2016-08-06",
-        "reserva_id": 12,
-        "encargado_id": 2
+        "fechaPrestamo": "2024-05-06",
+        "fechaDevolucion": "2024-05-11",
+        "fechaLimite": "2024-05-11",
+        "reserva_id": 5,
+        "encargado_id": 1
     },
     {
-        "fechaPrestamo": "2019-02-15",
-        "fechaDevolucion": "2019-02-17",
-        "fechaLimite": "2019-02-18",
-        "reserva_id": 20,
-        "encargado_id": 5
-    },
-    {
-        "fechaPrestamo": "2019-03-16",
-        "fechaDevolucion": "2019-03-18",
-        "fechaLimite": "2019-03-19",
-        "reserva_id": 15,
-        "encargado_id": 2
-    },
-    {
-        "fechaPrestamo": "2017-10-18",
-        "fechaDevolucion": "2017-10-20",
-        "fechaLimite": "2017-10-21",
-        "reserva_id": 8,
-        "encargado_id": 3
-    },
-    {
-        "fechaPrestamo": "2024-03-16",
-        "fechaDevolucion": "2024-03-18",
-        "fechaLimite": "2024-03-19",
-        "reserva_id": 25,
-        "encargado_id": 5
-    },
-    {
-        "fechaPrestamo": "2013-04-23",
-        "fechaDevolucion": "2013-04-25",
-        "fechaLimite": "2013-04-26",
+        "fechaPrestamo": "2024-04-17",
+        "fechaDevolucion": "2024-04-19",
+        "fechaLimite": "2024-04-22",
         "reserva_id": 6,
         "encargado_id": 1
     },
     {
-        "fechaPrestamo": "2009-11-09",
-        "fechaDevolucion": "2009-11-11",
-        "fechaLimite": "2009-11-12",
-        "reserva_id": 4,
-        "encargado_id": 4
-    },
-    {
-        "fechaPrestamo": "2003-04-14",
-        "fechaDevolucion": "2003-04-16",
-        "fechaLimite": "2003-04-17",
-        "reserva_id": 1,
-        "encargado_id": 1
-    },
-    {
-        "fechaPrestamo": "2021-07-30",
-        "fechaDevolucion": "2021-08-01",
-        "fechaLimite": "2021-08-02",
-        "reserva_id": 22,
-        "encargado_id": 2
-    },
-    {
-        "fechaPrestamo": "2022-10-18",
-        "fechaDevolucion": "2022-10-20",
-        "fechaLimite": "2022-10-21",
-        "reserva_id": 23,
-        "encargado_id": 3
-    },
-    {
-        "fechaPrestamo": "2019-04-26",
-        "fechaDevolucion": "2019-04-28",
-        "fechaLimite": "2019-04-29",
-        "reserva_id": 15,
-        "encargado_id": 5
-    },
-    {
-        "fechaPrestamo": "2017-11-10",
-        "fechaDevolucion": "2017-11-12",
-        "fechaLimite": "2017-11-13",
-        "reserva_id": 28,
-        "encargado_id": 3
-    },
-    {
-        "fechaPrestamo": "2015-07-30",
-        "fechaDevolucion": "2015-08-01",
-        "fechaLimite": "2015-08-02",
+        "fechaPrestamo": "2024-06-11",
+        "fechaDevolucion": "2024-06-18",
+        "fechaLimite": "2024-06-16",
         "reserva_id": 7,
         "encargado_id": 2
     },
     {
-        "fechaPrestamo": "2015-04-13",
-        "fechaDevolucion": "2015-04-15",
-        "fechaLimite": "2015-04-16",
-        "reserva_id": 16,
+        "fechaPrestamo": "2024-06-07",
+        "fechaDevolucion": "2024-06-09",
+        "fechaLimite": "2024-06-12",
+        "reserva_id": 8,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-03-29",
+        "fechaDevolucion": "2024-04-06",
+        "fechaLimite": "2024-04-03",
+        "reserva_id": 9,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-31",
+        "fechaDevolucion": "2024-06-07",
+        "fechaLimite": "2024-06-05",
+        "reserva_id": 10,
         "encargado_id": 1
     },
     {
-        "fechaPrestamo": "2023-01-07",
-        "fechaDevolucion": "2023-01-09",
-        "fechaLimite": "2023-01-10",
-        "reserva_id": 24,
-        "encargado_id": 4
+        "fechaPrestamo": "2024-06-08",
+        "fechaDevolucion": "2024-06-15",
+        "fechaLimite": "2024-06-13",
+        "reserva_id": 11,
+        "encargado_id": 1
     },
     {
-        "fechaPrestamo": "2017-08-04",
-        "fechaDevolucion": "2017-08-06",
-        "fechaLimite": "2017-08-07",
-        "reserva_id": 18,
-        "encargado_id": 3
+        "fechaPrestamo": "2024-06-12",
+        "fechaDevolucion": "2024-06-14",
+        "fechaLimite": "2024-06-17",
+        "reserva_id": 12,
+        "encargado_id": 2
     },
     {
-        "fechaPrestamo": "2024-06-03",
-        "fechaLimite": "2024-06-06",
-        "reserva_id": 30,
-        "encargado_id": 5
+        "fechaPrestamo": "2024-03-13",
+        "fechaDevolucion": "2024-03-16",
+        "fechaLimite": "2024-03-18",
+        "reserva_id": 13,
+        "encargado_id": 2
     },
     {
-        "fechaPrestamo": "2024-06-03",
-        "fechaLimite": "2024-06-06",
+        "fechaPrestamo": "2024-05-13",
+        "fechaDevolucion": "2024-05-21",
+        "fechaLimite": "2024-05-18",
         "reserva_id": 14,
-        "encargado_id": 4
+        "encargado_id": 2
     },
     {
-        "fechaPrestamo": "2024-06-03",
-        "fechaLimite": "2024-06-06",
+        "fechaPrestamo": "2024-04-24",
+        "fechaDevolucion": "2024-04-30",
+        "fechaLimite": "2024-04-29",
+        "reserva_id": 15,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-18",
+        "fechaDevolucion": "2024-05-23",
+        "fechaLimite": "2024-05-23",
+        "reserva_id": 16,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-21",
+        "fechaDevolucion": "2024-05-27",
+        "fechaLimite": "2024-05-26",
+        "reserva_id": 17,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-03",
+        "fechaDevolucion": "2024-04-08",
+        "fechaLimite": "2024-04-08",
+        "reserva_id": 18,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-03-21",
+        "fechaDevolucion": "2024-03-29",
+        "fechaLimite": "2024-03-26",
         "reserva_id": 19,
-        "encargado_id": 4
+        "encargado_id": 2
     },
     {
-        "fechaPrestamo": "2020-04-23",
-        "fechaDevolucion": "2020-04-25",
-        "fechaLimite": "2020-04-24",
+        "fechaPrestamo": "2024-05-22",
+        "fechaDevolucion": "2024-05-28",
+        "fechaLimite": "2024-05-27",
+        "reserva_id": 20,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-03-25",
+        "fechaDevolucion": "2024-03-30",
+        "fechaLimite": "2024-03-30",
         "reserva_id": 21,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-25",
+        "fechaDevolucion": "2024-05-27",
+        "fechaLimite": "2024-05-30",
+        "reserva_id": 22,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-06-12",
+        "fechaDevolucion": "2024-06-20",
+        "fechaLimite": "2024-06-17",
+        "reserva_id": 23,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-18",
+        "fechaDevolucion": "2024-04-26",
+        "fechaLimite": "2024-04-23",
+        "reserva_id": 24,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-03-26",
+        "fechaDevolucion": "2024-03-30",
+        "fechaLimite": "2024-03-31",
+        "reserva_id": 25,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-07",
+        "fechaDevolucion": "2024-04-13",
+        "fechaLimite": "2024-04-12",
+        "reserva_id": 26,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-15",
+        "fechaDevolucion": "2024-05-22",
+        "fechaLimite": "2024-05-20",
+        "reserva_id": 27,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-05-26",
+        "fechaDevolucion": "2024-05-30",
+        "fechaLimite": "2024-05-31",
+        "reserva_id": 28,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-28",
+        "fechaDevolucion": "2024-06-01",
+        "fechaLimite": "2024-06-02",
+        "reserva_id": 29,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-04-05",
+        "fechaDevolucion": "2024-04-07",
+        "fechaLimite": "2024-04-10",
+        "reserva_id": 30,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-05-16",
+        "fechaDevolucion": "2024-05-17",
+        "fechaLimite": "2024-05-21",
+        "reserva_id": 31,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-21",
+        "fechaDevolucion": "2024-05-24",
+        "fechaLimite": "2024-05-26",
+        "reserva_id": 32,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-09",
+        "fechaDevolucion": "2024-05-13",
+        "fechaLimite": "2024-05-14",
+        "reserva_id": 33,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-06-14",
+        "fechaDevolucion": "2024-06-18",
+        "fechaLimite": "2024-06-19",
+        "reserva_id": 34,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-04-17",
+        "fechaDevolucion": "2024-04-21",
+        "fechaLimite": "2024-04-22",
+        "reserva_id": 35,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-04-25",
+        "fechaDevolucion": "2024-04-30",
+        "fechaLimite": "2024-04-30",
+        "reserva_id": 36,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-04-19",
+        "fechaDevolucion": "2024-04-25",
+        "fechaLimite": "2024-04-24",
+        "reserva_id": 37,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-25",
+        "fechaDevolucion": "2024-05-02",
+        "fechaLimite": "2024-04-30",
+        "reserva_id": 38,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-05-22",
+        "fechaDevolucion": "2024-05-28",
+        "fechaLimite": "2024-05-27",
+        "reserva_id": 39,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-06",
+        "fechaDevolucion": "2024-04-11",
+        "fechaLimite": "2024-04-11",
+        "reserva_id": 40,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-05-22",
+        "fechaDevolucion": "2024-05-28",
+        "fechaLimite": "2024-05-27",
+        "reserva_id": 41,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-05-28",
+        "fechaDevolucion": "2024-06-01",
+        "fechaLimite": "2024-06-02",
+        "reserva_id": 42,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-06-05",
+        "fechaDevolucion": "2024-06-11",
+        "fechaLimite": "2024-06-10",
+        "reserva_id": 43,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-03-21",
+        "fechaDevolucion": "2024-03-26",
+        "fechaLimite": "2024-03-26",
+        "reserva_id": 44,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-05-25",
+        "fechaDevolucion": "2024-05-26",
+        "fechaLimite": "2024-05-30",
+        "reserva_id": 45,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-12",
+        "fechaDevolucion": "2024-04-19",
+        "fechaLimite": "2024-04-17",
+        "reserva_id": 46,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-23",
+        "fechaDevolucion": "2024-05-26",
+        "fechaLimite": "2024-05-28",
+        "reserva_id": 47,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-05-01",
+        "fechaDevolucion": "2024-05-05",
+        "fechaLimite": "2024-05-06",
+        "reserva_id": 48,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-27",
+        "fechaDevolucion": "2024-05-05",
+        "fechaLimite": "2024-05-02",
+        "reserva_id": 49,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-07",
+        "fechaDevolucion": "2024-04-15",
+        "fechaLimite": "2024-04-12",
+        "reserva_id": 50,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-03-24",
+        "fechaDevolucion": "2024-03-26",
+        "fechaLimite": "2024-03-29",
+        "reserva_id": 51,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-03-20",
+        "fechaDevolucion": "2024-03-21",
+        "fechaLimite": "2024-03-25",
+        "reserva_id": 52,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-03-27",
+        "fechaDevolucion": "2024-04-01",
+        "fechaLimite": "2024-04-01",
+        "reserva_id": 53,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-23",
+        "fechaDevolucion": "2024-05-25",
+        "fechaLimite": "2024-05-28",
+        "reserva_id": 54,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-01",
+        "fechaDevolucion": "2024-04-09",
+        "fechaLimite": "2024-04-06",
+        "reserva_id": 55,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-03-30",
+        "fechaDevolucion": "2024-04-04",
+        "fechaLimite": "2024-04-04",
+        "reserva_id": 56,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-03-20",
+        "fechaDevolucion": "2024-03-23",
+        "fechaLimite": "2024-03-25",
+        "reserva_id": 57,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-30",
+        "fechaDevolucion": "2024-05-06",
+        "fechaLimite": "2024-05-05",
+        "reserva_id": 58,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-20",
+        "fechaDevolucion": "2024-04-21",
+        "fechaLimite": "2024-04-25",
+        "reserva_id": 59,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-04-08",
+        "fechaDevolucion": "2024-04-10",
+        "fechaLimite": "2024-04-13",
+        "reserva_id": 60,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-04-12",
+        "fechaDevolucion": "2024-04-19",
+        "fechaLimite": "2024-04-17",
+        "reserva_id": 61,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-02",
+        "fechaDevolucion": "2024-04-08",
+        "fechaLimite": "2024-04-07",
+        "reserva_id": 62,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-03-31",
+        "fechaDevolucion": "2024-04-08",
+        "fechaLimite": "2024-04-05",
+        "reserva_id": 63,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-23",
+        "fechaDevolucion": "2024-04-24",
+        "fechaLimite": "2024-04-28",
+        "reserva_id": 64,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-21",
+        "fechaDevolucion": "2024-04-29",
+        "fechaLimite": "2024-04-26",
+        "reserva_id": 65,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-18",
+        "fechaDevolucion": "2024-05-24",
+        "fechaLimite": "2024-05-23",
+        "reserva_id": 66,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-06-07",
+        "fechaDevolucion": "2024-06-08",
+        "fechaLimite": "2024-06-12",
+        "reserva_id": 67,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-05-14",
+        "fechaDevolucion": "2024-05-22",
+        "fechaLimite": "2024-05-19",
+        "reserva_id": 68,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-03-23",
+        "fechaDevolucion": "2024-03-31",
+        "fechaLimite": "2024-03-28",
+        "reserva_id": 69,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-11",
+        "fechaDevolucion": "2024-05-14",
+        "fechaLimite": "2024-05-16",
+        "reserva_id": 70,
         "encargado_id": 1
     },
     {
         "fechaPrestamo": "2024-03-16",
-        "fechaDevolucion": "2024-03-18",
-        "fechaLimite": "2024-03-17",
-        "reserva_id": 10,
-        "encargado_id": 5
-    },
-    {
-        "fechaPrestamo": "2020-01-07",
-        "fechaLimite": "2020-01-10",
-        "reserva_id": 9,
-        "encargado_id": 4
-    },
-    {
-        "fechaPrestamo": "2019-03-16",
-        "fechaLimite": "2019-03-19",
-        "reserva_id": 25,
+        "fechaDevolucion": "2024-03-20",
+        "fechaLimite": "2024-03-21",
+        "reserva_id": 71,
         "encargado_id": 1
     },
     {
-        "fechaPrestamo": "2015-05-25",
-        "fechaLimite": "2015-05-28",
-        "reserva_id": 26,
+        "fechaPrestamo": "2024-04-03",
+        "fechaDevolucion": "2024-04-08",
+        "fechaLimite": "2024-04-08",
+        "reserva_id": 72,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-16",
+        "fechaDevolucion": "2024-04-23",
+        "fechaLimite": "2024-04-21",
+        "reserva_id": 73,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-03-31",
+        "fechaDevolucion": "2024-04-07",
+        "fechaLimite": "2024-04-05",
+        "reserva_id": 74,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-15",
+        "fechaDevolucion": "2024-04-18",
+        "fechaLimite": "2024-04-20",
+        "reserva_id": 75,
         "encargado_id": 1
     },
     {
-        "fechaPrestamo": "2017-11-10",
-        "fechaLimite": "2017-11-13",
-        "reserva_id": 28,
-        "encargado_id": 3
+        "fechaPrestamo": "2024-05-08",
+        "fechaDevolucion": "2024-05-11",
+        "fechaLimite": "2024-05-13",
+        "reserva_id": 76,
+        "encargado_id": 2
     },
     {
-        "fechaPrestamo": "2020-04-23",
-        "fechaLimite": "2020-04-26",
-        "reserva_id": 21,
+        "fechaPrestamo": "2024-04-07",
+        "fechaDevolucion": "2024-04-12",
+        "fechaLimite": "2024-04-12",
+        "reserva_id": 77,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-06-04",
+        "fechaDevolucion": "2024-06-10",
+        "fechaLimite": "2024-06-09",
+        "reserva_id": 78,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-06-08",
+        "fechaDevolucion": "2024-06-15",
+        "fechaLimite": "2024-06-13",
+        "reserva_id": 79,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-03-31",
+        "fechaDevolucion": "2024-04-03",
+        "fechaLimite": "2024-04-05",
+        "reserva_id": 80,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-05-03",
+        "fechaDevolucion": "2024-05-11",
+        "fechaLimite": "2024-05-08",
+        "reserva_id": 81,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-05-06",
+        "fechaDevolucion": "2024-05-07",
+        "fechaLimite": "2024-05-11",
+        "reserva_id": 82,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-04",
+        "fechaDevolucion": "2024-04-10",
+        "fechaLimite": "2024-04-09",
+        "reserva_id": 83,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-04-19",
+        "fechaDevolucion": "2024-04-23",
+        "fechaLimite": "2024-04-24",
+        "reserva_id": 84,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-06-05",
+        "fechaDevolucion": "2024-06-08",
+        "fechaLimite": "2024-06-10",
+        "reserva_id": 85,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-09",
+        "fechaDevolucion": "2024-05-16",
+        "fechaLimite": "2024-05-14",
+        "reserva_id": 86,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-06-11",
+        "fechaDevolucion": "2024-06-14",
+        "fechaLimite": "2024-06-16",
+        "reserva_id": 87,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-10",
+        "fechaDevolucion": "2024-04-13",
+        "fechaLimite": "2024-04-15",
+        "reserva_id": 88,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-07",
+        "fechaDevolucion": "2024-04-15",
+        "fechaLimite": "2024-04-12",
+        "reserva_id": 89,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-04-09",
+        "fechaDevolucion": "2024-04-15",
+        "fechaLimite": "2024-04-14",
+        "reserva_id": 90,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-22",
+        "fechaDevolucion": "2024-04-30",
+        "fechaLimite": "2024-04-27",
+        "reserva_id": 91,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-05-10",
+        "fechaDevolucion": "2024-05-16",
+        "fechaLimite": "2024-05-15",
+        "reserva_id": 92,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-06-16",
+        "fechaDevolucion": "2024-06-22",
+        "fechaLimite": "2024-06-21",
+        "reserva_id": 93,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-05-27",
+        "fechaDevolucion": "2024-05-28",
+        "fechaLimite": "2024-06-01",
+        "reserva_id": 94,
+        "encargado_id": 2
+    },
+    {
+        "fechaPrestamo": "2024-04-02",
+        "fechaDevolucion": "2024-04-08",
+        "fechaLimite": "2024-04-07",
+        "reserva_id": 95,
+        "encargado_id": 1
+    },
+    {
+        "fechaPrestamo": "2024-06-10",
+        "fechaDevolucion": "2024-06-12",
+        "fechaLimite": "2024-06-15",
+        "reserva_id": 96,
         "encargado_id": 1
     }
 ]

@@ -28,4 +28,5 @@ Route::group([
     Route::crud('cancelarPrestamo', 'CancelarPrestamosCrudController');
     Route::crud('aprobarPrestamos', 'AprobarPrestamosCrudController');
     Route::crud('registrarDevolucion', 'RegistrarDevolucionCrudController');
+    Route::crud('prestamosRetrasados', 'PrestamosRetrasadosCrudController');
 }); // this should be the absolute last line of this file

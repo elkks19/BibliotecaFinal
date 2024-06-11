@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Requests\CopiaRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
+use Backpack\CRUD\app\Library\Widget;
 
 /**
  * Class CopiaCrudController
@@ -39,6 +40,16 @@ class CopiaCrudController extends CrudController
      */
     protected function setupListOperation()
     {
+        Widget::add([
+            'type' => 'script',
+            'content' => 'js/JsBarcode.all.min.js'
+        ]);
+
+        Widget::add([
+            'type' => 'script',
+            'content' => 'js/codigoBarras.js'
+        ]);
+
         CRUD::column('codigo')->label('Codigo')->type('text');
 
         CRUD::column('editorial')->label('Editorial')->type('text');
@@ -46,6 +57,8 @@ class CopiaCrudController extends CrudController
 
         CRUD::column('tipo')->type('select')->attribute('nombre');
         CRUD::column('documento')->type('select')->attribute('nombre');
+
+        CRUD::button('barCode')->stack('line')->view('crud::buttons.showCopia')->makeFirst();
     }
 
     protected function setupCreateOperation()
@@ -79,6 +92,7 @@ class CopiaCrudController extends CrudController
             'attribute' => 'nombre',
         ]);
     }
+
 
     /**
      * Define what happens when the Update operation is loaded.

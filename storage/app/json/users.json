@@ -1,13 +1,5 @@
 [
     {
-        "name": "John Doe",
-        "email": "prueba@prueba.com",
-        "password": "asdf1234",
-        "roles": [
-            "estudiante"
-        ]
-    },
-    {
         "name": "Rafael Fabiani",
         "email": "rafafabiani1909@gmail.com",
         "password": "asdf1234",
@@ -16,2028 +8,2027 @@
         ]
     },
     {
-        "name": "Ale papaya",
-        "email": "ale@papaya.com",
+        "name": "Alejandra Apaza",
+        "email": "ale@gmail.com",
         "password": "asdf1234",
         "roles": [
             "encargado"
         ]
     },
     {
-        "name": "Rafa Mamado",
-        "email": "rafa.mamado@gmail.com",
+        "name": "Rafael Osinaga",
+        "email": "rafa@gmail.com",
         "password": "asdf1234",
         "roles": [
             "estudiante"
         ]
     },
     {
-        "name": "Jesus diarreas",
-        "email": "eldiarregas@gmail.com",
+        "name": "Jesus Iriarte",
+        "email": "jes@gmail.com",
         "password": "asdf1234",
         "roles": [
             "estudiante"
         ]
     },
     {
-    "name": "Miguel García",
-    "email": "miguel.garcía@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Antonio Pérez",
-    "email": "antonio.pérez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Sara Romero",
-    "email": "sara.romero@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Irene Sánchez",
-    "email": "irene.sánchez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Manuel Romero",
-    "email": "manuel.romero@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Luis Martínez",
-    "email": "luis.martínez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "David Rodríguez",
-    "email": "david.rodríguez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Francisco Gil",
-    "email": "francisco.gil@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Marta Blanco",
-    "email": "marta.blanco@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Fernando Ruiz",
-    "email": "fernando.ruiz@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Antonio Ramírez",
-    "email": "antonio.ramírez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Laura Molina",
-    "email": "laura.molina@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Raúl Muñoz",
-    "email": "raúl.muñoz@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Lucía Jiménez",
-    "email": "lucía.jiménez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Carlos Ruiz",
-    "email": "carlos.ruiz@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Carmen García",
-    "email": "carmen.garcía@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Patricia Ramírez",
-    "email": "patricia.ramírez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Luis Moreno",
-    "email": "luis.moreno@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Carlos Pérez",
-    "email": "carlos.pérez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "David Navarro",
-    "email": "david.navarro@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Antonio González",
-    "email": "antonio.gonzález@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Ana Muñoz",
-    "email": "ana.muñoz@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Carlos Ramos",
-    "email": "carlos.ramos@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Sofía Vázquez",
-    "email": "sofía.vázquez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Patricia Jiménez",
-    "email": "patricia.jiménez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Francisco Álvarez",
-    "email": "francisco.álvarez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "María Jiménez",
-    "email": "maría.jiménez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Manuel Vázquez",
-    "email": "manuel.vázquez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Juan Domínguez",
-    "email": "juan.domínguez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "José Moreno",
-    "email": "josé.moreno@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Sofía Alonso",
-    "email": "sofía.alonso@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Sara Pérez",
-    "email": "sara.pérez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Marta Díaz",
-    "email": "marta.díaz@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Laura Morales",
-    "email": "laura.morales@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Laura Serrano",
-    "email": "laura.serrano@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "María González",
-    "email": "maría.gonzález@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Irene Díaz",
-    "email": "irene.díaz@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "David Blanco",
-    "email": "david.blanco@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "José Muñoz",
-    "email": "josé.muñoz@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "José Ramírez",
-    "email": "josé.ramírez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Teresa Gil",
-    "email": "teresa.gil@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Juan Díaz",
-    "email": "juan.díaz@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Carlos Vázquez",
-    "email": "carlos.vázquez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Luis Martínez",
-    "email": "luis.martínez1@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Miguel Molina",
-    "email": "miguel.molina@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Ana Romero",
-    "email": "ana.romero@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Ana Jiménez",
-    "email": "ana.jiménez@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "José Martín",
-    "email": "josé.martín@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "encargado"
-    ]
-},
-{
-    "name": "Laura Hernández",
-    "email": "laura.hernández@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Lucía García",
-    "email": "lucía.garcía@example.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Luis Fernández",
-    "email": "luis.fernández1@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Carlos García",
-    "email": "carlos.garcía2@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "María Rodríguez",
-    "email": "maría.rodríguez3@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Ana López",
-    "email": "ana.lópez4@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "José Martínez",
-    "email": "josé.martínez5@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Juan Sánchez",
-    "email": "juan.sánchez6@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Laura Pérez",
-    "email": "laura.pérez7@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Marta Gómez",
-    "email": "marta.gómez8@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Antonio Díaz",
-    "email": "antonio.díaz9@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Carmen Jiménez",
-    "email": "carmen.jiménez10@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Javier Torres",
-    "email": "javier.torres11@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "David Ruiz",
-    "email": "david.ruiz12@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Manuel Hernández",
-    "email": "manuel.hernández13@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Sara Muñoz",
-    "email": "sara.muñoz14@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Raúl Álvarez",
-    "email": "raúl.álvarez15@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Elena Moreno",
-    "email": "elena.moreno16@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Alberto Romero",
-    "email": "alberto.romero17@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Cristina Alonso",
-    "email": "cristina.alonso18@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Rosa Gutiérrez",
-    "email": "rosa.gutiérrez19@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Pablo Navarro",
-    "email": "pablo.navarro20@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Sergio Gil",
-    "email": "sergio.gil21@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Fernando Ramos",
-    "email": "fernando.ramos22@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Patricia Serrano",
-    "email": "patricia.serrano23@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Sonia Blanco",
-    "email": "sonia.blanco24@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Andrés Molina",
-    "email": "andrés.molina25@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Isabel Suárez",
-    "email": "isabel.suárez26@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Enrique Ortega",
-    "email": "enrique.ortega27@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Lucía Delgado",
-    "email": "lucía.delgado28@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Ricardo Castro",
-    "email": "ricardo.castro29@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Beatriz Ortiz",
-    "email": "beatriz.ortiz30@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Francisco Rubio",
-    "email": "francisco.rubio31@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Marta Marín",
-    "email": "marta.marín32@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Eduardo Sanz",
-    "email": "eduardo.sanz33@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Rocío Iglesias",
-    "email": "rocío.iglesias34@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Miguel Nuñez",
-    "email": "miguel.nuñez35@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Alicia Medina",
-    "email": "alicia.medina36@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Óscar Garrido",
-    "email": "óscar.garrido37@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Irene Cortés",
-    "email": "irene.cortés38@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Vicente Castillo",
-    "email": "vicente.castillo39@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Clara Santos",
-    "email": "clara.santos40@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Pedro Lozano",
-    "email": "pedro.lozano41@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Mónica Guerrero",
-    "email": "mónica.guerrero42@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Jorge Cano",
-    "email": "jorge.cano43@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Silvia Prieto",
-    "email": "silvia.prieto44@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Emilio Méndez",
-    "email": "emilio.méndez45@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Paula Calvo",
-    "email": "paula.calvo46@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Julio Cruz",
-    "email": "julio.cruz47@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Adriana Gallego",
-    "email": "adriana.gallego48@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Santiago Herrera",
-    "email": "santiago.herrera49@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Nuria Peña",
-    "email": "nuria.peña50@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Jaime Flores",
-    "email": "jaime.flores51@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Raquel Cabrera",
-    "email": "raquel.cabrera52@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Esteban Campos",
-    "email": "esteban.campos53@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Verónica Vega",
-    "email": "verónica.vega54@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Ángel Fuentes",
-    "email": "ángel.fuentes55@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Eva Carrasco",
-    "email": "eva.carrasco56@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Héctor Diez",
-    "email": "héctor.diez57@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Teresa Caballero",
-    "email": "teresa.caballero58@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Tomás Reyes",
-    "email": "tomás.reyes59@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Gloria Nieto",
-    "email": "gloria.nieto60@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Alfonso Aguilar",
-    "email": "alfonso.aguilar61@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Marina Pascual",
-    "email": "marina.pascual62@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Martín Herrero",
-    "email": "martín.herrero63@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Inés Santana",
-    "email": "inés.santana64@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Guillermo Lorenzo",
-    "email": "guillermo.lorenzo65@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Julia Hidalgo",
-    "email": "julia.hidalgo66@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Felipe Montero",
-    "email": "felipe.montero67@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Lorena Giménez",
-    "email": "lorena.giménez68@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Roberto Ibáñez",
-    "email": "roberto.ibáñez69@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Ruth Ferrer",
-    "email": "ruth.ferrer70@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Samuel Duran",
-    "email": "samuel.duran71@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Sandra Santiago",
-    "email": "sandra.santiago72@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Arturo Benítez",
-    "email": "arturo.benítez73@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Natalia Mora",
-    "email": "natalia.mora74@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Daniel Vicente",
-    "email": "daniel.vicente75@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Celia Vidal",
-    "email": "celia.vidal76@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Adrián León",
-    "email": "adrián.león77@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Yolanda Márquez",
-    "email": "yolanda.márquez78@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Rafael Peña",
-    "email": "rafael.peña79@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Noelia Rivas",
-    "email": "noelia.rivas80@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Álvaro Soto",
-    "email": "álvaro.soto81@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Paloma Román",
-    "email": "paloma.román82@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Gonzalo Bravo",
-    "email": "gonzalo.bravo83@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Elisa Vidal",
-    "email": "elisa.vidal84@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Ramón Merino",
-    "email": "ramón.merino85@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Carolina Franco",
-    "email": "carolina.franco86@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Rodrigo Pardo",
-    "email": "rodrigo.pardo87@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Aurora Redondo",
-    "email": "aurora.redondo88@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Hugo Lara",
-    "email": "hugo.lara89@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Rebeca Gallardo",
-    "email": "rebeca.gallardo90@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Bruno Roldán",
-    "email": "bruno.roldán91@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Sofía Mateo",
-    "email": "sofía.mateo92@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Víctor Burgos",
-    "email": "víctor.burgos93@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Rosa Sáez",
-    "email": "rosa.sáez94@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Félix Ríos",
-    "email": "félix.ríos95@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Blanca Vargas",
-    "email": "blanca.vargas96@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Iván Esteban",
-    "email": "iván.esteban97@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Lourdes Velasco",
-    "email": "lourdes.velasco98@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Diego Guzmán",
-    "email": "diego.guzmán99@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Lidia Martín",
-    "email": "lidia.martín100@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Rubén Fernández",
-    "email": "rubén.fernández101@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Patricia García",
-    "email": "patricia.garcía102@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Eugenio Rodríguez",
-    "email": "eugenio.rodríguez103@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Gabriela López",
-    "email": "gabriela.lópez104@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Ignacio Martínez",
-    "email": "ignacio.martínez105@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Milagros Sánchez",
-    "email": "milagros.sánchez106@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Esther Pérez",
-    "email": "esther.pérez107@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Águeda Gómez",
-    "email": "águeda.gómez108@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Alfredo Díaz",
-    "email": "alfredo.díaz109@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Claudia Jiménez",
-    "email": "claudia.jiménez110@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Luis Torres",
-    "email": "luis.torres111@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Carlos Ruiz",
-    "email": "carlos.ruiz112@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "María Hernández",
-    "email": "maría.hernández113@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Ana Muñoz",
-    "email": "ana.muñoz114@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "José Álvarez",
-    "email": "josé.álvarez115@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Juan Moreno",
-    "email": "juan.moreno116@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Laura Romero",
-    "email": "laura.romero117@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Marta Alonso",
-    "email": "marta.alonso118@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Antonio Gutiérrez",
-    "email": "antonio.gutiérrez119@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Carmen Navarro",
-    "email": "carmen.navarro120@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Javier Gil",
-    "email": "javier.gil121@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "David Ramos",
-    "email": "david.ramos122@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Manuel Serrano",
-    "email": "manuel.serrano123@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Sara Blanco",
-    "email": "sara.blanco124@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Raúl Molina",
-    "email": "raúl.molina125@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Elena Suárez",
-    "email": "elena.suárez126@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Alberto Ortega",
-    "email": "alberto.ortega127@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Cristina Delgado",
-    "email": "cristina.delgado128@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Rosa Castro",
-    "email": "rosa.castro129@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Pablo Ortiz",
-    "email": "pablo.ortiz130@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Sergio Rubio",
-    "email": "sergio.rubio131@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Fernando Marín",
-    "email": "fernando.marín132@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Patricia Sanz",
-    "email": "patricia.sanz133@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Sonia Iglesias",
-    "email": "sonia.iglesias134@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Andrés Nuñez",
-    "email": "andrés.nuñez135@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Isabel Medina",
-    "email": "isabel.medina136@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Enrique Garrido",
-    "email": "enrique.garrido137@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Lucía Cortés",
-    "email": "lucía.cortés138@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Ricardo Castillo",
-    "email": "ricardo.castillo139@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Beatriz Santos",
-    "email": "beatriz.santos140@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Francisco Lozano",
-    "email": "francisco.lozano141@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Marta Guerrero",
-    "email": "marta.guerrero142@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Eduardo Cano",
-    "email": "eduardo.cano143@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Rocío Prieto",
-    "email": "rocío.prieto144@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Miguel Méndez",
-    "email": "miguel.méndez145@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Alicia Calvo",
-    "email": "alicia.calvo146@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Óscar Cruz",
-    "email": "óscar.cruz147@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Irene Gallego",
-    "email": "irene.gallego148@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Vicente Herrera",
-    "email": "vicente.herrera149@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Clara Peña",
-    "email": "clara.peña150@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Pedro Flores",
-    "email": "pedro.flores151@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Mónica Cabrera",
-    "email": "mónica.cabrera152@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Jorge Campos",
-    "email": "jorge.campos153@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Silvia Vega",
-    "email": "silvia.vega154@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Emilio Fuentes",
-    "email": "emilio.fuentes155@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Paula Carrasco",
-    "email": "paula.carrasco156@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Julio Diez",
-    "email": "julio.diez157@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Adriana Caballero",
-    "email": "adriana.caballero158@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Santiago Reyes",
-    "email": "santiago.reyes159@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Nuria Nieto",
-    "email": "nuria.nieto160@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Jaime Aguilar",
-    "email": "jaime.aguilar161@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Raquel Pascual",
-    "email": "raquel.pascual162@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Esteban Herrero",
-    "email": "esteban.herrero163@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Verónica Santana",
-    "email": "verónica.santana164@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Ángel Lorenzo",
-    "email": "ángel.lorenzo165@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Eva Hidalgo",
-    "email": "eva.hidalgo166@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Héctor Montero",
-    "email": "héctor.montero167@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Teresa Giménez",
-    "email": "teresa.giménez168@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Tomás Ibáñez",
-    "email": "tomás.ibáñez169@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Gloria Ferrer",
-    "email": "gloria.ferrer170@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Alfonso Duran",
-    "email": "alfonso.duran171@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Marina Santiago",
-    "email": "marina.santiago172@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Martín Benítez",
-    "email": "martín.benítez173@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Inés Mora",
-    "email": "inés.mora174@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Guillermo Vicente",
-    "email": "guillermo.vicente175@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Julia Vidal",
-    "email": "julia.vidal176@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Felipe León",
-    "email": "felipe.león177@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Lorena Márquez",
-    "email": "lorena.márquez178@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Roberto Peña",
-    "email": "roberto.peña179@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Ruth Rivas",
-    "email": "ruth.rivas180@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Samuel Soto",
-    "email": "samuel.soto181@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Sandra Román",
-    "email": "sandra.román182@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Arturo Bravo",
-    "email": "arturo.bravo183@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Natalia Vidal",
-    "email": "natalia.vidal184@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Daniel Merino",
-    "email": "daniel.merino185@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Celia Franco",
-    "email": "celia.franco186@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Adrián Pardo",
-    "email": "adrián.pardo187@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Yolanda Redondo",
-    "email": "yolanda.redondo188@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Rafael Lara",
-    "email": "rafael.lara189@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Noelia Gallardo",
-    "email": "noelia.gallardo190@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Álvaro Roldán",
-    "email": "álvaro.roldán191@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Paloma Mateo",
-    "email": "paloma.mateo192@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Gonzalo Burgos",
-    "email": "gonzalo.burgos193@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Elisa Sáez",
-    "email": "elisa.sáez194@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Ramón Ríos",
-    "email": "ramón.ríos195@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Carolina Vargas",
-    "email": "carolina.vargas196@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Rodrigo Esteban",
-    "email": "rodrigo.esteban197@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Aurora Velasco",
-    "email": "aurora.velasco198@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Hugo Guzmán",
-    "email": "hugo.guzmán199@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-},
-{
-    "name": "Rebeca Martín",
-    "email": "rebeca.martín200@gmail.com",
-    "password": "asdf1234",
-    "roles": [
-        "estudiante"
-    ]
-}
-
+        "name": "Miguel García",
+        "email": "miguel.garcía@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Antonio Pérez",
+        "email": "antonio.pérez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Sara Romero",
+        "email": "sara.romero@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Irene Sánchez",
+        "email": "irene.sánchez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Manuel Romero",
+        "email": "manuel.romero@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Luis Martínez",
+        "email": "luis.martínez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "David Rodríguez",
+        "email": "david.rodríguez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Francisco Gil",
+        "email": "francisco.gil@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Marta Blanco",
+        "email": "marta.blanco@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Fernando Ruiz",
+        "email": "fernando.ruiz@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Antonio Ramírez",
+        "email": "antonio.ramírez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Laura Molina",
+        "email": "laura.molina@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Raúl Muñoz",
+        "email": "raúl.muñoz@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Lucía Jiménez",
+        "email": "lucía.jiménez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Carlos Ruiz",
+        "email": "carlos.ruiz@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Carmen García",
+        "email": "carmen.garcía@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Patricia Ramírez",
+        "email": "patricia.ramírez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Luis Moreno",
+        "email": "luis.moreno@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Carlos Pérez",
+        "email": "carlos.pérez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "David Navarro",
+        "email": "david.navarro@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Antonio González",
+        "email": "antonio.gonzález@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Ana Muñoz",
+        "email": "ana.muñoz@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Carlos Ramos",
+        "email": "carlos.ramos@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Sofía Vázquez",
+        "email": "sofía.vázquez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Patricia Jiménez",
+        "email": "patricia.jiménez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Francisco Álvarez",
+        "email": "francisco.álvarez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "María Jiménez",
+        "email": "maría.jiménez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Manuel Vázquez",
+        "email": "manuel.vázquez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Juan Domínguez",
+        "email": "juan.domínguez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "José Moreno",
+        "email": "josé.moreno@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Sofía Alonso",
+        "email": "sofía.alonso@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Sara Pérez",
+        "email": "sara.pérez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Marta Díaz",
+        "email": "marta.díaz@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Laura Morales",
+        "email": "laura.morales@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Laura Serrano",
+        "email": "laura.serrano@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "María González",
+        "email": "maría.gonzález@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Irene Díaz",
+        "email": "irene.díaz@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "David Blanco",
+        "email": "david.blanco@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "José Muñoz",
+        "email": "josé.muñoz@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "José Ramírez",
+        "email": "josé.ramírez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Teresa Gil",
+        "email": "teresa.gil@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Juan Díaz",
+        "email": "juan.díaz@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Carlos Vázquez",
+        "email": "carlos.vázquez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Luis Martínez",
+        "email": "luis.martínez1@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Miguel Molina",
+        "email": "miguel.molina@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Ana Romero",
+        "email": "ana.romero@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Ana Jiménez",
+        "email": "ana.jiménez@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "José Martín",
+        "email": "josé.martín@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "encargado"
+        ]
+    },
+    {
+        "name": "Laura Hernández",
+        "email": "laura.hernández@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Lucía García",
+        "email": "lucía.garcía@example.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Luis Fernández",
+        "email": "luis.fernández1@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Carlos García",
+        "email": "carlos.garcía2@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "María Rodríguez",
+        "email": "maría.rodríguez3@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Ana López",
+        "email": "ana.lópez4@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "José Martínez",
+        "email": "josé.martínez5@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Juan Sánchez",
+        "email": "juan.sánchez6@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Laura Pérez",
+        "email": "laura.pérez7@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Marta Gómez",
+        "email": "marta.gómez8@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Antonio Díaz",
+        "email": "antonio.díaz9@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Carmen Jiménez",
+        "email": "carmen.jiménez10@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Javier Torres",
+        "email": "javier.torres11@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "David Ruiz",
+        "email": "david.ruiz12@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Manuel Hernández",
+        "email": "manuel.hernández13@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Sara Muñoz",
+        "email": "sara.muñoz14@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Raúl Álvarez",
+        "email": "raúl.álvarez15@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Elena Moreno",
+        "email": "elena.moreno16@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Alberto Romero",
+        "email": "alberto.romero17@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Cristina Alonso",
+        "email": "cristina.alonso18@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Rosa Gutiérrez",
+        "email": "rosa.gutiérrez19@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Pablo Navarro",
+        "email": "pablo.navarro20@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Sergio Gil",
+        "email": "sergio.gil21@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Fernando Ramos",
+        "email": "fernando.ramos22@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Patricia Serrano",
+        "email": "patricia.serrano23@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Sonia Blanco",
+        "email": "sonia.blanco24@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Andrés Molina",
+        "email": "andrés.molina25@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Isabel Suárez",
+        "email": "isabel.suárez26@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Enrique Ortega",
+        "email": "enrique.ortega27@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Lucía Delgado",
+        "email": "lucía.delgado28@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Ricardo Castro",
+        "email": "ricardo.castro29@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Beatriz Ortiz",
+        "email": "beatriz.ortiz30@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Francisco Rubio",
+        "email": "francisco.rubio31@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Marta Marín",
+        "email": "marta.marín32@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Eduardo Sanz",
+        "email": "eduardo.sanz33@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Rocío Iglesias",
+        "email": "rocío.iglesias34@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Miguel Nuñez",
+        "email": "miguel.nuñez35@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Alicia Medina",
+        "email": "alicia.medina36@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Óscar Garrido",
+        "email": "óscar.garrido37@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Irene Cortés",
+        "email": "irene.cortés38@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Vicente Castillo",
+        "email": "vicente.castillo39@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Clara Santos",
+        "email": "clara.santos40@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Pedro Lozano",
+        "email": "pedro.lozano41@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Mónica Guerrero",
+        "email": "mónica.guerrero42@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Jorge Cano",
+        "email": "jorge.cano43@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Silvia Prieto",
+        "email": "silvia.prieto44@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Emilio Méndez",
+        "email": "emilio.méndez45@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Paula Calvo",
+        "email": "paula.calvo46@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Julio Cruz",
+        "email": "julio.cruz47@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Adriana Gallego",
+        "email": "adriana.gallego48@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Santiago Herrera",
+        "email": "santiago.herrera49@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Nuria Peña",
+        "email": "nuria.peña50@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Jaime Flores",
+        "email": "jaime.flores51@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Raquel Cabrera",
+        "email": "raquel.cabrera52@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Esteban Campos",
+        "email": "esteban.campos53@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Verónica Vega",
+        "email": "verónica.vega54@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Ángel Fuentes",
+        "email": "ángel.fuentes55@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Eva Carrasco",
+        "email": "eva.carrasco56@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Héctor Diez",
+        "email": "héctor.diez57@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Teresa Caballero",
+        "email": "teresa.caballero58@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Tomás Reyes",
+        "email": "tomás.reyes59@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Gloria Nieto",
+        "email": "gloria.nieto60@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Alfonso Aguilar",
+        "email": "alfonso.aguilar61@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Marina Pascual",
+        "email": "marina.pascual62@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Martín Herrero",
+        "email": "martín.herrero63@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Inés Santana",
+        "email": "inés.santana64@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Guillermo Lorenzo",
+        "email": "guillermo.lorenzo65@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Julia Hidalgo",
+        "email": "julia.hidalgo66@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Felipe Montero",
+        "email": "felipe.montero67@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Lorena Giménez",
+        "email": "lorena.giménez68@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Roberto Ibáñez",
+        "email": "roberto.ibáñez69@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Ruth Ferrer",
+        "email": "ruth.ferrer70@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Samuel Duran",
+        "email": "samuel.duran71@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Sandra Santiago",
+        "email": "sandra.santiago72@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Arturo Benítez",
+        "email": "arturo.benítez73@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Natalia Mora",
+        "email": "natalia.mora74@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Daniel Vicente",
+        "email": "daniel.vicente75@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Celia Vidal",
+        "email": "celia.vidal76@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Adrián León",
+        "email": "adrián.león77@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Yolanda Márquez",
+        "email": "yolanda.márquez78@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Rafael Peña",
+        "email": "rafael.peña79@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Noelia Rivas",
+        "email": "noelia.rivas80@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Álvaro Soto",
+        "email": "álvaro.soto81@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Paloma Román",
+        "email": "paloma.román82@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Gonzalo Bravo",
+        "email": "gonzalo.bravo83@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Elisa Vidal",
+        "email": "elisa.vidal84@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Ramón Merino",
+        "email": "ramón.merino85@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Carolina Franco",
+        "email": "carolina.franco86@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Rodrigo Pardo",
+        "email": "rodrigo.pardo87@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Aurora Redondo",
+        "email": "aurora.redondo88@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Hugo Lara",
+        "email": "hugo.lara89@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Rebeca Gallardo",
+        "email": "rebeca.gallardo90@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Bruno Roldán",
+        "email": "bruno.roldán91@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Sofía Mateo",
+        "email": "sofía.mateo92@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Víctor Burgos",
+        "email": "víctor.burgos93@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Rosa Sáez",
+        "email": "rosa.sáez94@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Félix Ríos",
+        "email": "félix.ríos95@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Blanca Vargas",
+        "email": "blanca.vargas96@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Iván Esteban",
+        "email": "iván.esteban97@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Lourdes Velasco",
+        "email": "lourdes.velasco98@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Diego Guzmán",
+        "email": "diego.guzmán99@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Lidia Martín",
+        "email": "lidia.martín100@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Rubén Fernández",
+        "email": "rubén.fernández101@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Patricia García",
+        "email": "patricia.garcía102@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Eugenio Rodríguez",
+        "email": "eugenio.rodríguez103@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Gabriela López",
+        "email": "gabriela.lópez104@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Ignacio Martínez",
+        "email": "ignacio.martínez105@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Milagros Sánchez",
+        "email": "milagros.sánchez106@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Esther Pérez",
+        "email": "esther.pérez107@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Águeda Gómez",
+        "email": "águeda.gómez108@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Alfredo Díaz",
+        "email": "alfredo.díaz109@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Claudia Jiménez",
+        "email": "claudia.jiménez110@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Luis Torres",
+        "email": "luis.torres111@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Carlos Ruiz",
+        "email": "carlos.ruiz112@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "María Hernández",
+        "email": "maría.hernández113@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Ana Muñoz",
+        "email": "ana.muñoz114@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "José Álvarez",
+        "email": "josé.álvarez115@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Juan Moreno",
+        "email": "juan.moreno116@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Laura Romero",
+        "email": "laura.romero117@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Marta Alonso",
+        "email": "marta.alonso118@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Antonio Gutiérrez",
+        "email": "antonio.gutiérrez119@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Carmen Navarro",
+        "email": "carmen.navarro120@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Javier Gil",
+        "email": "javier.gil121@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "David Ramos",
+        "email": "david.ramos122@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Manuel Serrano",
+        "email": "manuel.serrano123@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Sara Blanco",
+        "email": "sara.blanco124@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Raúl Molina",
+        "email": "raúl.molina125@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Elena Suárez",
+        "email": "elena.suárez126@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Alberto Ortega",
+        "email": "alberto.ortega127@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Cristina Delgado",
+        "email": "cristina.delgado128@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Rosa Castro",
+        "email": "rosa.castro129@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Pablo Ortiz",
+        "email": "pablo.ortiz130@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Sergio Rubio",
+        "email": "sergio.rubio131@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Fernando Marín",
+        "email": "fernando.marín132@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Patricia Sanz",
+        "email": "patricia.sanz133@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Sonia Iglesias",
+        "email": "sonia.iglesias134@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Andrés Nuñez",
+        "email": "andrés.nuñez135@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Isabel Medina",
+        "email": "isabel.medina136@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Enrique Garrido",
+        "email": "enrique.garrido137@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Lucía Cortés",
+        "email": "lucía.cortés138@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Ricardo Castillo",
+        "email": "ricardo.castillo139@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Beatriz Santos",
+        "email": "beatriz.santos140@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Francisco Lozano",
+        "email": "francisco.lozano141@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Marta Guerrero",
+        "email": "marta.guerrero142@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Eduardo Cano",
+        "email": "eduardo.cano143@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Rocío Prieto",
+        "email": "rocío.prieto144@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Miguel Méndez",
+        "email": "miguel.méndez145@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Alicia Calvo",
+        "email": "alicia.calvo146@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Óscar Cruz",
+        "email": "óscar.cruz147@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Irene Gallego",
+        "email": "irene.gallego148@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Vicente Herrera",
+        "email": "vicente.herrera149@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Clara Peña",
+        "email": "clara.peña150@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Pedro Flores",
+        "email": "pedro.flores151@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Mónica Cabrera",
+        "email": "mónica.cabrera152@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Jorge Campos",
+        "email": "jorge.campos153@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Silvia Vega",
+        "email": "silvia.vega154@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Emilio Fuentes",
+        "email": "emilio.fuentes155@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Paula Carrasco",
+        "email": "paula.carrasco156@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Julio Diez",
+        "email": "julio.diez157@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Adriana Caballero",
+        "email": "adriana.caballero158@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Santiago Reyes",
+        "email": "santiago.reyes159@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Nuria Nieto",
+        "email": "nuria.nieto160@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Jaime Aguilar",
+        "email": "jaime.aguilar161@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Raquel Pascual",
+        "email": "raquel.pascual162@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Esteban Herrero",
+        "email": "esteban.herrero163@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Verónica Santana",
+        "email": "verónica.santana164@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Ángel Lorenzo",
+        "email": "ángel.lorenzo165@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Eva Hidalgo",
+        "email": "eva.hidalgo166@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Héctor Montero",
+        "email": "héctor.montero167@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Teresa Giménez",
+        "email": "teresa.giménez168@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Tomás Ibáñez",
+        "email": "tomás.ibáñez169@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Gloria Ferrer",
+        "email": "gloria.ferrer170@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Alfonso Duran",
+        "email": "alfonso.duran171@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Marina Santiago",
+        "email": "marina.santiago172@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Martín Benítez",
+        "email": "martín.benítez173@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Inés Mora",
+        "email": "inés.mora174@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Guillermo Vicente",
+        "email": "guillermo.vicente175@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Julia Vidal",
+        "email": "julia.vidal176@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Felipe León",
+        "email": "felipe.león177@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Lorena Márquez",
+        "email": "lorena.márquez178@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Roberto Peña",
+        "email": "roberto.peña179@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Ruth Rivas",
+        "email": "ruth.rivas180@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Samuel Soto",
+        "email": "samuel.soto181@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Sandra Román",
+        "email": "sandra.román182@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Arturo Bravo",
+        "email": "arturo.bravo183@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Natalia Vidal",
+        "email": "natalia.vidal184@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Daniel Merino",
+        "email": "daniel.merino185@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Celia Franco",
+        "email": "celia.franco186@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Adrián Pardo",
+        "email": "adrián.pardo187@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Yolanda Redondo",
+        "email": "yolanda.redondo188@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Rafael Lara",
+        "email": "rafael.lara189@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Noelia Gallardo",
+        "email": "noelia.gallardo190@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Álvaro Roldán",
+        "email": "álvaro.roldán191@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Paloma Mateo",
+        "email": "paloma.mateo192@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Gonzalo Burgos",
+        "email": "gonzalo.burgos193@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Elisa Sáez",
+        "email": "elisa.sáez194@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Ramón Ríos",
+        "email": "ramón.ríos195@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Carolina Vargas",
+        "email": "carolina.vargas196@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Rodrigo Esteban",
+        "email": "rodrigo.esteban197@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Aurora Velasco",
+        "email": "aurora.velasco198@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Hugo Guzmán",
+        "email": "hugo.guzmán199@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    },
+    {
+        "name": "Rebeca Martín",
+        "email": "rebeca.martín200@gmail.com",
+        "password": "asdf1234",
+        "roles": [
+            "estudiante"
+        ]
+    }
 ]

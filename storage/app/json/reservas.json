@@ -1,157 +1,1202 @@
 [
     {
-        "fechaReserva": "2017-10-18",
-        "copia_id": 23,
-        "estudiante_id": 1
-    },
-    {
-        "fechaReserva": "2016-07-30",
-        "copia_id": 22,
-        "estudiante_id": 5
-    },
-    {
-        "fechaReserva": "2018-11-09",
+        "fechaReserva": "2024-04-19",
         "copia_id": 4,
-        "estudiante_id": 2
+        "estudiante_id": 49,
+        "isCancelado": true
     },
     {
-        "fechaReserva": "2019-03-16",
-        "copia_id": 25,
-        "estudiante_id": 1
-    },
-    {
-        "fechaReserva": "2019-02-15",
-        "copia_id": 5,
-        "estudiante_id": 1
-    },
-    {
-        "fechaReserva": "2018-01-07",
-        "copia_id": 24,
-        "estudiante_id": 2
-    },
-    {
-        "fechaReserva": "2016-05-21",
-        "copia_id": 2,
-        "estudiante_id": 1
-    },
-    {
-        "fechaReserva": "2021-08-03",
-        "copia_id": 27,
-        "estudiante_id": 2
-    },
-    {
-        "fechaReserva": "2020-05-25",
-        "copia_id": 26,
-        "estudiante_id": 5
-    },
-    {
-        "fechaReserva": "2020-04-23",
-        "copia_id": 21,
-        "estudiante_id": 2
-    },
-    {
-        "fechaReserva": "2019-04-26",
-        "copia_id": 15,
-        "estudiante_id": 2
-    },
-    {
-        "fechaReserva": "2023-02-18",
-        "copia_id": 29,
-        "estudiante_id": 5
-    },
-    {
-        "fechaReserva": "2015-04-13",
-        "copia_id": 1,
-        "estudiante_id": 2
-    },
-    {
-        "fechaReserva": "2023-01-07",
-        "copia_id": 9,
-        "estudiante_id": 2
-    },
-    {
-        "fechaReserva": "2015-05-25",
-        "copia_id": 11,
-        "estudiante_id": 5
-    },
-    {
-        "fechaReserva": "2024-03-16",
+        "fechaReserva": "2024-05-24",
         "copia_id": 10,
-        "estudiante_id": 1
+        "estudiante_id": 80,
+        "isCancelado": true
     },
     {
-        "fechaReserva": "2022-10-18",
+        "fechaReserva": "2024-06-09",
+        "copia_id": 11,
+        "estudiante_id": 237,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-10",
+        "copia_id": 20,
+        "estudiante_id": 61,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-09",
         "copia_id": 8,
-        "estudiante_id": 1
+        "estudiante_id": 38,
+        "isCancelado": false
     },
     {
-        "fechaReserva": "2027-11-10",
-        "copia_id": 28,
-        "estudiante_id": 1
+        "fechaReserva": "2024-05-03",
+        "copia_id": 5,
+        "estudiante_id": 211,
+        "isCancelado": false
     },
     {
-        "fechaReserva": "2021-05-21",
-        "copia_id": 17,
-        "estudiante_id": 1
-    },
-    {
-        "fechaReserva": "2023-11-09",
-        "copia_id": 19,
-        "estudiante_id": 2
-    },
-    {
-        "fechaReserva": "2022-08-04",
-        "copia_id": 18,
-        "estudiante_id": 5
+        "fechaReserva": "2024-05-01",
+        "copia_id": 6,
+        "estudiante_id": 193,
+        "isCancelado": false
     },
     {
         "fechaReserva": "2024-04-26",
-        "copia_id": 30,
-        "estudiante_id": 2
+        "copia_id": 15,
+        "estudiante_id": 37,
+        "isCancelado": true
     },
     {
-        "fechaReserva": "2014-02-15",
+        "fechaReserva": "2024-04-19",
+        "copia_id": 23,
+        "estudiante_id": 122,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-14",
+        "copia_id": 5,
+        "estudiante_id": 218,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-06-04",
+        "copia_id": 13,
+        "estudiante_id": 248,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-31",
+        "copia_id": 3,
+        "estudiante_id": 228,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-28",
+        "copia_id": 7,
+        "estudiante_id": 131,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-22",
+        "copia_id": 24,
+        "estudiante_id": 200,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-29",
+        "copia_id": 21,
+        "estudiante_id": 53,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-03",
+        "copia_id": 17,
+        "estudiante_id": 141,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-27",
+        "copia_id": 17,
+        "estudiante_id": 69,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-06-02",
+        "copia_id": 25,
+        "estudiante_id": 162,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-31",
+        "copia_id": 30,
+        "estudiante_id": 165,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-06-07",
+        "copia_id": 6,
+        "estudiante_id": 137,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-12",
+        "copia_id": 6,
+        "estudiante_id": 201,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-01",
         "copia_id": 20,
-        "estudiante_id": 1
+        "estudiante_id": 222,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-06-02",
+        "copia_id": 31,
+        "estudiante_id": 233,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-21",
+        "copia_id": 22,
+        "estudiante_id": 198,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-08",
+        "copia_id": 5,
+        "estudiante_id": 180,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-19",
+        "copia_id": 24,
+        "estudiante_id": 245,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-12",
+        "copia_id": 5,
+        "estudiante_id": 198,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-03",
+        "copia_id": 27,
+        "estudiante_id": 83,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-03",
+        "copia_id": 2,
+        "estudiante_id": 205,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-12",
+        "copia_id": 1,
+        "estudiante_id": 160,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-15",
+        "copia_id": 4,
+        "estudiante_id": 100,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-08",
+        "copia_id": 25,
+        "estudiante_id": 180,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-06",
+        "copia_id": 19,
+        "estudiante_id": 112,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-17",
+        "copia_id": 26,
+        "estudiante_id": 84,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-31",
+        "copia_id": 27,
+        "estudiante_id": 198,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-14",
+        "copia_id": 20,
+        "estudiante_id": 242,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-31",
+        "copia_id": 19,
+        "estudiante_id": 171,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-24",
+        "copia_id": 18,
+        "estudiante_id": 63,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-20",
+        "copia_id": 20,
+        "estudiante_id": 15,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-20",
+        "copia_id": 31,
+        "estudiante_id": 71,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-17",
+        "copia_id": 9,
+        "estudiante_id": 166,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-23",
+        "copia_id": 29,
+        "estudiante_id": 217,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-22",
+        "copia_id": 1,
+        "estudiante_id": 208,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-06",
+        "copia_id": 26,
+        "estudiante_id": 56,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-20",
+        "copia_id": 15,
+        "estudiante_id": 40,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-06-05",
+        "copia_id": 20,
+        "estudiante_id": 30,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-06-03",
+        "copia_id": 21,
+        "estudiante_id": 110,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-15",
+        "copia_id": 8,
+        "estudiante_id": 89,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-24",
+        "copia_id": 7,
+        "estudiante_id": 196,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-21",
+        "copia_id": 20,
+        "estudiante_id": 213,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-20",
+        "copia_id": 8,
+        "estudiante_id": 207,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-03",
+        "copia_id": 13,
+        "estudiante_id": 136,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-12",
+        "copia_id": 30,
+        "estudiante_id": 75,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-15",
+        "copia_id": 4,
+        "estudiante_id": 254,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-10",
+        "copia_id": 17,
+        "estudiante_id": 153,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-09",
+        "copia_id": 14,
+        "estudiante_id": 9,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-12",
+        "copia_id": 16,
+        "estudiante_id": 163,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-22",
+        "copia_id": 10,
+        "estudiante_id": 128,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-21",
+        "copia_id": 9,
+        "estudiante_id": 164,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-26",
+        "copia_id": 12,
+        "estudiante_id": 125,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-23",
+        "copia_id": 4,
+        "estudiante_id": 143,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-03",
+        "copia_id": 16,
+        "estudiante_id": 232,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-03",
+        "copia_id": 18,
+        "estudiante_id": 36,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-29",
+        "copia_id": 22,
+        "estudiante_id": 197,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-15",
+        "copia_id": 26,
+        "estudiante_id": 232,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-08",
+        "copia_id": 29,
+        "estudiante_id": 211,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-14",
+        "copia_id": 3,
+        "estudiante_id": 220,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-02",
+        "copia_id": 2,
+        "estudiante_id": 166,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-06-02",
+        "copia_id": 14,
+        "estudiante_id": 118,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-21",
+        "copia_id": 27,
+        "estudiante_id": 126,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-07",
+        "copia_id": 21,
+        "estudiante_id": 171,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-22",
+        "copia_id": 16,
+        "estudiante_id": 202,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-06-07",
+        "copia_id": 10,
+        "estudiante_id": 253,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-17",
+        "copia_id": 29,
+        "estudiante_id": 205,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-30",
+        "copia_id": 24,
+        "estudiante_id": 250,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-01",
+        "copia_id": 1,
+        "estudiante_id": 65,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-14",
+        "copia_id": 23,
+        "estudiante_id": 23,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-12",
+        "copia_id": 18,
+        "estudiante_id": 113,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-22",
+        "copia_id": 12,
+        "estudiante_id": 190,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-14",
+        "copia_id": 23,
+        "estudiante_id": 114,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-14",
+        "copia_id": 23,
+        "estudiante_id": 89,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-25",
+        "copia_id": 16,
+        "estudiante_id": 59,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-28",
+        "copia_id": 28,
+        "estudiante_id": 254,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-19",
+        "copia_id": 7,
+        "estudiante_id": 91,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-20",
+        "copia_id": 16,
+        "estudiante_id": 24,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-06",
+        "copia_id": 7,
+        "estudiante_id": 189,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-20",
+        "copia_id": 22,
+        "estudiante_id": 250,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-11",
+        "copia_id": 2,
+        "estudiante_id": 240,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-10",
+        "copia_id": 16,
+        "estudiante_id": 161,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-30",
+        "copia_id": 30,
+        "estudiante_id": 110,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-16",
+        "copia_id": 1,
+        "estudiante_id": 39,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-22",
+        "copia_id": 4,
+        "estudiante_id": 68,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-06-04",
+        "copia_id": 21,
+        "estudiante_id": 34,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-15",
+        "copia_id": 8,
+        "estudiante_id": 211,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-24",
+        "copia_id": 26,
+        "estudiante_id": 182,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-10",
+        "copia_id": 27,
+        "estudiante_id": 63,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-29",
+        "copia_id": 7,
+        "estudiante_id": 239,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-27",
+        "copia_id": 6,
+        "estudiante_id": 198,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-22",
+        "copia_id": 11,
+        "estudiante_id": 253,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-28",
+        "copia_id": 23,
+        "estudiante_id": 83,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-30",
+        "copia_id": 13,
+        "estudiante_id": 175,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-27",
+        "copia_id": 29,
+        "estudiante_id": 102,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-25",
+        "copia_id": 17,
+        "estudiante_id": 84,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-24",
+        "copia_id": 27,
+        "estudiante_id": 30,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-02",
+        "copia_id": 20,
+        "estudiante_id": 173,
+        "isCancelado": false
     },
     {
         "fechaReserva": "2024-03-16",
-        "copia_id": 25,
-        "estudiante_id": 1
+        "copia_id": 26,
+        "estudiante_id": 215,
+        "isCancelado": true
     },
     {
-        "fechaReserva": "2020-04-13",
-        "copia_id": 16,
-        "estudiante_id": 2
+        "fechaReserva": "2024-05-14",
+        "copia_id": 3,
+        "estudiante_id": 104,
+        "isCancelado": true
     },
     {
-        "fechaReserva": "2016-08-03",
+        "fechaReserva": "2024-05-01",
+        "copia_id": 31,
+        "estudiante_id": 60,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-26",
+        "copia_id": 20,
+        "estudiante_id": 143,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-18",
+        "copia_id": 7,
+        "estudiante_id": 67,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-18",
+        "copia_id": 4,
+        "estudiante_id": 169,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-25",
+        "copia_id": 31,
+        "estudiante_id": 107,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-24",
+        "copia_id": 29,
+        "estudiante_id": 235,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-06",
+        "copia_id": 28,
+        "estudiante_id": 131,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-20",
+        "copia_id": 29,
+        "estudiante_id": 54,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-25",
+        "copia_id": 28,
+        "estudiante_id": 34,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-25",
+        "copia_id": 9,
+        "estudiante_id": 84,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-24",
+        "copia_id": 2,
+        "estudiante_id": 98,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-01",
+        "copia_id": 31,
+        "estudiante_id": 84,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-13",
+        "copia_id": 3,
+        "estudiante_id": 189,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-27",
+        "copia_id": 15,
+        "estudiante_id": 242,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-23",
+        "copia_id": 15,
+        "estudiante_id": 118,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-27",
+        "copia_id": 2,
+        "estudiante_id": 156,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-13",
+        "copia_id": 5,
+        "estudiante_id": 18,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-03",
+        "copia_id": 28,
+        "estudiante_id": 218,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-02",
+        "copia_id": 14,
+        "estudiante_id": 100,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-07",
         "copia_id": 12,
-        "estudiante_id": 2
+        "estudiante_id": 243,
+        "isCancelado": false
     },
     {
-        "fechaReserva": "2016-07-30",
-        "copia_id": 22,
-        "estudiante_id": 5
+        "fechaReserva": "2024-03-25",
+        "copia_id": 11,
+        "estudiante_id": 213,
+        "isCancelado": true
     },
     {
-        "fechaReserva": "2020-04-23",
-        "copia_id": 21,
-        "estudiante_id": 2
+        "fechaReserva": "2024-05-16",
+        "copia_id": 12,
+        "estudiante_id": 248,
+        "isCancelado": true
     },
     {
-        "fechaReserva": "2015-04-13",
-        "copia_id": 1,
-        "estudiante_id": 2
+        "fechaReserva": "2024-04-22",
+        "copia_id": 7,
+        "estudiante_id": 147,
+        "isCancelado": true
     },
     {
-        "fechaReserva": "2017-11-10",
-        "copia_id": 13,
-        "estudiante_id": 1
+        "fechaReserva": "2024-04-10",
+        "copia_id": 10,
+        "estudiante_id": 192,
+        "isCancelado": false
     },
     {
-        "fechaReserva": "2018-01-07",
+        "fechaReserva": "2024-03-30",
+        "copia_id": 29,
+        "estudiante_id": 171,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-27",
+        "copia_id": 18,
+        "estudiante_id": 115,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-06",
+        "copia_id": 6,
+        "estudiante_id": 14,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-22",
         "copia_id": 24,
-        "estudiante_id": 2
+        "estudiante_id": 129,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-17",
+        "copia_id": 16,
+        "estudiante_id": 243,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-19",
+        "copia_id": 8,
+        "estudiante_id": 129,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-31",
+        "copia_id": 9,
+        "estudiante_id": 133,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-13",
+        "copia_id": 24,
+        "estudiante_id": 144,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-19",
+        "copia_id": 16,
+        "estudiante_id": 240,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-31",
+        "copia_id": 30,
+        "estudiante_id": 178,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-14",
+        "copia_id": 29,
+        "estudiante_id": 131,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-06-04",
+        "copia_id": 9,
+        "estudiante_id": 237,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-16",
+        "copia_id": 20,
+        "estudiante_id": 56,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-08",
+        "copia_id": 19,
+        "estudiante_id": 81,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-17",
+        "copia_id": 30,
+        "estudiante_id": 107,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-19",
+        "copia_id": 20,
+        "estudiante_id": 197,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-08",
+        "copia_id": 6,
+        "estudiante_id": 40,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-31",
+        "copia_id": 9,
+        "estudiante_id": 166,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-27",
+        "copia_id": 6,
+        "estudiante_id": 208,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-15",
+        "copia_id": 22,
+        "estudiante_id": 33,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-02",
+        "copia_id": 31,
+        "estudiante_id": 189,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-12",
+        "copia_id": 21,
+        "estudiante_id": 37,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-13",
+        "copia_id": 27,
+        "estudiante_id": 13,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-28",
+        "copia_id": 19,
+        "estudiante_id": 3,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-14",
+        "copia_id": 27,
+        "estudiante_id": 202,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-03",
+        "copia_id": 24,
+        "estudiante_id": 206,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-02",
+        "copia_id": 7,
+        "estudiante_id": 216,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-03",
+        "copia_id": 17,
+        "estudiante_id": 140,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-04",
+        "copia_id": 29,
+        "estudiante_id": 247,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-29",
+        "copia_id": 16,
+        "estudiante_id": 199,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-06-04",
+        "copia_id": 18,
+        "estudiante_id": 243,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-28",
+        "copia_id": 27,
+        "estudiante_id": 110,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-01",
+        "copia_id": 3,
+        "estudiante_id": 79,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-21",
+        "copia_id": 16,
+        "estudiante_id": 104,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-26",
+        "copia_id": 31,
+        "estudiante_id": 42,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-02",
+        "copia_id": 9,
+        "estudiante_id": 193,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-15",
+        "copia_id": 30,
+        "estudiante_id": 145,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-01",
+        "copia_id": 9,
+        "estudiante_id": 227,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-03",
+        "copia_id": 16,
+        "estudiante_id": 207,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-05",
+        "copia_id": 26,
+        "estudiante_id": 128,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-31",
+        "copia_id": 7,
+        "estudiante_id": 122,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-26",
+        "copia_id": 28,
+        "estudiante_id": 148,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-12",
+        "copia_id": 11,
+        "estudiante_id": 135,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-16",
+        "copia_id": 6,
+        "estudiante_id": 217,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-30",
+        "copia_id": 31,
+        "estudiante_id": 92,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-02",
+        "copia_id": 25,
+        "estudiante_id": 25,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-13",
+        "copia_id": 3,
+        "estudiante_id": 99,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-06-06",
+        "copia_id": 1,
+        "estudiante_id": 195,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-05",
+        "copia_id": 15,
+        "estudiante_id": 15,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-02",
+        "copia_id": 9,
+        "estudiante_id": 179,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-26",
+        "copia_id": 20,
+        "estudiante_id": 103,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-03",
+        "copia_id": 16,
+        "estudiante_id": 30,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-18",
+        "copia_id": 15,
+        "estudiante_id": 199,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-20",
+        "copia_id": 23,
+        "estudiante_id": 183,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-05",
+        "copia_id": 13,
+        "estudiante_id": 202,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-06",
+        "copia_id": 13,
+        "estudiante_id": 153,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-05",
+        "copia_id": 7,
+        "estudiante_id": 86,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-06-09",
+        "copia_id": 22,
+        "estudiante_id": 221,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-04-13",
+        "copia_id": 9,
+        "estudiante_id": 175,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-05-23",
+        "copia_id": 10,
+        "estudiante_id": 150,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-16",
+        "copia_id": 24,
+        "estudiante_id": 105,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-28",
+        "copia_id": 17,
+        "estudiante_id": 89,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-03-29",
+        "copia_id": 22,
+        "estudiante_id": 84,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-05",
+        "copia_id": 10,
+        "estudiante_id": 115,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-04-01",
+        "copia_id": 1,
+        "estudiante_id": 40,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-06-06",
+        "copia_id": 5,
+        "estudiante_id": 230,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-03-18",
+        "copia_id": 25,
+        "estudiante_id": 253,
+        "isCancelado": true
+    },
+    {
+        "fechaReserva": "2024-06-07",
+        "copia_id": 21,
+        "estudiante_id": 58,
+        "isCancelado": false
+    },
+    {
+        "fechaReserva": "2024-05-29",
+        "copia_id": 29,
+        "estudiante_id": 212,
+        "isCancelado": true
     }
 ]

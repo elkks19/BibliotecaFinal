@@ -86,21 +86,7 @@
         </form>
 
         <a href="<?php echo e(route('estudiante.descargarArchivo', $documento->id)); ?>" class="descargar-btn">Descargar</a>
-
-        <!-- Código de barras debajo de todos los botones -->
-        <canvas id="barcode"></canvas>
     </div>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var bookName = "<?php echo e($copia->codigo); ?>";
-            JsBarcode("#barcode", bookName, {
-                format: "CODE128",
-                displayValue: true,
-                fontSize: 18
-            });
-        });
-    </script>
 </body>
 </html>
 <?php /**PATH /home/elkks19/Documentos/Unifranz/Semestre 5/PROYECTO_FINAL/PROYECTO/resources/views/estudiante/detalle.blade.php ENDPATH**/ ?>

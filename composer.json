@@ -10,6 +10,7 @@
         "backpack/crud": "^6.7",
         "backpack/theme-tabler": "^1.2",
         "barryvdh/laravel-dompdf": "^2.2",
+        "laravel-lang/lang": "^15.5",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9",
         "laraveles/spanish": "^1.5",
