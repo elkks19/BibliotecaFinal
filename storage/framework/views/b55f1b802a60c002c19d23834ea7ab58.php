@@ -103,7 +103,7 @@
 <?php endif; ?>
 <?php if (isset($component)) { $__componentOriginalead85e76a923e64d9eae23947232cf9a = $component; } ?>
 <?php if (isset($attributes)) { $__attributesOriginalead85e76a923e64d9eae23947232cf9a = $attributes; } ?>
-<?php $component = Backpack\CRUD\app\View\Components\MenuItem::resolve(['title' => 'Documentos','icon' => 'la la-book','link' => backpack_url('documento')] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
+<?php $component = Backpack\CRUD\app\View\Components\MenuItem::resolve(['title' => 'Libros','icon' => 'la la-book','link' => backpack_url('documento')] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
 <?php $component->withName('backpack::menu-item'); ?>
 <?php if ($component->shouldRender()): ?>
 <?php $__env->startComponent($component->resolveView(), $component->data()); ?>
@@ -123,7 +123,7 @@
 <?php endif; ?>
 <?php if (isset($component)) { $__componentOriginalead85e76a923e64d9eae23947232cf9a = $component; } ?>
 <?php if (isset($attributes)) { $__attributesOriginalead85e76a923e64d9eae23947232cf9a = $attributes; } ?>
-<?php $component = Backpack\CRUD\app\View\Components\MenuItem::resolve(['title' => 'Copias','icon' => 'la la-copy','link' => backpack_url('copia')] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
+<?php $component = Backpack\CRUD\app\View\Components\MenuItem::resolve(['title' => 'Copias de libros','icon' => 'la la-copy','link' => backpack_url('copia')] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
 <?php $component->withName('backpack::menu-item'); ?>
 <?php if ($component->shouldRender()): ?>
 <?php $__env->startComponent($component->resolveView(), $component->data()); ?>
@@ -231,7 +231,7 @@
 <?php if (isset($__componentOriginal4a7c4d33fcbfdc491dc37cabf6bac1f0)): ?>
 <?php $component = $__componentOriginal4a7c4d33fcbfdc491dc37cabf6bac1f0; ?>
 <?php unset($__componentOriginal4a7c4d33fcbfdc491dc37cabf6bac1f0); ?>
-<?php endif; ?> 
+<?php endif; ?>
  <?php echo $__env->renderComponent(); ?>
 <?php endif; ?>
 <?php if (isset($__attributesOriginal3304fc1ec27516a666a2f68d6da76d86)): ?>

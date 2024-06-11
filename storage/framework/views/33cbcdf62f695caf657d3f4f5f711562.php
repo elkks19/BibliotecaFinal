@@ -28,7 +28,7 @@
             cursor: pointer;
         }
         .descargar-btn {
-            background-color: #4CAF50; /* Color diferente para el botón de descargar */
+            background-color: #4CAF50;
         }
         .alert, .alertwa {
             padding: 15px;
@@ -36,17 +36,21 @@
             border: 1px solid transparent;
             border-radius: 4px;
         }
-        .alert-success, {
+        .alert-success {
             color: #3c763d;
             background-color: #dff0d8;
             border-color: #d6e9c6;
         }
-        .alert-error, .alertwa  {
+        .alert-error, .alertwa {
             color: #a94442;
             background-color: #f2dede;
             border-color: #ebccd1;
         }
+        #barcode {
+            margin-top: 20px;
+        }
     </style>
+    <script src="<?php echo e(asset('js/JsBarcode.all.min.js')); ?>"></script>
 </head>
 <body>
     <?php echo $__env->make('estudiante.navbar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
@@ -64,11 +68,11 @@
             </div>
         <?php endif; ?>
         <?php if(session('warning')): ?>
-    <div class="alertwa alert-warning">
-        <?php echo e(session('warning')); ?>
+            <div class="alertwa alert-warning">
+                <?php echo e(session('warning')); ?>
 
-    </div>
-<?php endif; ?>
+            </div>
+        <?php endif; ?>
         <h1><?php echo e($documento->nombre); ?></h1>
         <p>Autor: <?php echo e($documento->autor->nombre); ?></p>
         <p>Encargado: <?php echo e($documento->encargado->name); ?></p>
@@ -83,7 +87,20 @@
 
         <a href="<?php echo e(route('estudiante.descargarArchivo', $documento->id)); ?>" class="descargar-btn">Descargar</a>
 
+        <!-- Código de barras debajo de todos los botones -->
+        <canvas id="barcode"></canvas>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var bookName = "<?php echo e($copia->codigo); ?>";
+            JsBarcode("#barcode", bookName, {
+                format: "CODE128",
+                displayValue: true,
+                fontSize: 18
+            });
+        });
+    </script>
 </body>
 </html>
 <?php /**PATH /media/data/Unifranz/Semestre 5/PROYECTO FINAL/PROYECTO/resources/views/estudiante/detalle.blade.php ENDPATH**/ ?>

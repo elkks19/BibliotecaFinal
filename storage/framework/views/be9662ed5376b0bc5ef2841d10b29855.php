@@ -72,6 +72,7 @@
                     <th>Fecha de Préstamo</th>
                     
                     <th>Fecha Límite</th>
+                    <th>Codigo</th>
                 </tr>
             </thead>
             <tbody>
@@ -83,6 +84,7 @@
                         <td><?php echo e($prestamo->fechaPrestamo->format('d-m-Y')); ?></td>
                         
                         <td><?php echo e($prestamo->fechaLimite->format('d-m-Y')); ?></td>
+                        <td><?php echo e($prestamo->reserva->copia->codigo); ?></td>
                     </tr>
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </tbody>

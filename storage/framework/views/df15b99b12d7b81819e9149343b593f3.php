@@ -72,6 +72,7 @@
                 <th>Fecha Límite</th>
                 <th>Fecha de Devolución</th>
                 <th>Días de Retraso</th>
+                <th>Codigo</th>
             </tr>
         </thead>
         <tbody>
@@ -84,6 +85,7 @@
                 <td><?php echo e($prestamo->fechaLimite->format('d-m-Y')); ?></td>
                 <td><?php echo e($prestamo->fechaDevolucion?->format('d-m-Y') ?? 'NO DEVUELTO'); ?></td>
                 <td><?php echo e($prestamo->diasRetraso); ?> días</td>
+                <td><?php echo e($prestamo->reserva->copia->codigo); ?></td>
             </tr>
             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
         </tbody>
